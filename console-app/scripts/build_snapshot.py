@@ -144,10 +144,14 @@ def synth_uptime_24h(rng: random.Random, current_up: bool) -> tuple[list, dict]:
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
-def status_from(up_24h_pct: float) -> str:
+def status_from(up_24h_pct: float, last_probe_up: bool = True) -> str:
+    """Map 24h uptime to status. If the most-recent real probe succeeded,
+    never escalate past 'degraded' — a single synthetic blip shouldn't show
+    a demo as 'failing' when it's serving HTTP 200 right now."""
     if up_24h_pct >= 99.5: return "healthy"
-    if up_24h_pct >= 98.0: return "degraded"
-    return "failing"
+    if up_24h_pct >= 95.0: return "degraded"
+    # Below 95% AND live probe is down → genuinely failing.
+    return "failing" if not last_probe_up else "degraded"
 
 
 def days_back_iso(n: int) -> str:
@@ -195,7 +199,7 @@ def build_demos(uptime: list[dict]) -> list[dict]:
             "monthly_active": monthly_active,
             "uptime_pct": up["uptime_30d_pct"],
             "cost_30d_usd": cost,
-            "status": status_from(up["uptime_24h_pct"]),
+            "status": status_from(up["uptime_24h_pct"], up["points"][-1]["up"]),
         })
     return out
 
