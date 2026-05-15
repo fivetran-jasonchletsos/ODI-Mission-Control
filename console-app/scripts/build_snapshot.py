@@ -50,6 +50,13 @@ DEMOS = [
         "connectors": ["sec_edgar", "fred", "cfpb"], "pii_tier": "PII",
     },
     {
+        "key": "insurance", "name": "Atlas Risk", "industry": "Insurance · Policies, claims, reinsurance",
+        "url": "https://fivetran-jasonchletsos.github.io/Insurance-ODI-Demo/",
+        "repo": "fivetran-jasonchletsos/Insurance-ODI-Demo",
+        "warehouse": "Athena/Iceberg", "owner": "@underwriting",
+        "connectors": ["oracle_pas", "sqlserver_claims", "naic_filings", "noaa_storm_events"], "pii_tier": "PII",
+    },
+    {
         "key": "media", "name": "Lighthouse Media", "industry": "Media · Audience intelligence",
         "url": "https://fivetran-jasonchletsos.github.io/Media-ODI-Demo/",
         "repo": "fivetran-jasonchletsos/Media-ODI-Demo",

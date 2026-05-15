@@ -267,6 +267,153 @@
       "pii_tier": "PII"
     },
     {
+      "id": "insurance.source.oracle_pas",
+      "layer": "source",
+      "demo": "insurance",
+      "rows": 11261,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "insurance.bronze.oracle_pas",
+      "layer": "bronze",
+      "demo": "insurance",
+      "rows": 2326840,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "insurance.silver.oracle_pas_clean",
+      "layer": "silver",
+      "demo": "insurance",
+      "rows": 1958229,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "insurance.gold.fct_oracle_pas",
+      "layer": "gold",
+      "demo": "insurance",
+      "rows": 3300941,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "insurance.mart.unknown",
+      "layer": "mart",
+      "demo": "insurance",
+      "rows": 1294861,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "insurance.source.sqlserver_claims",
+      "layer": "source",
+      "demo": "insurance",
+      "rows": 1012235,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "insurance.bronze.sqlserver_claims",
+      "layer": "bronze",
+      "demo": "insurance",
+      "rows": 6233681,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "insurance.silver.sqlserver_claims_clean",
+      "layer": "silver",
+      "demo": "insurance",
+      "rows": 5289864,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "insurance.gold.fct_sqlserver_claims",
+      "layer": "gold",
+      "demo": "insurance",
+      "rows": 1603706,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "insurance.mart.unknown",
+      "layer": "mart",
+      "demo": "insurance",
+      "rows": 6609009,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "insurance.source.naic_filings",
+      "layer": "source",
+      "demo": "insurance",
+      "rows": 2676854,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "insurance.bronze.naic_filings",
+      "layer": "bronze",
+      "demo": "insurance",
+      "rows": 7649682,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "insurance.silver.naic_filings_clean",
+      "layer": "silver",
+      "demo": "insurance",
+      "rows": 6302698,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "insurance.gold.fct_naic_filings",
+      "layer": "gold",
+      "demo": "insurance",
+      "rows": 1862985,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "insurance.mart.unknown",
+      "layer": "mart",
+      "demo": "insurance",
+      "rows": 1534136,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "insurance.source.noaa_storm_events",
+      "layer": "source",
+      "demo": "insurance",
+      "rows": 3318982,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "insurance.bronze.noaa_storm_events",
+      "layer": "bronze",
+      "demo": "insurance",
+      "rows": 2103755,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "insurance.silver.noaa_storm_events_clean",
+      "layer": "silver",
+      "demo": "insurance",
+      "rows": 2186472,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "insurance.gold.fct_noaa_storm_events",
+      "layer": "gold",
+      "demo": "insurance",
+      "rows": 2395634,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "insurance.mart.unknown",
+      "layer": "mart",
+      "demo": "insurance",
+      "rows": 4114300,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "insurance.app.dashboard",
+      "layer": "app",
+      "demo": "insurance",
+      "rows": 0,
+      "pii_tier": "PII"
+    },
+    {
       "id": "media.source.youtube",
       "layer": "source",
       "demo": "media",
@@ -1016,6 +1163,91 @@
     {
       "from": "finserv.mart.fct_holdings",
       "to": "finserv.app.dashboard",
+      "transform": "API \u00b7 cache layer"
+    },
+    {
+      "from": "insurance.source.oracle_pas",
+      "to": "insurance.bronze.oracle_pas",
+      "transform": "Fivetran SDK \u00b7 1:1 mirror"
+    },
+    {
+      "from": "insurance.bronze.oracle_pas",
+      "to": "insurance.silver.oracle_pas_clean",
+      "transform": "dbt model \u00b7 type cast + dedupe"
+    },
+    {
+      "from": "insurance.silver.oracle_pas_clean",
+      "to": "insurance.gold.fct_oracle_pas",
+      "transform": "dbt model \u00b7 business logic"
+    },
+    {
+      "from": "insurance.gold.fct_oracle_pas",
+      "to": "insurance.mart.unknown",
+      "transform": "dbt model \u00b7 final mart"
+    },
+    {
+      "from": "insurance.source.sqlserver_claims",
+      "to": "insurance.bronze.sqlserver_claims",
+      "transform": "Fivetran SDK \u00b7 1:1 mirror"
+    },
+    {
+      "from": "insurance.bronze.sqlserver_claims",
+      "to": "insurance.silver.sqlserver_claims_clean",
+      "transform": "dbt model \u00b7 type cast + dedupe"
+    },
+    {
+      "from": "insurance.silver.sqlserver_claims_clean",
+      "to": "insurance.gold.fct_sqlserver_claims",
+      "transform": "dbt model \u00b7 business logic"
+    },
+    {
+      "from": "insurance.gold.fct_sqlserver_claims",
+      "to": "insurance.mart.unknown",
+      "transform": "dbt model \u00b7 final mart"
+    },
+    {
+      "from": "insurance.source.naic_filings",
+      "to": "insurance.bronze.naic_filings",
+      "transform": "Fivetran SDK \u00b7 1:1 mirror"
+    },
+    {
+      "from": "insurance.bronze.naic_filings",
+      "to": "insurance.silver.naic_filings_clean",
+      "transform": "dbt model \u00b7 type cast + dedupe"
+    },
+    {
+      "from": "insurance.silver.naic_filings_clean",
+      "to": "insurance.gold.fct_naic_filings",
+      "transform": "dbt model \u00b7 business logic"
+    },
+    {
+      "from": "insurance.gold.fct_naic_filings",
+      "to": "insurance.mart.unknown",
+      "transform": "dbt model \u00b7 final mart"
+    },
+    {
+      "from": "insurance.source.noaa_storm_events",
+      "to": "insurance.bronze.noaa_storm_events",
+      "transform": "Fivetran SDK \u00b7 1:1 mirror"
+    },
+    {
+      "from": "insurance.bronze.noaa_storm_events",
+      "to": "insurance.silver.noaa_storm_events_clean",
+      "transform": "dbt model \u00b7 type cast + dedupe"
+    },
+    {
+      "from": "insurance.silver.noaa_storm_events_clean",
+      "to": "insurance.gold.fct_noaa_storm_events",
+      "transform": "dbt model \u00b7 business logic"
+    },
+    {
+      "from": "insurance.gold.fct_noaa_storm_events",
+      "to": "insurance.mart.unknown",
+      "transform": "dbt model \u00b7 final mart"
+    },
+    {
+      "from": "insurance.mart.unknown",
+      "to": "insurance.app.dashboard",
       "transform": "API \u00b7 cache layer"
     },
     {
