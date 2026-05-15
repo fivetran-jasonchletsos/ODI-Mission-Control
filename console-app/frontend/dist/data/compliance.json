@@ -1,0 +1,161 @@
+{
+  "controls": [
+    {
+      "framework": "SOC 2",
+      "id": "CC6.1",
+      "title": "Logical access controls",
+      "status": "gap",
+      "applies_to": [
+        "tax-assessment",
+        "healthcare",
+        "finserv",
+        "media",
+        "retail",
+        "techsaas",
+        "supplychain",
+        "lifesci"
+      ],
+      "evidence": "RBAC enforced via Iceberg row-level filters; quarterly review"
+    },
+    {
+      "framework": "SOC 2",
+      "id": "CC7.2",
+      "title": "Change management",
+      "status": "covered",
+      "applies_to": [
+        "tax-assessment",
+        "healthcare",
+        "finserv",
+        "media",
+        "retail",
+        "techsaas",
+        "supplychain",
+        "lifesci"
+      ],
+      "evidence": "All transforms version-controlled in GitHub w/ required reviews"
+    },
+    {
+      "framework": "HIPAA",
+      "id": "164.308(a)(1)",
+      "title": "Risk analysis",
+      "status": "covered",
+      "applies_to": [
+        "healthcare",
+        "lifesci"
+      ],
+      "evidence": "Annual HIPAA risk assessment; PHI tagged in catalog"
+    },
+    {
+      "framework": "HIPAA",
+      "id": "164.312(b)",
+      "title": "Audit controls",
+      "status": "covered",
+      "applies_to": [
+        "healthcare",
+        "lifesci"
+      ],
+      "evidence": "Every PHI query logged with actor + purpose; 7-yr retention"
+    },
+    {
+      "framework": "GDPR",
+      "id": "Art. 30",
+      "title": "Records of processing",
+      "status": "covered",
+      "applies_to": [
+        "media",
+        "retail",
+        "techsaas",
+        "finserv",
+        "healthcare",
+        "lifesci"
+      ],
+      "evidence": "Processing register attached to each Fivetran connector"
+    },
+    {
+      "framework": "GDPR",
+      "id": "Art. 17",
+      "title": "Right to erasure",
+      "status": "partial",
+      "applies_to": [
+        "media",
+        "retail",
+        "techsaas"
+      ],
+      "evidence": "DSR pipeline implemented; SLA: 25 days"
+    },
+    {
+      "framework": "21 CFR Part 11",
+      "id": "11.10(a)",
+      "title": "Validation",
+      "status": "covered",
+      "applies_to": [
+        "lifesci"
+      ],
+      "evidence": "Validation protocol on every dbt model touching clinical data"
+    },
+    {
+      "framework": "21 CFR Part 11",
+      "id": "11.10(e)",
+      "title": "Audit trail",
+      "status": "partial",
+      "applies_to": [
+        "lifesci"
+      ],
+      "evidence": "Append-only audit log; tamper-evident hash chain"
+    },
+    {
+      "framework": "ISO 27001",
+      "id": "A.9.2",
+      "title": "User access management",
+      "status": "covered",
+      "applies_to": [
+        "tax-assessment",
+        "healthcare",
+        "finserv",
+        "media",
+        "retail",
+        "techsaas",
+        "supplychain",
+        "lifesci"
+      ],
+      "evidence": "Quarterly access reviews; auto-deprovision on offboard"
+    },
+    {
+      "framework": "ISO 27001",
+      "id": "A.12.4",
+      "title": "Logging and monitoring",
+      "status": "covered",
+      "applies_to": [
+        "tax-assessment",
+        "healthcare",
+        "finserv",
+        "media",
+        "retail",
+        "techsaas",
+        "supplychain",
+        "lifesci"
+      ],
+      "evidence": "Centralized log lake w/ 1-yr hot retention"
+    },
+    {
+      "framework": "PCI DSS",
+      "id": "3.4",
+      "title": "Render PAN unreadable",
+      "status": "covered",
+      "applies_to": [
+        "retail"
+      ],
+      "evidence": "Card data tokenized at Stripe boundary; never lands in warehouse"
+    },
+    {
+      "framework": "PCI DSS",
+      "id": "10.2",
+      "title": "Audit trails for cardholder data",
+      "status": "covered",
+      "applies_to": [
+        "retail"
+      ],
+      "evidence": "All access logged; quarterly review by compliance"
+    }
+  ]
+}

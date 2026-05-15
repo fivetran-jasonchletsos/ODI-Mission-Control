@@ -1,0 +1,1367 @@
+{
+  "nodes": [
+    {
+      "id": "tax-assessment.source.wprdc",
+      "layer": "source",
+      "demo": "tax-assessment",
+      "rows": 994658,
+      "pii_tier": "public"
+    },
+    {
+      "id": "tax-assessment.bronze.wprdc",
+      "layer": "bronze",
+      "demo": "tax-assessment",
+      "rows": 7159498,
+      "pii_tier": "public"
+    },
+    {
+      "id": "tax-assessment.silver.wprdc_clean",
+      "layer": "silver",
+      "demo": "tax-assessment",
+      "rows": 2893523,
+      "pii_tier": "public"
+    },
+    {
+      "id": "tax-assessment.gold.fct_wprdc",
+      "layer": "gold",
+      "demo": "tax-assessment",
+      "rows": 699093,
+      "pii_tier": "public"
+    },
+    {
+      "id": "tax-assessment.mart.fct_assessments",
+      "layer": "mart",
+      "demo": "tax-assessment",
+      "rows": 2738226,
+      "pii_tier": "public"
+    },
+    {
+      "id": "tax-assessment.source.allegheny_re",
+      "layer": "source",
+      "demo": "tax-assessment",
+      "rows": 978476,
+      "pii_tier": "public"
+    },
+    {
+      "id": "tax-assessment.bronze.allegheny_re",
+      "layer": "bronze",
+      "demo": "tax-assessment",
+      "rows": 1319364,
+      "pii_tier": "public"
+    },
+    {
+      "id": "tax-assessment.silver.allegheny_re_clean",
+      "layer": "silver",
+      "demo": "tax-assessment",
+      "rows": 5483333,
+      "pii_tier": "public"
+    },
+    {
+      "id": "tax-assessment.gold.fct_allegheny_re",
+      "layer": "gold",
+      "demo": "tax-assessment",
+      "rows": 4165872,
+      "pii_tier": "public"
+    },
+    {
+      "id": "tax-assessment.mart.fct_assessments",
+      "layer": "mart",
+      "demo": "tax-assessment",
+      "rows": 705237,
+      "pii_tier": "public"
+    },
+    {
+      "id": "tax-assessment.app.dashboard",
+      "layer": "app",
+      "demo": "tax-assessment",
+      "rows": 0,
+      "pii_tier": "public"
+    },
+    {
+      "id": "healthcare.source.epic_clarity",
+      "layer": "source",
+      "demo": "healthcare",
+      "rows": 1593507,
+      "pii_tier": "PHI"
+    },
+    {
+      "id": "healthcare.bronze.epic_clarity",
+      "layer": "bronze",
+      "demo": "healthcare",
+      "rows": 4051968,
+      "pii_tier": "PHI"
+    },
+    {
+      "id": "healthcare.silver.epic_clarity_clean",
+      "layer": "silver",
+      "demo": "healthcare",
+      "rows": 941136,
+      "pii_tier": "PHI"
+    },
+    {
+      "id": "healthcare.gold.fct_epic_clarity",
+      "layer": "gold",
+      "demo": "healthcare",
+      "rows": 5129577,
+      "pii_tier": "PHI"
+    },
+    {
+      "id": "healthcare.mart.fct_encounter",
+      "layer": "mart",
+      "demo": "healthcare",
+      "rows": 7742852,
+      "pii_tier": "PHI"
+    },
+    {
+      "id": "healthcare.source.hl7_fhir",
+      "layer": "source",
+      "demo": "healthcare",
+      "rows": 4326441,
+      "pii_tier": "PHI"
+    },
+    {
+      "id": "healthcare.bronze.hl7_fhir",
+      "layer": "bronze",
+      "demo": "healthcare",
+      "rows": 3442736,
+      "pii_tier": "PHI"
+    },
+    {
+      "id": "healthcare.silver.hl7_fhir_clean",
+      "layer": "silver",
+      "demo": "healthcare",
+      "rows": 7066052,
+      "pii_tier": "PHI"
+    },
+    {
+      "id": "healthcare.gold.fct_hl7_fhir",
+      "layer": "gold",
+      "demo": "healthcare",
+      "rows": 3215581,
+      "pii_tier": "PHI"
+    },
+    {
+      "id": "healthcare.mart.fct_encounter",
+      "layer": "mart",
+      "demo": "healthcare",
+      "rows": 4020848,
+      "pii_tier": "PHI"
+    },
+    {
+      "id": "healthcare.app.dashboard",
+      "layer": "app",
+      "demo": "healthcare",
+      "rows": 0,
+      "pii_tier": "PHI"
+    },
+    {
+      "id": "finserv.source.sec_edgar",
+      "layer": "source",
+      "demo": "finserv",
+      "rows": 4206109,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "finserv.bronze.sec_edgar",
+      "layer": "bronze",
+      "demo": "finserv",
+      "rows": 6452981,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "finserv.silver.sec_edgar_clean",
+      "layer": "silver",
+      "demo": "finserv",
+      "rows": 1337489,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "finserv.gold.fct_sec_edgar",
+      "layer": "gold",
+      "demo": "finserv",
+      "rows": 3642505,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "finserv.mart.fct_holdings",
+      "layer": "mart",
+      "demo": "finserv",
+      "rows": 6408973,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "finserv.source.fred",
+      "layer": "source",
+      "demo": "finserv",
+      "rows": 3551645,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "finserv.bronze.fred",
+      "layer": "bronze",
+      "demo": "finserv",
+      "rows": 5608920,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "finserv.silver.fred_clean",
+      "layer": "silver",
+      "demo": "finserv",
+      "rows": 6108485,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "finserv.gold.fct_fred",
+      "layer": "gold",
+      "demo": "finserv",
+      "rows": 581846,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "finserv.mart.fct_holdings",
+      "layer": "mart",
+      "demo": "finserv",
+      "rows": 6246395,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "finserv.source.cfpb",
+      "layer": "source",
+      "demo": "finserv",
+      "rows": 2586920,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "finserv.bronze.cfpb",
+      "layer": "bronze",
+      "demo": "finserv",
+      "rows": 1495066,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "finserv.silver.cfpb_clean",
+      "layer": "silver",
+      "demo": "finserv",
+      "rows": 2270119,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "finserv.gold.fct_cfpb",
+      "layer": "gold",
+      "demo": "finserv",
+      "rows": 2885355,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "finserv.mart.fct_holdings",
+      "layer": "mart",
+      "demo": "finserv",
+      "rows": 1427113,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "finserv.app.dashboard",
+      "layer": "app",
+      "demo": "finserv",
+      "rows": 0,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "media.source.youtube",
+      "layer": "source",
+      "demo": "media",
+      "rows": 3169789,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "media.bronze.youtube",
+      "layer": "bronze",
+      "demo": "media",
+      "rows": 4334816,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "media.silver.youtube_clean",
+      "layer": "silver",
+      "demo": "media",
+      "rows": 2659570,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "media.gold.fct_youtube",
+      "layer": "gold",
+      "demo": "media",
+      "rows": 5101539,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "media.mart.fct_views",
+      "layer": "mart",
+      "demo": "media",
+      "rows": 6927233,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "media.source.reddit",
+      "layer": "source",
+      "demo": "media",
+      "rows": 4308952,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "media.bronze.reddit",
+      "layer": "bronze",
+      "demo": "media",
+      "rows": 5344479,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "media.silver.reddit_clean",
+      "layer": "silver",
+      "demo": "media",
+      "rows": 6730543,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "media.gold.fct_reddit",
+      "layer": "gold",
+      "demo": "media",
+      "rows": 5401816,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "media.mart.fct_views",
+      "layer": "mart",
+      "demo": "media",
+      "rows": 2327297,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "media.source.wikipedia",
+      "layer": "source",
+      "demo": "media",
+      "rows": 1996992,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "media.bronze.wikipedia",
+      "layer": "bronze",
+      "demo": "media",
+      "rows": 5731153,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "media.silver.wikipedia_clean",
+      "layer": "silver",
+      "demo": "media",
+      "rows": 266026,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "media.gold.fct_wikipedia",
+      "layer": "gold",
+      "demo": "media",
+      "rows": 2393215,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "media.mart.fct_views",
+      "layer": "mart",
+      "demo": "media",
+      "rows": 7721276,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "media.app.dashboard",
+      "layer": "app",
+      "demo": "media",
+      "rows": 0,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "retail.source.shopify",
+      "layer": "source",
+      "demo": "retail",
+      "rows": 4774164,
+      "pii_tier": "PCI"
+    },
+    {
+      "id": "retail.bronze.shopify",
+      "layer": "bronze",
+      "demo": "retail",
+      "rows": 4227112,
+      "pii_tier": "PCI"
+    },
+    {
+      "id": "retail.silver.shopify_clean",
+      "layer": "silver",
+      "demo": "retail",
+      "rows": 3437450,
+      "pii_tier": "PCI"
+    },
+    {
+      "id": "retail.gold.fct_shopify",
+      "layer": "gold",
+      "demo": "retail",
+      "rows": 244459,
+      "pii_tier": "PCI"
+    },
+    {
+      "id": "retail.mart.fct_orders",
+      "layer": "mart",
+      "demo": "retail",
+      "rows": 6988679,
+      "pii_tier": "PCI"
+    },
+    {
+      "id": "retail.source.stripe",
+      "layer": "source",
+      "demo": "retail",
+      "rows": 2034291,
+      "pii_tier": "PCI"
+    },
+    {
+      "id": "retail.bronze.stripe",
+      "layer": "bronze",
+      "demo": "retail",
+      "rows": 7584751,
+      "pii_tier": "PCI"
+    },
+    {
+      "id": "retail.silver.stripe_clean",
+      "layer": "silver",
+      "demo": "retail",
+      "rows": 717109,
+      "pii_tier": "PCI"
+    },
+    {
+      "id": "retail.gold.fct_stripe",
+      "layer": "gold",
+      "demo": "retail",
+      "rows": 6794207,
+      "pii_tier": "PCI"
+    },
+    {
+      "id": "retail.mart.fct_orders",
+      "layer": "mart",
+      "demo": "retail",
+      "rows": 756524,
+      "pii_tier": "PCI"
+    },
+    {
+      "id": "retail.source.klaviyo",
+      "layer": "source",
+      "demo": "retail",
+      "rows": 405701,
+      "pii_tier": "PCI"
+    },
+    {
+      "id": "retail.bronze.klaviyo",
+      "layer": "bronze",
+      "demo": "retail",
+      "rows": 1877822,
+      "pii_tier": "PCI"
+    },
+    {
+      "id": "retail.silver.klaviyo_clean",
+      "layer": "silver",
+      "demo": "retail",
+      "rows": 3714088,
+      "pii_tier": "PCI"
+    },
+    {
+      "id": "retail.gold.fct_klaviyo",
+      "layer": "gold",
+      "demo": "retail",
+      "rows": 4177109,
+      "pii_tier": "PCI"
+    },
+    {
+      "id": "retail.mart.fct_orders",
+      "layer": "mart",
+      "demo": "retail",
+      "rows": 5374963,
+      "pii_tier": "PCI"
+    },
+    {
+      "id": "retail.app.dashboard",
+      "layer": "app",
+      "demo": "retail",
+      "rows": 0,
+      "pii_tier": "PCI"
+    },
+    {
+      "id": "techsaas.source.salesforce",
+      "layer": "source",
+      "demo": "techsaas",
+      "rows": 3199205,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "techsaas.bronze.salesforce",
+      "layer": "bronze",
+      "demo": "techsaas",
+      "rows": 158641,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "techsaas.silver.salesforce_clean",
+      "layer": "silver",
+      "demo": "techsaas",
+      "rows": 1656294,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "techsaas.gold.fct_salesforce",
+      "layer": "gold",
+      "demo": "techsaas",
+      "rows": 7230124,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "techsaas.mart.fct_arr",
+      "layer": "mart",
+      "demo": "techsaas",
+      "rows": 7513336,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "techsaas.source.stripe",
+      "layer": "source",
+      "demo": "techsaas",
+      "rows": 4177825,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "techsaas.bronze.stripe",
+      "layer": "bronze",
+      "demo": "techsaas",
+      "rows": 7696736,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "techsaas.silver.stripe_clean",
+      "layer": "silver",
+      "demo": "techsaas",
+      "rows": 4657095,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "techsaas.gold.fct_stripe",
+      "layer": "gold",
+      "demo": "techsaas",
+      "rows": 3301584,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "techsaas.mart.fct_arr",
+      "layer": "mart",
+      "demo": "techsaas",
+      "rows": 2677517,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "techsaas.source.pagerduty",
+      "layer": "source",
+      "demo": "techsaas",
+      "rows": 2651448,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "techsaas.bronze.pagerduty",
+      "layer": "bronze",
+      "demo": "techsaas",
+      "rows": 5445601,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "techsaas.silver.pagerduty_clean",
+      "layer": "silver",
+      "demo": "techsaas",
+      "rows": 6447504,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "techsaas.gold.fct_pagerduty",
+      "layer": "gold",
+      "demo": "techsaas",
+      "rows": 3132234,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "techsaas.mart.fct_arr",
+      "layer": "mart",
+      "demo": "techsaas",
+      "rows": 3950796,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "techsaas.source.github",
+      "layer": "source",
+      "demo": "techsaas",
+      "rows": 3609472,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "techsaas.bronze.github",
+      "layer": "bronze",
+      "demo": "techsaas",
+      "rows": 2125474,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "techsaas.silver.github_clean",
+      "layer": "silver",
+      "demo": "techsaas",
+      "rows": 7708711,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "techsaas.gold.fct_github",
+      "layer": "gold",
+      "demo": "techsaas",
+      "rows": 2664723,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "techsaas.mart.fct_arr",
+      "layer": "mart",
+      "demo": "techsaas",
+      "rows": 6545306,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "techsaas.app.dashboard",
+      "layer": "app",
+      "demo": "techsaas",
+      "rows": 0,
+      "pii_tier": "PII"
+    },
+    {
+      "id": "supplychain.source.sap",
+      "layer": "source",
+      "demo": "supplychain",
+      "rows": 2475144,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "supplychain.bronze.sap",
+      "layer": "bronze",
+      "demo": "supplychain",
+      "rows": 1522703,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "supplychain.silver.sap_clean",
+      "layer": "silver",
+      "demo": "supplychain",
+      "rows": 4860760,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "supplychain.gold.fct_sap",
+      "layer": "gold",
+      "demo": "supplychain",
+      "rows": 270183,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "supplychain.mart.fct_shipments",
+      "layer": "mart",
+      "demo": "supplychain",
+      "rows": 5208010,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "supplychain.source.edi",
+      "layer": "source",
+      "demo": "supplychain",
+      "rows": 2765860,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "supplychain.bronze.edi",
+      "layer": "bronze",
+      "demo": "supplychain",
+      "rows": 729120,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "supplychain.silver.edi_clean",
+      "layer": "silver",
+      "demo": "supplychain",
+      "rows": 3792095,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "supplychain.gold.fct_edi",
+      "layer": "gold",
+      "demo": "supplychain",
+      "rows": 7499744,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "supplychain.mart.fct_shipments",
+      "layer": "mart",
+      "demo": "supplychain",
+      "rows": 2603880,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "supplychain.source.gps_telemetry",
+      "layer": "source",
+      "demo": "supplychain",
+      "rows": 3836284,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "supplychain.bronze.gps_telemetry",
+      "layer": "bronze",
+      "demo": "supplychain",
+      "rows": 3956674,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "supplychain.silver.gps_telemetry_clean",
+      "layer": "silver",
+      "demo": "supplychain",
+      "rows": 2497622,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "supplychain.gold.fct_gps_telemetry",
+      "layer": "gold",
+      "demo": "supplychain",
+      "rows": 2356892,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "supplychain.mart.fct_shipments",
+      "layer": "mart",
+      "demo": "supplychain",
+      "rows": 4046300,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "supplychain.app.dashboard",
+      "layer": "app",
+      "demo": "supplychain",
+      "rows": 0,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "lifesci.source.veeva_ctms",
+      "layer": "source",
+      "demo": "lifesci",
+      "rows": 1118551,
+      "pii_tier": "PHI"
+    },
+    {
+      "id": "lifesci.bronze.veeva_ctms",
+      "layer": "bronze",
+      "demo": "lifesci",
+      "rows": 925978,
+      "pii_tier": "PHI"
+    },
+    {
+      "id": "lifesci.silver.veeva_ctms_clean",
+      "layer": "silver",
+      "demo": "lifesci",
+      "rows": 2863035,
+      "pii_tier": "PHI"
+    },
+    {
+      "id": "lifesci.gold.fct_veeva_ctms",
+      "layer": "gold",
+      "demo": "lifesci",
+      "rows": 6315783,
+      "pii_tier": "PHI"
+    },
+    {
+      "id": "lifesci.mart.fct_enrollment",
+      "layer": "mart",
+      "demo": "lifesci",
+      "rows": 7894859,
+      "pii_tier": "PHI"
+    },
+    {
+      "id": "lifesci.source.redcap",
+      "layer": "source",
+      "demo": "lifesci",
+      "rows": 4209012,
+      "pii_tier": "PHI"
+    },
+    {
+      "id": "lifesci.bronze.redcap",
+      "layer": "bronze",
+      "demo": "lifesci",
+      "rows": 5980918,
+      "pii_tier": "PHI"
+    },
+    {
+      "id": "lifesci.silver.redcap_clean",
+      "layer": "silver",
+      "demo": "lifesci",
+      "rows": 6174998,
+      "pii_tier": "PHI"
+    },
+    {
+      "id": "lifesci.gold.fct_redcap",
+      "layer": "gold",
+      "demo": "lifesci",
+      "rows": 6732334,
+      "pii_tier": "PHI"
+    },
+    {
+      "id": "lifesci.mart.fct_enrollment",
+      "layer": "mart",
+      "demo": "lifesci",
+      "rows": 799685,
+      "pii_tier": "PHI"
+    },
+    {
+      "id": "lifesci.source.clinicaltrials_gov",
+      "layer": "source",
+      "demo": "lifesci",
+      "rows": 2943192,
+      "pii_tier": "PHI"
+    },
+    {
+      "id": "lifesci.bronze.clinicaltrials_gov",
+      "layer": "bronze",
+      "demo": "lifesci",
+      "rows": 5716782,
+      "pii_tier": "PHI"
+    },
+    {
+      "id": "lifesci.silver.clinicaltrials_gov_clean",
+      "layer": "silver",
+      "demo": "lifesci",
+      "rows": 6787156,
+      "pii_tier": "PHI"
+    },
+    {
+      "id": "lifesci.gold.fct_clinicaltrials_gov",
+      "layer": "gold",
+      "demo": "lifesci",
+      "rows": 2000844,
+      "pii_tier": "PHI"
+    },
+    {
+      "id": "lifesci.mart.fct_enrollment",
+      "layer": "mart",
+      "demo": "lifesci",
+      "rows": 7134567,
+      "pii_tier": "PHI"
+    },
+    {
+      "id": "lifesci.app.dashboard",
+      "layer": "app",
+      "demo": "lifesci",
+      "rows": 0,
+      "pii_tier": "PHI"
+    }
+  ],
+  "edges": [
+    {
+      "from": "tax-assessment.source.wprdc",
+      "to": "tax-assessment.bronze.wprdc",
+      "transform": "Fivetran SDK \u00b7 1:1 mirror"
+    },
+    {
+      "from": "tax-assessment.bronze.wprdc",
+      "to": "tax-assessment.silver.wprdc_clean",
+      "transform": "dbt model \u00b7 type cast + dedupe"
+    },
+    {
+      "from": "tax-assessment.silver.wprdc_clean",
+      "to": "tax-assessment.gold.fct_wprdc",
+      "transform": "dbt model \u00b7 business logic"
+    },
+    {
+      "from": "tax-assessment.gold.fct_wprdc",
+      "to": "tax-assessment.mart.fct_assessments",
+      "transform": "dbt model \u00b7 final mart"
+    },
+    {
+      "from": "tax-assessment.source.allegheny_re",
+      "to": "tax-assessment.bronze.allegheny_re",
+      "transform": "Fivetran SDK \u00b7 1:1 mirror"
+    },
+    {
+      "from": "tax-assessment.bronze.allegheny_re",
+      "to": "tax-assessment.silver.allegheny_re_clean",
+      "transform": "dbt model \u00b7 type cast + dedupe"
+    },
+    {
+      "from": "tax-assessment.silver.allegheny_re_clean",
+      "to": "tax-assessment.gold.fct_allegheny_re",
+      "transform": "dbt model \u00b7 business logic"
+    },
+    {
+      "from": "tax-assessment.gold.fct_allegheny_re",
+      "to": "tax-assessment.mart.fct_assessments",
+      "transform": "dbt model \u00b7 final mart"
+    },
+    {
+      "from": "tax-assessment.mart.fct_assessments",
+      "to": "tax-assessment.app.dashboard",
+      "transform": "API \u00b7 cache layer"
+    },
+    {
+      "from": "healthcare.source.epic_clarity",
+      "to": "healthcare.bronze.epic_clarity",
+      "transform": "Fivetran SDK \u00b7 1:1 mirror"
+    },
+    {
+      "from": "healthcare.bronze.epic_clarity",
+      "to": "healthcare.silver.epic_clarity_clean",
+      "transform": "dbt model \u00b7 type cast + dedupe"
+    },
+    {
+      "from": "healthcare.silver.epic_clarity_clean",
+      "to": "healthcare.gold.fct_epic_clarity",
+      "transform": "dbt model \u00b7 business logic"
+    },
+    {
+      "from": "healthcare.gold.fct_epic_clarity",
+      "to": "healthcare.mart.fct_encounter",
+      "transform": "dbt model \u00b7 final mart"
+    },
+    {
+      "from": "healthcare.source.hl7_fhir",
+      "to": "healthcare.bronze.hl7_fhir",
+      "transform": "Fivetran SDK \u00b7 1:1 mirror"
+    },
+    {
+      "from": "healthcare.bronze.hl7_fhir",
+      "to": "healthcare.silver.hl7_fhir_clean",
+      "transform": "dbt model \u00b7 type cast + dedupe"
+    },
+    {
+      "from": "healthcare.silver.hl7_fhir_clean",
+      "to": "healthcare.gold.fct_hl7_fhir",
+      "transform": "dbt model \u00b7 business logic"
+    },
+    {
+      "from": "healthcare.gold.fct_hl7_fhir",
+      "to": "healthcare.mart.fct_encounter",
+      "transform": "dbt model \u00b7 final mart"
+    },
+    {
+      "from": "healthcare.mart.fct_encounter",
+      "to": "healthcare.app.dashboard",
+      "transform": "API \u00b7 cache layer"
+    },
+    {
+      "from": "finserv.source.sec_edgar",
+      "to": "finserv.bronze.sec_edgar",
+      "transform": "Fivetran SDK \u00b7 1:1 mirror"
+    },
+    {
+      "from": "finserv.bronze.sec_edgar",
+      "to": "finserv.silver.sec_edgar_clean",
+      "transform": "dbt model \u00b7 type cast + dedupe"
+    },
+    {
+      "from": "finserv.silver.sec_edgar_clean",
+      "to": "finserv.gold.fct_sec_edgar",
+      "transform": "dbt model \u00b7 business logic"
+    },
+    {
+      "from": "finserv.gold.fct_sec_edgar",
+      "to": "finserv.mart.fct_holdings",
+      "transform": "dbt model \u00b7 final mart"
+    },
+    {
+      "from": "finserv.source.fred",
+      "to": "finserv.bronze.fred",
+      "transform": "Fivetran SDK \u00b7 1:1 mirror"
+    },
+    {
+      "from": "finserv.bronze.fred",
+      "to": "finserv.silver.fred_clean",
+      "transform": "dbt model \u00b7 type cast + dedupe"
+    },
+    {
+      "from": "finserv.silver.fred_clean",
+      "to": "finserv.gold.fct_fred",
+      "transform": "dbt model \u00b7 business logic"
+    },
+    {
+      "from": "finserv.gold.fct_fred",
+      "to": "finserv.mart.fct_holdings",
+      "transform": "dbt model \u00b7 final mart"
+    },
+    {
+      "from": "finserv.source.cfpb",
+      "to": "finserv.bronze.cfpb",
+      "transform": "Fivetran SDK \u00b7 1:1 mirror"
+    },
+    {
+      "from": "finserv.bronze.cfpb",
+      "to": "finserv.silver.cfpb_clean",
+      "transform": "dbt model \u00b7 type cast + dedupe"
+    },
+    {
+      "from": "finserv.silver.cfpb_clean",
+      "to": "finserv.gold.fct_cfpb",
+      "transform": "dbt model \u00b7 business logic"
+    },
+    {
+      "from": "finserv.gold.fct_cfpb",
+      "to": "finserv.mart.fct_holdings",
+      "transform": "dbt model \u00b7 final mart"
+    },
+    {
+      "from": "finserv.mart.fct_holdings",
+      "to": "finserv.app.dashboard",
+      "transform": "API \u00b7 cache layer"
+    },
+    {
+      "from": "media.source.youtube",
+      "to": "media.bronze.youtube",
+      "transform": "Fivetran SDK \u00b7 1:1 mirror"
+    },
+    {
+      "from": "media.bronze.youtube",
+      "to": "media.silver.youtube_clean",
+      "transform": "dbt model \u00b7 type cast + dedupe"
+    },
+    {
+      "from": "media.silver.youtube_clean",
+      "to": "media.gold.fct_youtube",
+      "transform": "dbt model \u00b7 business logic"
+    },
+    {
+      "from": "media.gold.fct_youtube",
+      "to": "media.mart.fct_views",
+      "transform": "dbt model \u00b7 final mart"
+    },
+    {
+      "from": "media.source.reddit",
+      "to": "media.bronze.reddit",
+      "transform": "Fivetran SDK \u00b7 1:1 mirror"
+    },
+    {
+      "from": "media.bronze.reddit",
+      "to": "media.silver.reddit_clean",
+      "transform": "dbt model \u00b7 type cast + dedupe"
+    },
+    {
+      "from": "media.silver.reddit_clean",
+      "to": "media.gold.fct_reddit",
+      "transform": "dbt model \u00b7 business logic"
+    },
+    {
+      "from": "media.gold.fct_reddit",
+      "to": "media.mart.fct_views",
+      "transform": "dbt model \u00b7 final mart"
+    },
+    {
+      "from": "media.source.wikipedia",
+      "to": "media.bronze.wikipedia",
+      "transform": "Fivetran SDK \u00b7 1:1 mirror"
+    },
+    {
+      "from": "media.bronze.wikipedia",
+      "to": "media.silver.wikipedia_clean",
+      "transform": "dbt model \u00b7 type cast + dedupe"
+    },
+    {
+      "from": "media.silver.wikipedia_clean",
+      "to": "media.gold.fct_wikipedia",
+      "transform": "dbt model \u00b7 business logic"
+    },
+    {
+      "from": "media.gold.fct_wikipedia",
+      "to": "media.mart.fct_views",
+      "transform": "dbt model \u00b7 final mart"
+    },
+    {
+      "from": "media.mart.fct_views",
+      "to": "media.app.dashboard",
+      "transform": "API \u00b7 cache layer"
+    },
+    {
+      "from": "retail.source.shopify",
+      "to": "retail.bronze.shopify",
+      "transform": "Fivetran SDK \u00b7 1:1 mirror"
+    },
+    {
+      "from": "retail.bronze.shopify",
+      "to": "retail.silver.shopify_clean",
+      "transform": "dbt model \u00b7 type cast + dedupe"
+    },
+    {
+      "from": "retail.silver.shopify_clean",
+      "to": "retail.gold.fct_shopify",
+      "transform": "dbt model \u00b7 business logic"
+    },
+    {
+      "from": "retail.gold.fct_shopify",
+      "to": "retail.mart.fct_orders",
+      "transform": "dbt model \u00b7 final mart"
+    },
+    {
+      "from": "retail.source.stripe",
+      "to": "retail.bronze.stripe",
+      "transform": "Fivetran SDK \u00b7 1:1 mirror"
+    },
+    {
+      "from": "retail.bronze.stripe",
+      "to": "retail.silver.stripe_clean",
+      "transform": "dbt model \u00b7 type cast + dedupe"
+    },
+    {
+      "from": "retail.silver.stripe_clean",
+      "to": "retail.gold.fct_stripe",
+      "transform": "dbt model \u00b7 business logic"
+    },
+    {
+      "from": "retail.gold.fct_stripe",
+      "to": "retail.mart.fct_orders",
+      "transform": "dbt model \u00b7 final mart"
+    },
+    {
+      "from": "retail.source.klaviyo",
+      "to": "retail.bronze.klaviyo",
+      "transform": "Fivetran SDK \u00b7 1:1 mirror"
+    },
+    {
+      "from": "retail.bronze.klaviyo",
+      "to": "retail.silver.klaviyo_clean",
+      "transform": "dbt model \u00b7 type cast + dedupe"
+    },
+    {
+      "from": "retail.silver.klaviyo_clean",
+      "to": "retail.gold.fct_klaviyo",
+      "transform": "dbt model \u00b7 business logic"
+    },
+    {
+      "from": "retail.gold.fct_klaviyo",
+      "to": "retail.mart.fct_orders",
+      "transform": "dbt model \u00b7 final mart"
+    },
+    {
+      "from": "retail.mart.fct_orders",
+      "to": "retail.app.dashboard",
+      "transform": "API \u00b7 cache layer"
+    },
+    {
+      "from": "techsaas.source.salesforce",
+      "to": "techsaas.bronze.salesforce",
+      "transform": "Fivetran SDK \u00b7 1:1 mirror"
+    },
+    {
+      "from": "techsaas.bronze.salesforce",
+      "to": "techsaas.silver.salesforce_clean",
+      "transform": "dbt model \u00b7 type cast + dedupe"
+    },
+    {
+      "from": "techsaas.silver.salesforce_clean",
+      "to": "techsaas.gold.fct_salesforce",
+      "transform": "dbt model \u00b7 business logic"
+    },
+    {
+      "from": "techsaas.gold.fct_salesforce",
+      "to": "techsaas.mart.fct_arr",
+      "transform": "dbt model \u00b7 final mart"
+    },
+    {
+      "from": "techsaas.source.stripe",
+      "to": "techsaas.bronze.stripe",
+      "transform": "Fivetran SDK \u00b7 1:1 mirror"
+    },
+    {
+      "from": "techsaas.bronze.stripe",
+      "to": "techsaas.silver.stripe_clean",
+      "transform": "dbt model \u00b7 type cast + dedupe"
+    },
+    {
+      "from": "techsaas.silver.stripe_clean",
+      "to": "techsaas.gold.fct_stripe",
+      "transform": "dbt model \u00b7 business logic"
+    },
+    {
+      "from": "techsaas.gold.fct_stripe",
+      "to": "techsaas.mart.fct_arr",
+      "transform": "dbt model \u00b7 final mart"
+    },
+    {
+      "from": "techsaas.source.pagerduty",
+      "to": "techsaas.bronze.pagerduty",
+      "transform": "Fivetran SDK \u00b7 1:1 mirror"
+    },
+    {
+      "from": "techsaas.bronze.pagerduty",
+      "to": "techsaas.silver.pagerduty_clean",
+      "transform": "dbt model \u00b7 type cast + dedupe"
+    },
+    {
+      "from": "techsaas.silver.pagerduty_clean",
+      "to": "techsaas.gold.fct_pagerduty",
+      "transform": "dbt model \u00b7 business logic"
+    },
+    {
+      "from": "techsaas.gold.fct_pagerduty",
+      "to": "techsaas.mart.fct_arr",
+      "transform": "dbt model \u00b7 final mart"
+    },
+    {
+      "from": "techsaas.source.github",
+      "to": "techsaas.bronze.github",
+      "transform": "Fivetran SDK \u00b7 1:1 mirror"
+    },
+    {
+      "from": "techsaas.bronze.github",
+      "to": "techsaas.silver.github_clean",
+      "transform": "dbt model \u00b7 type cast + dedupe"
+    },
+    {
+      "from": "techsaas.silver.github_clean",
+      "to": "techsaas.gold.fct_github",
+      "transform": "dbt model \u00b7 business logic"
+    },
+    {
+      "from": "techsaas.gold.fct_github",
+      "to": "techsaas.mart.fct_arr",
+      "transform": "dbt model \u00b7 final mart"
+    },
+    {
+      "from": "techsaas.mart.fct_arr",
+      "to": "techsaas.app.dashboard",
+      "transform": "API \u00b7 cache layer"
+    },
+    {
+      "from": "supplychain.source.sap",
+      "to": "supplychain.bronze.sap",
+      "transform": "Fivetran SDK \u00b7 1:1 mirror"
+    },
+    {
+      "from": "supplychain.bronze.sap",
+      "to": "supplychain.silver.sap_clean",
+      "transform": "dbt model \u00b7 type cast + dedupe"
+    },
+    {
+      "from": "supplychain.silver.sap_clean",
+      "to": "supplychain.gold.fct_sap",
+      "transform": "dbt model \u00b7 business logic"
+    },
+    {
+      "from": "supplychain.gold.fct_sap",
+      "to": "supplychain.mart.fct_shipments",
+      "transform": "dbt model \u00b7 final mart"
+    },
+    {
+      "from": "supplychain.source.edi",
+      "to": "supplychain.bronze.edi",
+      "transform": "Fivetran SDK \u00b7 1:1 mirror"
+    },
+    {
+      "from": "supplychain.bronze.edi",
+      "to": "supplychain.silver.edi_clean",
+      "transform": "dbt model \u00b7 type cast + dedupe"
+    },
+    {
+      "from": "supplychain.silver.edi_clean",
+      "to": "supplychain.gold.fct_edi",
+      "transform": "dbt model \u00b7 business logic"
+    },
+    {
+      "from": "supplychain.gold.fct_edi",
+      "to": "supplychain.mart.fct_shipments",
+      "transform": "dbt model \u00b7 final mart"
+    },
+    {
+      "from": "supplychain.source.gps_telemetry",
+      "to": "supplychain.bronze.gps_telemetry",
+      "transform": "Fivetran SDK \u00b7 1:1 mirror"
+    },
+    {
+      "from": "supplychain.bronze.gps_telemetry",
+      "to": "supplychain.silver.gps_telemetry_clean",
+      "transform": "dbt model \u00b7 type cast + dedupe"
+    },
+    {
+      "from": "supplychain.silver.gps_telemetry_clean",
+      "to": "supplychain.gold.fct_gps_telemetry",
+      "transform": "dbt model \u00b7 business logic"
+    },
+    {
+      "from": "supplychain.gold.fct_gps_telemetry",
+      "to": "supplychain.mart.fct_shipments",
+      "transform": "dbt model \u00b7 final mart"
+    },
+    {
+      "from": "supplychain.mart.fct_shipments",
+      "to": "supplychain.app.dashboard",
+      "transform": "API \u00b7 cache layer"
+    },
+    {
+      "from": "lifesci.source.veeva_ctms",
+      "to": "lifesci.bronze.veeva_ctms",
+      "transform": "Fivetran SDK \u00b7 1:1 mirror"
+    },
+    {
+      "from": "lifesci.bronze.veeva_ctms",
+      "to": "lifesci.silver.veeva_ctms_clean",
+      "transform": "dbt model \u00b7 type cast + dedupe"
+    },
+    {
+      "from": "lifesci.silver.veeva_ctms_clean",
+      "to": "lifesci.gold.fct_veeva_ctms",
+      "transform": "dbt model \u00b7 business logic"
+    },
+    {
+      "from": "lifesci.gold.fct_veeva_ctms",
+      "to": "lifesci.mart.fct_enrollment",
+      "transform": "dbt model \u00b7 final mart"
+    },
+    {
+      "from": "lifesci.source.redcap",
+      "to": "lifesci.bronze.redcap",
+      "transform": "Fivetran SDK \u00b7 1:1 mirror"
+    },
+    {
+      "from": "lifesci.bronze.redcap",
+      "to": "lifesci.silver.redcap_clean",
+      "transform": "dbt model \u00b7 type cast + dedupe"
+    },
+    {
+      "from": "lifesci.silver.redcap_clean",
+      "to": "lifesci.gold.fct_redcap",
+      "transform": "dbt model \u00b7 business logic"
+    },
+    {
+      "from": "lifesci.gold.fct_redcap",
+      "to": "lifesci.mart.fct_enrollment",
+      "transform": "dbt model \u00b7 final mart"
+    },
+    {
+      "from": "lifesci.source.clinicaltrials_gov",
+      "to": "lifesci.bronze.clinicaltrials_gov",
+      "transform": "Fivetran SDK \u00b7 1:1 mirror"
+    },
+    {
+      "from": "lifesci.bronze.clinicaltrials_gov",
+      "to": "lifesci.silver.clinicaltrials_gov_clean",
+      "transform": "dbt model \u00b7 type cast + dedupe"
+    },
+    {
+      "from": "lifesci.silver.clinicaltrials_gov_clean",
+      "to": "lifesci.gold.fct_clinicaltrials_gov",
+      "transform": "dbt model \u00b7 business logic"
+    },
+    {
+      "from": "lifesci.gold.fct_clinicaltrials_gov",
+      "to": "lifesci.mart.fct_enrollment",
+      "transform": "dbt model \u00b7 final mart"
+    },
+    {
+      "from": "lifesci.mart.fct_enrollment",
+      "to": "lifesci.app.dashboard",
+      "transform": "API \u00b7 cache layer"
+    }
+  ]
+}

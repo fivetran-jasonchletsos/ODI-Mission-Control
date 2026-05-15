@@ -1,0 +1,46 @@
+{
+  "roles": [
+    {
+      "role": "analytics_admin",
+      "users": 4,
+      "scopes": 12,
+      "example_user": "alice@fivetran.com"
+    },
+    {
+      "role": "analytics_reader",
+      "users": 38,
+      "scopes": 8,
+      "example_user": "bob@fivetran.com"
+    },
+    {
+      "role": "data_engineer",
+      "users": 11,
+      "scopes": 18,
+      "example_user": "@chletsos"
+    },
+    {
+      "role": "compliance",
+      "users": 3,
+      "scopes": 6,
+      "example_user": "compliance@fivetran.com"
+    },
+    {
+      "role": "executive_view",
+      "users": 9,
+      "scopes": 4,
+      "example_user": "ceo@fivetran.com"
+    },
+    {
+      "role": "service_account",
+      "users": 6,
+      "scopes": 22,
+      "example_user": "platform-ci"
+    },
+    {
+      "role": "contractor_read",
+      "users": 2,
+      "scopes": 2,
+      "example_user": "vendor-svc"
+    }
+  ]
+}

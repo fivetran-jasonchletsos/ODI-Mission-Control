@@ -1,0 +1,2112 @@
+{
+  "usage": [
+    {
+      "key": "tax-assessment",
+      "trailing_30d": [
+        {
+          "date": "2026-04-16",
+          "sessions": 84,
+          "page_views": 476,
+          "uniques": 67,
+          "avg_session_s": 137
+        },
+        {
+          "date": "2026-04-17",
+          "sessions": 116,
+          "page_views": 524,
+          "uniques": 95,
+          "avg_session_s": 191
+        },
+        {
+          "date": "2026-04-18",
+          "sessions": 49,
+          "page_views": 195,
+          "uniques": 38,
+          "avg_session_s": 142
+        },
+        {
+          "date": "2026-04-19",
+          "sessions": 57,
+          "page_views": 290,
+          "uniques": 47,
+          "avg_session_s": 173
+        },
+        {
+          "date": "2026-04-20",
+          "sessions": 123,
+          "page_views": 418,
+          "uniques": 96,
+          "avg_session_s": 188
+        },
+        {
+          "date": "2026-04-21",
+          "sessions": 113,
+          "page_views": 462,
+          "uniques": 91,
+          "avg_session_s": 114
+        },
+        {
+          "date": "2026-04-22",
+          "sessions": 76,
+          "page_views": 357,
+          "uniques": 59,
+          "avg_session_s": 199
+        },
+        {
+          "date": "2026-04-23",
+          "sessions": 86,
+          "page_views": 572,
+          "uniques": 62,
+          "avg_session_s": 152
+        },
+        {
+          "date": "2026-04-24",
+          "sessions": 104,
+          "page_views": 572,
+          "uniques": 87,
+          "avg_session_s": 196
+        },
+        {
+          "date": "2026-04-25",
+          "sessions": 58,
+          "page_views": 270,
+          "uniques": 42,
+          "avg_session_s": 255
+        },
+        {
+          "date": "2026-04-26",
+          "sessions": 50,
+          "page_views": 320,
+          "uniques": 41,
+          "avg_session_s": 127
+        },
+        {
+          "date": "2026-04-27",
+          "sessions": 64,
+          "page_views": 394,
+          "uniques": 53,
+          "avg_session_s": 182
+        },
+        {
+          "date": "2026-04-28",
+          "sessions": 68,
+          "page_views": 419,
+          "uniques": 51,
+          "avg_session_s": 176
+        },
+        {
+          "date": "2026-04-29",
+          "sessions": 112,
+          "page_views": 727,
+          "uniques": 95,
+          "avg_session_s": 201
+        },
+        {
+          "date": "2026-04-30",
+          "sessions": 140,
+          "page_views": 695,
+          "uniques": 109,
+          "avg_session_s": 119
+        },
+        {
+          "date": "2026-05-01",
+          "sessions": 96,
+          "page_views": 452,
+          "uniques": 71,
+          "avg_session_s": 178
+        },
+        {
+          "date": "2026-05-02",
+          "sessions": 45,
+          "page_views": 151,
+          "uniques": 32,
+          "avg_session_s": 180
+        },
+        {
+          "date": "2026-05-03",
+          "sessions": 65,
+          "page_views": 332,
+          "uniques": 47,
+          "avg_session_s": 162
+        },
+        {
+          "date": "2026-05-04",
+          "sessions": 135,
+          "page_views": 911,
+          "uniques": 114,
+          "avg_session_s": 146
+        },
+        {
+          "date": "2026-05-05",
+          "sessions": 143,
+          "page_views": 844,
+          "uniques": 109,
+          "avg_session_s": 182
+        },
+        {
+          "date": "2026-05-06",
+          "sessions": 86,
+          "page_views": 315,
+          "uniques": 65,
+          "avg_session_s": 154
+        },
+        {
+          "date": "2026-05-07",
+          "sessions": 104,
+          "page_views": 576,
+          "uniques": 83,
+          "avg_session_s": 215
+        },
+        {
+          "date": "2026-05-08",
+          "sessions": 104,
+          "page_views": 647,
+          "uniques": 75,
+          "avg_session_s": 155
+        },
+        {
+          "date": "2026-05-09",
+          "sessions": 65,
+          "page_views": 227,
+          "uniques": 51,
+          "avg_session_s": 160
+        },
+        {
+          "date": "2026-05-10",
+          "sessions": 65,
+          "page_views": 356,
+          "uniques": 53,
+          "avg_session_s": 157
+        },
+        {
+          "date": "2026-05-11",
+          "sessions": 94,
+          "page_views": 405,
+          "uniques": 80,
+          "avg_session_s": 146
+        },
+        {
+          "date": "2026-05-12",
+          "sessions": 80,
+          "page_views": 340,
+          "uniques": 64,
+          "avg_session_s": 179
+        },
+        {
+          "date": "2026-05-13",
+          "sessions": 95,
+          "page_views": 381,
+          "uniques": 82,
+          "avg_session_s": 200
+        },
+        {
+          "date": "2026-05-14",
+          "sessions": 90,
+          "page_views": 452,
+          "uniques": 66,
+          "avg_session_s": 188
+        },
+        {
+          "date": "2026-05-15",
+          "sessions": 122,
+          "page_views": 400,
+          "uniques": 90,
+          "avg_session_s": 144
+        }
+      ],
+      "top_pages": [
+        {
+          "path": "/",
+          "views": 132
+        },
+        {
+          "path": "/dashboard",
+          "views": 119
+        },
+        {
+          "path": "/agent",
+          "views": 119
+        },
+        {
+          "path": "/pipeline",
+          "views": 113
+        },
+        {
+          "path": "/search",
+          "views": 84
+        },
+        {
+          "path": "/map",
+          "views": 83
+        }
+      ],
+      "geo": [
+        {
+          "country": "United Kingdom",
+          "sessions": 651
+        },
+        {
+          "country": "Australia",
+          "sessions": 717
+        },
+        {
+          "country": "Germany",
+          "sessions": 251
+        },
+        {
+          "country": "Canada",
+          "sessions": 164
+        },
+        {
+          "country": "India",
+          "sessions": 287
+        },
+        {
+          "country": "Brazil",
+          "sessions": 157
+        }
+      ]
+    },
+    {
+      "key": "healthcare",
+      "trailing_30d": [
+        {
+          "date": "2026-04-16",
+          "sessions": 160,
+          "page_views": 1019,
+          "uniques": 135,
+          "avg_session_s": 196
+        },
+        {
+          "date": "2026-04-17",
+          "sessions": 140,
+          "page_views": 628,
+          "uniques": 102,
+          "avg_session_s": 171
+        },
+        {
+          "date": "2026-04-18",
+          "sessions": 101,
+          "page_views": 323,
+          "uniques": 76,
+          "avg_session_s": 138
+        },
+        {
+          "date": "2026-04-19",
+          "sessions": 121,
+          "page_views": 462,
+          "uniques": 94,
+          "avg_session_s": 174
+        },
+        {
+          "date": "2026-04-20",
+          "sessions": 187,
+          "page_views": 1243,
+          "uniques": 156,
+          "avg_session_s": 180
+        },
+        {
+          "date": "2026-04-21",
+          "sessions": 227,
+          "page_views": 1185,
+          "uniques": 190,
+          "avg_session_s": 148
+        },
+        {
+          "date": "2026-04-22",
+          "sessions": 196,
+          "page_views": 1064,
+          "uniques": 159,
+          "avg_session_s": 175
+        },
+        {
+          "date": "2026-04-23",
+          "sessions": 245,
+          "page_views": 1249,
+          "uniques": 190,
+          "avg_session_s": 175
+        },
+        {
+          "date": "2026-04-24",
+          "sessions": 191,
+          "page_views": 1081,
+          "uniques": 142,
+          "avg_session_s": 200
+        },
+        {
+          "date": "2026-04-25",
+          "sessions": 100,
+          "page_views": 574,
+          "uniques": 79,
+          "avg_session_s": 110
+        },
+        {
+          "date": "2026-04-26",
+          "sessions": 86,
+          "page_views": 400,
+          "uniques": 71,
+          "avg_session_s": 204
+        },
+        {
+          "date": "2026-04-27",
+          "sessions": 177,
+          "page_views": 996,
+          "uniques": 144,
+          "avg_session_s": 193
+        },
+        {
+          "date": "2026-04-28",
+          "sessions": 178,
+          "page_views": 935,
+          "uniques": 131,
+          "avg_session_s": 154
+        },
+        {
+          "date": "2026-04-29",
+          "sessions": 136,
+          "page_views": 806,
+          "uniques": 103,
+          "avg_session_s": 216
+        },
+        {
+          "date": "2026-04-30",
+          "sessions": 143,
+          "page_views": 782,
+          "uniques": 103,
+          "avg_session_s": 210
+        },
+        {
+          "date": "2026-05-01",
+          "sessions": 181,
+          "page_views": 1059,
+          "uniques": 142,
+          "avg_session_s": 161
+        },
+        {
+          "date": "2026-05-02",
+          "sessions": 134,
+          "page_views": 640,
+          "uniques": 110,
+          "avg_session_s": 164
+        },
+        {
+          "date": "2026-05-03",
+          "sessions": 88,
+          "page_views": 445,
+          "uniques": 71,
+          "avg_session_s": 184
+        },
+        {
+          "date": "2026-05-04",
+          "sessions": 183,
+          "page_views": 1217,
+          "uniques": 136,
+          "avg_session_s": 178
+        },
+        {
+          "date": "2026-05-05",
+          "sessions": 218,
+          "page_views": 903,
+          "uniques": 162,
+          "avg_session_s": 192
+        },
+        {
+          "date": "2026-05-06",
+          "sessions": 179,
+          "page_views": 833,
+          "uniques": 146,
+          "avg_session_s": 171
+        },
+        {
+          "date": "2026-05-07",
+          "sessions": 173,
+          "page_views": 595,
+          "uniques": 145,
+          "avg_session_s": 204
+        },
+        {
+          "date": "2026-05-08",
+          "sessions": 200,
+          "page_views": 1114,
+          "uniques": 152,
+          "avg_session_s": 207
+        },
+        {
+          "date": "2026-05-09",
+          "sessions": 102,
+          "page_views": 572,
+          "uniques": 84,
+          "avg_session_s": 204
+        },
+        {
+          "date": "2026-05-10",
+          "sessions": 120,
+          "page_views": 411,
+          "uniques": 86,
+          "avg_session_s": 224
+        },
+        {
+          "date": "2026-05-11",
+          "sessions": 165,
+          "page_views": 972,
+          "uniques": 128,
+          "avg_session_s": 193
+        },
+        {
+          "date": "2026-05-12",
+          "sessions": 161,
+          "page_views": 888,
+          "uniques": 122,
+          "avg_session_s": 170
+        },
+        {
+          "date": "2026-05-13",
+          "sessions": 175,
+          "page_views": 1140,
+          "uniques": 136,
+          "avg_session_s": 164
+        },
+        {
+          "date": "2026-05-14",
+          "sessions": 184,
+          "page_views": 876,
+          "uniques": 137,
+          "avg_session_s": 171
+        },
+        {
+          "date": "2026-05-15",
+          "sessions": 160,
+          "page_views": 792,
+          "uniques": 126,
+          "avg_session_s": 176
+        }
+      ],
+      "top_pages": [
+        {
+          "path": "/agent",
+          "views": 289
+        },
+        {
+          "path": "/",
+          "views": 266
+        },
+        {
+          "path": "/cohorts",
+          "views": 189
+        },
+        {
+          "path": "/pipeline",
+          "views": 176
+        },
+        {
+          "path": "/patients",
+          "views": 92
+        }
+      ],
+      "geo": [
+        {
+          "country": "Australia",
+          "sessions": 830
+        },
+        {
+          "country": "India",
+          "sessions": 494
+        },
+        {
+          "country": "United States",
+          "sessions": 192
+        },
+        {
+          "country": "Canada",
+          "sessions": 303
+        },
+        {
+          "country": "Brazil",
+          "sessions": 200
+        },
+        {
+          "country": "Japan",
+          "sessions": 243
+        }
+      ]
+    },
+    {
+      "key": "finserv",
+      "trailing_30d": [
+        {
+          "date": "2026-04-16",
+          "sessions": 130,
+          "page_views": 865,
+          "uniques": 110,
+          "avg_session_s": 162
+        },
+        {
+          "date": "2026-04-17",
+          "sessions": 85,
+          "page_views": 494,
+          "uniques": 72,
+          "avg_session_s": 208
+        },
+        {
+          "date": "2026-04-18",
+          "sessions": 60,
+          "page_views": 285,
+          "uniques": 51,
+          "avg_session_s": 171
+        },
+        {
+          "date": "2026-04-19",
+          "sessions": 45,
+          "page_views": 268,
+          "uniques": 38,
+          "avg_session_s": 160
+        },
+        {
+          "date": "2026-04-20",
+          "sessions": 95,
+          "page_views": 574,
+          "uniques": 75,
+          "avg_session_s": 157
+        },
+        {
+          "date": "2026-04-21",
+          "sessions": 111,
+          "page_views": 591,
+          "uniques": 93,
+          "avg_session_s": 172
+        },
+        {
+          "date": "2026-04-22",
+          "sessions": 105,
+          "page_views": 435,
+          "uniques": 84,
+          "avg_session_s": 183
+        },
+        {
+          "date": "2026-04-23",
+          "sessions": 100,
+          "page_views": 484,
+          "uniques": 74,
+          "avg_session_s": 228
+        },
+        {
+          "date": "2026-04-24",
+          "sessions": 109,
+          "page_views": 698,
+          "uniques": 86,
+          "avg_session_s": 180
+        },
+        {
+          "date": "2026-04-25",
+          "sessions": 67,
+          "page_views": 420,
+          "uniques": 48,
+          "avg_session_s": 180
+        },
+        {
+          "date": "2026-04-26",
+          "sessions": 55,
+          "page_views": 208,
+          "uniques": 40,
+          "avg_session_s": 135
+        },
+        {
+          "date": "2026-04-27",
+          "sessions": 105,
+          "page_views": 606,
+          "uniques": 78,
+          "avg_session_s": 160
+        },
+        {
+          "date": "2026-04-28",
+          "sessions": 72,
+          "page_views": 280,
+          "uniques": 57,
+          "avg_session_s": 174
+        },
+        {
+          "date": "2026-04-29",
+          "sessions": 118,
+          "page_views": 501,
+          "uniques": 87,
+          "avg_session_s": 167
+        },
+        {
+          "date": "2026-04-30",
+          "sessions": 110,
+          "page_views": 645,
+          "uniques": 79,
+          "avg_session_s": 164
+        },
+        {
+          "date": "2026-05-01",
+          "sessions": 116,
+          "page_views": 426,
+          "uniques": 84,
+          "avg_session_s": 170
+        },
+        {
+          "date": "2026-05-02",
+          "sessions": 45,
+          "page_views": 162,
+          "uniques": 38,
+          "avg_session_s": 227
+        },
+        {
+          "date": "2026-05-03",
+          "sessions": 64,
+          "page_views": 370,
+          "uniques": 50,
+          "avg_session_s": 163
+        },
+        {
+          "date": "2026-05-04",
+          "sessions": 100,
+          "page_views": 329,
+          "uniques": 81,
+          "avg_session_s": 223
+        },
+        {
+          "date": "2026-05-05",
+          "sessions": 95,
+          "page_views": 521,
+          "uniques": 79,
+          "avg_session_s": 182
+        },
+        {
+          "date": "2026-05-06",
+          "sessions": 127,
+          "page_views": 565,
+          "uniques": 102,
+          "avg_session_s": 194
+        },
+        {
+          "date": "2026-05-07",
+          "sessions": 123,
+          "page_views": 834,
+          "uniques": 102,
+          "avg_session_s": 146
+        },
+        {
+          "date": "2026-05-08",
+          "sessions": 83,
+          "page_views": 561,
+          "uniques": 65,
+          "avg_session_s": 205
+        },
+        {
+          "date": "2026-05-09",
+          "sessions": 66,
+          "page_views": 239,
+          "uniques": 47,
+          "avg_session_s": 167
+        },
+        {
+          "date": "2026-05-10",
+          "sessions": 58,
+          "page_views": 353,
+          "uniques": 46,
+          "avg_session_s": 187
+        },
+        {
+          "date": "2026-05-11",
+          "sessions": 113,
+          "page_views": 604,
+          "uniques": 97,
+          "avg_session_s": 146
+        },
+        {
+          "date": "2026-05-12",
+          "sessions": 109,
+          "page_views": 686,
+          "uniques": 90,
+          "avg_session_s": 183
+        },
+        {
+          "date": "2026-05-13",
+          "sessions": 103,
+          "page_views": 590,
+          "uniques": 78,
+          "avg_session_s": 148
+        },
+        {
+          "date": "2026-05-14",
+          "sessions": 133,
+          "page_views": 745,
+          "uniques": 110,
+          "avg_session_s": 219
+        },
+        {
+          "date": "2026-05-15",
+          "sessions": 124,
+          "page_views": 497,
+          "uniques": 98,
+          "avg_session_s": 173
+        }
+      ],
+      "top_pages": [
+        {
+          "path": "/holdings",
+          "views": 223
+        },
+        {
+          "path": "/pipeline",
+          "views": 181
+        },
+        {
+          "path": "/complaints",
+          "views": 109
+        },
+        {
+          "path": "/",
+          "views": 74
+        },
+        {
+          "path": "/macro",
+          "views": 41
+        }
+      ],
+      "geo": [
+        {
+          "country": "Germany",
+          "sessions": 1461
+        },
+        {
+          "country": "Canada",
+          "sessions": 201
+        },
+        {
+          "country": "Japan",
+          "sessions": 351
+        },
+        {
+          "country": "United Kingdom",
+          "sessions": 186
+        },
+        {
+          "country": "United States",
+          "sessions": 113
+        },
+        {
+          "country": "Brazil",
+          "sessions": 157
+        }
+      ]
+    },
+    {
+      "key": "media",
+      "trailing_30d": [
+        {
+          "date": "2026-04-16",
+          "sessions": 96,
+          "page_views": 622,
+          "uniques": 73,
+          "avg_session_s": 164
+        },
+        {
+          "date": "2026-04-17",
+          "sessions": 92,
+          "page_views": 521,
+          "uniques": 74,
+          "avg_session_s": 171
+        },
+        {
+          "date": "2026-04-18",
+          "sessions": 47,
+          "page_views": 164,
+          "uniques": 40,
+          "avg_session_s": 160
+        },
+        {
+          "date": "2026-04-19",
+          "sessions": 54,
+          "page_views": 326,
+          "uniques": 46,
+          "avg_session_s": 195
+        },
+        {
+          "date": "2026-04-20",
+          "sessions": 85,
+          "page_views": 536,
+          "uniques": 74,
+          "avg_session_s": 252
+        },
+        {
+          "date": "2026-04-21",
+          "sessions": 97,
+          "page_views": 339,
+          "uniques": 82,
+          "avg_session_s": 179
+        },
+        {
+          "date": "2026-04-22",
+          "sessions": 67,
+          "page_views": 236,
+          "uniques": 51,
+          "avg_session_s": 230
+        },
+        {
+          "date": "2026-04-23",
+          "sessions": 113,
+          "page_views": 465,
+          "uniques": 84,
+          "avg_session_s": 163
+        },
+        {
+          "date": "2026-04-24",
+          "sessions": 102,
+          "page_views": 616,
+          "uniques": 74,
+          "avg_session_s": 181
+        },
+        {
+          "date": "2026-04-25",
+          "sessions": 36,
+          "page_views": 158,
+          "uniques": 26,
+          "avg_session_s": 228
+        },
+        {
+          "date": "2026-04-26",
+          "sessions": 43,
+          "page_views": 234,
+          "uniques": 32,
+          "avg_session_s": 153
+        },
+        {
+          "date": "2026-04-27",
+          "sessions": 73,
+          "page_views": 269,
+          "uniques": 59,
+          "avg_session_s": 207
+        },
+        {
+          "date": "2026-04-28",
+          "sessions": 80,
+          "page_views": 386,
+          "uniques": 61,
+          "avg_session_s": 125
+        },
+        {
+          "date": "2026-04-29",
+          "sessions": 89,
+          "page_views": 441,
+          "uniques": 64,
+          "avg_session_s": 229
+        },
+        {
+          "date": "2026-04-30",
+          "sessions": 72,
+          "page_views": 407,
+          "uniques": 55,
+          "avg_session_s": 178
+        },
+        {
+          "date": "2026-05-01",
+          "sessions": 93,
+          "page_views": 302,
+          "uniques": 68,
+          "avg_session_s": 161
+        },
+        {
+          "date": "2026-05-02",
+          "sessions": 48,
+          "page_views": 254,
+          "uniques": 36,
+          "avg_session_s": 199
+        },
+        {
+          "date": "2026-05-03",
+          "sessions": 54,
+          "page_views": 202,
+          "uniques": 39,
+          "avg_session_s": 150
+        },
+        {
+          "date": "2026-05-04",
+          "sessions": 83,
+          "page_views": 273,
+          "uniques": 70,
+          "avg_session_s": 157
+        },
+        {
+          "date": "2026-05-05",
+          "sessions": 119,
+          "page_views": 463,
+          "uniques": 86,
+          "avg_session_s": 153
+        },
+        {
+          "date": "2026-05-06",
+          "sessions": 93,
+          "page_views": 420,
+          "uniques": 75,
+          "avg_session_s": 185
+        },
+        {
+          "date": "2026-05-07",
+          "sessions": 108,
+          "page_views": 408,
+          "uniques": 85,
+          "avg_session_s": 204
+        },
+        {
+          "date": "2026-05-08",
+          "sessions": 112,
+          "page_views": 596,
+          "uniques": 94,
+          "avg_session_s": 203
+        },
+        {
+          "date": "2026-05-09",
+          "sessions": 54,
+          "page_views": 302,
+          "uniques": 46,
+          "avg_session_s": 164
+        },
+        {
+          "date": "2026-05-10",
+          "sessions": 52,
+          "page_views": 171,
+          "uniques": 39,
+          "avg_session_s": 202
+        },
+        {
+          "date": "2026-05-11",
+          "sessions": 92,
+          "page_views": 387,
+          "uniques": 79,
+          "avg_session_s": 202
+        },
+        {
+          "date": "2026-05-12",
+          "sessions": 118,
+          "page_views": 799,
+          "uniques": 103,
+          "avg_session_s": 200
+        },
+        {
+          "date": "2026-05-13",
+          "sessions": 78,
+          "page_views": 331,
+          "uniques": 65,
+          "avg_session_s": 184
+        },
+        {
+          "date": "2026-05-14",
+          "sessions": 103,
+          "page_views": 519,
+          "uniques": 77,
+          "avg_session_s": 196
+        },
+        {
+          "date": "2026-05-15",
+          "sessions": 107,
+          "page_views": 445,
+          "uniques": 77,
+          "avg_session_s": 96
+        }
+      ],
+      "top_pages": [
+        {
+          "path": "/pipeline",
+          "views": 156
+        },
+        {
+          "path": "/audiences",
+          "views": 154
+        },
+        {
+          "path": "/",
+          "views": 112
+        },
+        {
+          "path": "/channels",
+          "views": 108
+        },
+        {
+          "path": "/conversations",
+          "views": 88
+        }
+      ],
+      "geo": [
+        {
+          "country": "Germany",
+          "sessions": 636
+        },
+        {
+          "country": "United Kingdom",
+          "sessions": 642
+        },
+        {
+          "country": "India",
+          "sessions": 350
+        },
+        {
+          "country": "Japan",
+          "sessions": 330
+        },
+        {
+          "country": "United States",
+          "sessions": 98
+        },
+        {
+          "country": "Brazil",
+          "sessions": 146
+        }
+      ]
+    },
+    {
+      "key": "retail",
+      "trailing_30d": [
+        {
+          "date": "2026-04-16",
+          "sessions": 91,
+          "page_views": 444,
+          "uniques": 66,
+          "avg_session_s": 183
+        },
+        {
+          "date": "2026-04-17",
+          "sessions": 115,
+          "page_views": 443,
+          "uniques": 85,
+          "avg_session_s": 212
+        },
+        {
+          "date": "2026-04-18",
+          "sessions": 43,
+          "page_views": 173,
+          "uniques": 36,
+          "avg_session_s": 185
+        },
+        {
+          "date": "2026-04-19",
+          "sessions": 45,
+          "page_views": 179,
+          "uniques": 34,
+          "avg_session_s": 176
+        },
+        {
+          "date": "2026-04-20",
+          "sessions": 101,
+          "page_views": 578,
+          "uniques": 75,
+          "avg_session_s": 151
+        },
+        {
+          "date": "2026-04-21",
+          "sessions": 55,
+          "page_views": 187,
+          "uniques": 46,
+          "avg_session_s": 196
+        },
+        {
+          "date": "2026-04-22",
+          "sessions": 63,
+          "page_views": 259,
+          "uniques": 49,
+          "avg_session_s": 236
+        },
+        {
+          "date": "2026-04-23",
+          "sessions": 97,
+          "page_views": 326,
+          "uniques": 81,
+          "avg_session_s": 160
+        },
+        {
+          "date": "2026-04-24",
+          "sessions": 85,
+          "page_views": 303,
+          "uniques": 63,
+          "avg_session_s": 206
+        },
+        {
+          "date": "2026-04-25",
+          "sessions": 55,
+          "page_views": 255,
+          "uniques": 42,
+          "avg_session_s": 146
+        },
+        {
+          "date": "2026-04-26",
+          "sessions": 54,
+          "page_views": 332,
+          "uniques": 43,
+          "avg_session_s": 181
+        },
+        {
+          "date": "2026-04-27",
+          "sessions": 97,
+          "page_views": 497,
+          "uniques": 79,
+          "avg_session_s": 111
+        },
+        {
+          "date": "2026-04-28",
+          "sessions": 82,
+          "page_views": 518,
+          "uniques": 59,
+          "avg_session_s": 144
+        },
+        {
+          "date": "2026-04-29",
+          "sessions": 97,
+          "page_views": 636,
+          "uniques": 77,
+          "avg_session_s": 144
+        },
+        {
+          "date": "2026-04-30",
+          "sessions": 81,
+          "page_views": 361,
+          "uniques": 68,
+          "avg_session_s": 193
+        },
+        {
+          "date": "2026-05-01",
+          "sessions": 86,
+          "page_views": 355,
+          "uniques": 74,
+          "avg_session_s": 143
+        },
+        {
+          "date": "2026-05-02",
+          "sessions": 64,
+          "page_views": 380,
+          "uniques": 51,
+          "avg_session_s": 206
+        },
+        {
+          "date": "2026-05-03",
+          "sessions": 44,
+          "page_views": 279,
+          "uniques": 36,
+          "avg_session_s": 144
+        },
+        {
+          "date": "2026-05-04",
+          "sessions": 135,
+          "page_views": 549,
+          "uniques": 102,
+          "avg_session_s": 201
+        },
+        {
+          "date": "2026-05-05",
+          "sessions": 100,
+          "page_views": 442,
+          "uniques": 85,
+          "avg_session_s": 139
+        },
+        {
+          "date": "2026-05-06",
+          "sessions": 55,
+          "page_views": 261,
+          "uniques": 39,
+          "avg_session_s": 161
+        },
+        {
+          "date": "2026-05-07",
+          "sessions": 90,
+          "page_views": 386,
+          "uniques": 67,
+          "avg_session_s": 163
+        },
+        {
+          "date": "2026-05-08",
+          "sessions": 69,
+          "page_views": 374,
+          "uniques": 51,
+          "avg_session_s": 183
+        },
+        {
+          "date": "2026-05-09",
+          "sessions": 39,
+          "page_views": 240,
+          "uniques": 31,
+          "avg_session_s": 126
+        },
+        {
+          "date": "2026-05-10",
+          "sessions": 40,
+          "page_views": 198,
+          "uniques": 34,
+          "avg_session_s": 210
+        },
+        {
+          "date": "2026-05-11",
+          "sessions": 108,
+          "page_views": 557,
+          "uniques": 89,
+          "avg_session_s": 197
+        },
+        {
+          "date": "2026-05-12",
+          "sessions": 105,
+          "page_views": 410,
+          "uniques": 89,
+          "avg_session_s": 148
+        },
+        {
+          "date": "2026-05-13",
+          "sessions": 87,
+          "page_views": 494,
+          "uniques": 63,
+          "avg_session_s": 226
+        },
+        {
+          "date": "2026-05-14",
+          "sessions": 79,
+          "page_views": 495,
+          "uniques": 64,
+          "avg_session_s": 209
+        },
+        {
+          "date": "2026-05-15",
+          "sessions": 69,
+          "page_views": 288,
+          "uniques": 57,
+          "avg_session_s": 166
+        }
+      ],
+      "top_pages": [
+        {
+          "path": "/pipeline",
+          "views": 83
+        },
+        {
+          "path": "/channels",
+          "views": 76
+        },
+        {
+          "path": "/",
+          "views": 52
+        },
+        {
+          "path": "/orders",
+          "views": 28
+        },
+        {
+          "path": "/products",
+          "views": 27
+        }
+      ],
+      "geo": [
+        {
+          "country": "Brazil",
+          "sessions": 494
+        },
+        {
+          "country": "Australia",
+          "sessions": 245
+        },
+        {
+          "country": "Canada",
+          "sessions": 327
+        },
+        {
+          "country": "Japan",
+          "sessions": 315
+        },
+        {
+          "country": "United States",
+          "sessions": 93
+        },
+        {
+          "country": "United Kingdom",
+          "sessions": 93
+        }
+      ]
+    },
+    {
+      "key": "techsaas",
+      "trailing_30d": [
+        {
+          "date": "2026-04-16",
+          "sessions": 92,
+          "page_views": 340,
+          "uniques": 80,
+          "avg_session_s": 227
+        },
+        {
+          "date": "2026-04-17",
+          "sessions": 166,
+          "page_views": 763,
+          "uniques": 128,
+          "avg_session_s": 174
+        },
+        {
+          "date": "2026-04-18",
+          "sessions": 69,
+          "page_views": 277,
+          "uniques": 52,
+          "avg_session_s": 163
+        },
+        {
+          "date": "2026-04-19",
+          "sessions": 69,
+          "page_views": 267,
+          "uniques": 50,
+          "avg_session_s": 247
+        },
+        {
+          "date": "2026-04-20",
+          "sessions": 153,
+          "page_views": 552,
+          "uniques": 121,
+          "avg_session_s": 156
+        },
+        {
+          "date": "2026-04-21",
+          "sessions": 140,
+          "page_views": 456,
+          "uniques": 117,
+          "avg_session_s": 134
+        },
+        {
+          "date": "2026-04-22",
+          "sessions": 167,
+          "page_views": 874,
+          "uniques": 137,
+          "avg_session_s": 174
+        },
+        {
+          "date": "2026-04-23",
+          "sessions": 183,
+          "page_views": 751,
+          "uniques": 150,
+          "avg_session_s": 119
+        },
+        {
+          "date": "2026-04-24",
+          "sessions": 172,
+          "page_views": 695,
+          "uniques": 137,
+          "avg_session_s": 182
+        },
+        {
+          "date": "2026-04-25",
+          "sessions": 80,
+          "page_views": 336,
+          "uniques": 64,
+          "avg_session_s": 201
+        },
+        {
+          "date": "2026-04-26",
+          "sessions": 55,
+          "page_views": 280,
+          "uniques": 46,
+          "avg_session_s": 142
+        },
+        {
+          "date": "2026-04-27",
+          "sessions": 190,
+          "page_views": 1259,
+          "uniques": 155,
+          "avg_session_s": 146
+        },
+        {
+          "date": "2026-04-28",
+          "sessions": 138,
+          "page_views": 669,
+          "uniques": 109,
+          "avg_session_s": 169
+        },
+        {
+          "date": "2026-04-29",
+          "sessions": 146,
+          "page_views": 867,
+          "uniques": 126,
+          "avg_session_s": 179
+        },
+        {
+          "date": "2026-04-30",
+          "sessions": 161,
+          "page_views": 890,
+          "uniques": 133,
+          "avg_session_s": 183
+        },
+        {
+          "date": "2026-05-01",
+          "sessions": 125,
+          "page_views": 843,
+          "uniques": 99,
+          "avg_session_s": 198
+        },
+        {
+          "date": "2026-05-02",
+          "sessions": 88,
+          "page_views": 291,
+          "uniques": 64,
+          "avg_session_s": 150
+        },
+        {
+          "date": "2026-05-03",
+          "sessions": 80,
+          "page_views": 464,
+          "uniques": 61,
+          "avg_session_s": 144
+        },
+        {
+          "date": "2026-05-04",
+          "sessions": 168,
+          "page_views": 582,
+          "uniques": 129,
+          "avg_session_s": 243
+        },
+        {
+          "date": "2026-05-05",
+          "sessions": 164,
+          "page_views": 767,
+          "uniques": 138,
+          "avg_session_s": 152
+        },
+        {
+          "date": "2026-05-06",
+          "sessions": 177,
+          "page_views": 1049,
+          "uniques": 151,
+          "avg_session_s": 123
+        },
+        {
+          "date": "2026-05-07",
+          "sessions": 155,
+          "page_views": 968,
+          "uniques": 113,
+          "avg_session_s": 185
+        },
+        {
+          "date": "2026-05-08",
+          "sessions": 149,
+          "page_views": 564,
+          "uniques": 117,
+          "avg_session_s": 212
+        },
+        {
+          "date": "2026-05-09",
+          "sessions": 81,
+          "page_views": 425,
+          "uniques": 70,
+          "avg_session_s": 181
+        },
+        {
+          "date": "2026-05-10",
+          "sessions": 85,
+          "page_views": 412,
+          "uniques": 70,
+          "avg_session_s": 219
+        },
+        {
+          "date": "2026-05-11",
+          "sessions": 136,
+          "page_views": 647,
+          "uniques": 114,
+          "avg_session_s": 216
+        },
+        {
+          "date": "2026-05-12",
+          "sessions": 174,
+          "page_views": 1149,
+          "uniques": 149,
+          "avg_session_s": 158
+        },
+        {
+          "date": "2026-05-13",
+          "sessions": 118,
+          "page_views": 609,
+          "uniques": 90,
+          "avg_session_s": 161
+        },
+        {
+          "date": "2026-05-14",
+          "sessions": 159,
+          "page_views": 951,
+          "uniques": 133,
+          "avg_session_s": 144
+        },
+        {
+          "date": "2026-05-15",
+          "sessions": 117,
+          "page_views": 529,
+          "uniques": 91,
+          "avg_session_s": 172
+        }
+      ],
+      "top_pages": [
+        {
+          "path": "/pipeline",
+          "views": 205
+        },
+        {
+          "path": "/engineering",
+          "views": 167
+        },
+        {
+          "path": "/customers",
+          "views": 146
+        },
+        {
+          "path": "/",
+          "views": 116
+        },
+        {
+          "path": "/cost",
+          "views": 49
+        }
+      ],
+      "geo": [
+        {
+          "country": "United Kingdom",
+          "sessions": 1811
+        },
+        {
+          "country": "Germany",
+          "sessions": 194
+        },
+        {
+          "country": "Japan",
+          "sessions": 636
+        },
+        {
+          "country": "India",
+          "sessions": 426
+        },
+        {
+          "country": "Canada",
+          "sessions": 371
+        },
+        {
+          "country": "Australia",
+          "sessions": 207
+        }
+      ]
+    },
+    {
+      "key": "supplychain",
+      "trailing_30d": [
+        {
+          "date": "2026-04-16",
+          "sessions": 83,
+          "page_views": 347,
+          "uniques": 67,
+          "avg_session_s": 176
+        },
+        {
+          "date": "2026-04-17",
+          "sessions": 125,
+          "page_views": 809,
+          "uniques": 106,
+          "avg_session_s": 209
+        },
+        {
+          "date": "2026-04-18",
+          "sessions": 51,
+          "page_views": 274,
+          "uniques": 42,
+          "avg_session_s": 150
+        },
+        {
+          "date": "2026-04-19",
+          "sessions": 68,
+          "page_views": 262,
+          "uniques": 54,
+          "avg_session_s": 114
+        },
+        {
+          "date": "2026-04-20",
+          "sessions": 100,
+          "page_views": 616,
+          "uniques": 82,
+          "avg_session_s": 167
+        },
+        {
+          "date": "2026-04-21",
+          "sessions": 129,
+          "page_views": 729,
+          "uniques": 105,
+          "avg_session_s": 177
+        },
+        {
+          "date": "2026-04-22",
+          "sessions": 97,
+          "page_views": 507,
+          "uniques": 76,
+          "avg_session_s": 129
+        },
+        {
+          "date": "2026-04-23",
+          "sessions": 135,
+          "page_views": 617,
+          "uniques": 100,
+          "avg_session_s": 243
+        },
+        {
+          "date": "2026-04-24",
+          "sessions": 94,
+          "page_views": 571,
+          "uniques": 75,
+          "avg_session_s": 183
+        },
+        {
+          "date": "2026-04-25",
+          "sessions": 48,
+          "page_views": 281,
+          "uniques": 37,
+          "avg_session_s": 187
+        },
+        {
+          "date": "2026-04-26",
+          "sessions": 82,
+          "page_views": 334,
+          "uniques": 64,
+          "avg_session_s": 192
+        },
+        {
+          "date": "2026-04-27",
+          "sessions": 111,
+          "page_views": 721,
+          "uniques": 86,
+          "avg_session_s": 188
+        },
+        {
+          "date": "2026-04-28",
+          "sessions": 117,
+          "page_views": 408,
+          "uniques": 85,
+          "avg_session_s": 173
+        },
+        {
+          "date": "2026-04-29",
+          "sessions": 145,
+          "page_views": 786,
+          "uniques": 121,
+          "avg_session_s": 164
+        },
+        {
+          "date": "2026-04-30",
+          "sessions": 107,
+          "page_views": 611,
+          "uniques": 90,
+          "avg_session_s": 205
+        },
+        {
+          "date": "2026-05-01",
+          "sessions": 115,
+          "page_views": 629,
+          "uniques": 90,
+          "avg_session_s": 185
+        },
+        {
+          "date": "2026-05-02",
+          "sessions": 69,
+          "page_views": 278,
+          "uniques": 54,
+          "avg_session_s": 198
+        },
+        {
+          "date": "2026-05-03",
+          "sessions": 62,
+          "page_views": 284,
+          "uniques": 51,
+          "avg_session_s": 193
+        },
+        {
+          "date": "2026-05-04",
+          "sessions": 114,
+          "page_views": 747,
+          "uniques": 83,
+          "avg_session_s": 199
+        },
+        {
+          "date": "2026-05-05",
+          "sessions": 130,
+          "page_views": 447,
+          "uniques": 96,
+          "avg_session_s": 168
+        },
+        {
+          "date": "2026-05-06",
+          "sessions": 174,
+          "page_views": 867,
+          "uniques": 128,
+          "avg_session_s": 146
+        },
+        {
+          "date": "2026-05-07",
+          "sessions": 99,
+          "page_views": 575,
+          "uniques": 81,
+          "avg_session_s": 167
+        },
+        {
+          "date": "2026-05-08",
+          "sessions": 138,
+          "page_views": 728,
+          "uniques": 109,
+          "avg_session_s": 196
+        },
+        {
+          "date": "2026-05-09",
+          "sessions": 62,
+          "page_views": 267,
+          "uniques": 48,
+          "avg_session_s": 201
+        },
+        {
+          "date": "2026-05-10",
+          "sessions": 71,
+          "page_views": 479,
+          "uniques": 58,
+          "avg_session_s": 222
+        },
+        {
+          "date": "2026-05-11",
+          "sessions": 116,
+          "page_views": 689,
+          "uniques": 93,
+          "avg_session_s": 171
+        },
+        {
+          "date": "2026-05-12",
+          "sessions": 116,
+          "page_views": 548,
+          "uniques": 96,
+          "avg_session_s": 208
+        },
+        {
+          "date": "2026-05-13",
+          "sessions": 133,
+          "page_views": 446,
+          "uniques": 109,
+          "avg_session_s": 211
+        },
+        {
+          "date": "2026-05-14",
+          "sessions": 113,
+          "page_views": 714,
+          "uniques": 84,
+          "avg_session_s": 182
+        },
+        {
+          "date": "2026-05-15",
+          "sessions": 134,
+          "page_views": 577,
+          "uniques": 99,
+          "avg_session_s": 175
+        }
+      ],
+      "top_pages": [
+        {
+          "path": "/inventory",
+          "views": 204
+        },
+        {
+          "path": "/lanes",
+          "views": 146
+        },
+        {
+          "path": "/pipeline",
+          "views": 73
+        },
+        {
+          "path": "/",
+          "views": 72
+        },
+        {
+          "path": "/shipments",
+          "views": 46
+        }
+      ],
+      "geo": [
+        {
+          "country": "Brazil",
+          "sessions": 445
+        },
+        {
+          "country": "Germany",
+          "sessions": 452
+        },
+        {
+          "country": "United Kingdom",
+          "sessions": 412
+        },
+        {
+          "country": "Australia",
+          "sessions": 125
+        },
+        {
+          "country": "India",
+          "sessions": 125
+        },
+        {
+          "country": "Japan",
+          "sessions": 125
+        }
+      ]
+    },
+    {
+      "key": "lifesci",
+      "trailing_30d": [
+        {
+          "date": "2026-04-16",
+          "sessions": 159,
+          "page_views": 576,
+          "uniques": 119,
+          "avg_session_s": 150
+        },
+        {
+          "date": "2026-04-17",
+          "sessions": 155,
+          "page_views": 627,
+          "uniques": 131,
+          "avg_session_s": 270
+        },
+        {
+          "date": "2026-04-18",
+          "sessions": 85,
+          "page_views": 366,
+          "uniques": 63,
+          "avg_session_s": 172
+        },
+        {
+          "date": "2026-04-19",
+          "sessions": 82,
+          "page_views": 410,
+          "uniques": 69,
+          "avg_session_s": 158
+        },
+        {
+          "date": "2026-04-20",
+          "sessions": 206,
+          "page_views": 944,
+          "uniques": 172,
+          "avg_session_s": 161
+        },
+        {
+          "date": "2026-04-21",
+          "sessions": 149,
+          "page_views": 661,
+          "uniques": 113,
+          "avg_session_s": 196
+        },
+        {
+          "date": "2026-04-22",
+          "sessions": 209,
+          "page_views": 684,
+          "uniques": 152,
+          "avg_session_s": 168
+        },
+        {
+          "date": "2026-04-23",
+          "sessions": 158,
+          "page_views": 829,
+          "uniques": 134,
+          "avg_session_s": 183
+        },
+        {
+          "date": "2026-04-24",
+          "sessions": 214,
+          "page_views": 744,
+          "uniques": 165,
+          "avg_session_s": 178
+        },
+        {
+          "date": "2026-04-25",
+          "sessions": 83,
+          "page_views": 350,
+          "uniques": 60,
+          "avg_session_s": 184
+        },
+        {
+          "date": "2026-04-26",
+          "sessions": 84,
+          "page_views": 498,
+          "uniques": 71,
+          "avg_session_s": 161
+        },
+        {
+          "date": "2026-04-27",
+          "sessions": 164,
+          "page_views": 700,
+          "uniques": 141,
+          "avg_session_s": 186
+        },
+        {
+          "date": "2026-04-28",
+          "sessions": 250,
+          "page_views": 1519,
+          "uniques": 214,
+          "avg_session_s": 178
+        },
+        {
+          "date": "2026-04-29",
+          "sessions": 143,
+          "page_views": 688,
+          "uniques": 106,
+          "avg_session_s": 127
+        },
+        {
+          "date": "2026-04-30",
+          "sessions": 221,
+          "page_views": 944,
+          "uniques": 189,
+          "avg_session_s": 148
+        },
+        {
+          "date": "2026-05-01",
+          "sessions": 150,
+          "page_views": 1005,
+          "uniques": 128,
+          "avg_session_s": 165
+        },
+        {
+          "date": "2026-05-02",
+          "sessions": 102,
+          "page_views": 638,
+          "uniques": 79,
+          "avg_session_s": 167
+        },
+        {
+          "date": "2026-05-03",
+          "sessions": 83,
+          "page_views": 469,
+          "uniques": 70,
+          "avg_session_s": 200
+        },
+        {
+          "date": "2026-05-04",
+          "sessions": 128,
+          "page_views": 598,
+          "uniques": 95,
+          "avg_session_s": 205
+        },
+        {
+          "date": "2026-05-05",
+          "sessions": 207,
+          "page_views": 1003,
+          "uniques": 153,
+          "avg_session_s": 199
+        },
+        {
+          "date": "2026-05-06",
+          "sessions": 208,
+          "page_views": 1176,
+          "uniques": 162,
+          "avg_session_s": 161
+        },
+        {
+          "date": "2026-05-07",
+          "sessions": 212,
+          "page_views": 1289,
+          "uniques": 159,
+          "avg_session_s": 164
+        },
+        {
+          "date": "2026-05-08",
+          "sessions": 176,
+          "page_views": 1141,
+          "uniques": 148,
+          "avg_session_s": 183
+        },
+        {
+          "date": "2026-05-09",
+          "sessions": 95,
+          "page_views": 509,
+          "uniques": 74,
+          "avg_session_s": 176
+        },
+        {
+          "date": "2026-05-10",
+          "sessions": 67,
+          "page_views": 254,
+          "uniques": 50,
+          "avg_session_s": 168
+        },
+        {
+          "date": "2026-05-11",
+          "sessions": 175,
+          "page_views": 1155,
+          "uniques": 134,
+          "avg_session_s": 174
+        },
+        {
+          "date": "2026-05-12",
+          "sessions": 167,
+          "page_views": 844,
+          "uniques": 129,
+          "avg_session_s": 182
+        },
+        {
+          "date": "2026-05-13",
+          "sessions": 230,
+          "page_views": 1028,
+          "uniques": 201,
+          "avg_session_s": 175
+        },
+        {
+          "date": "2026-05-14",
+          "sessions": 134,
+          "page_views": 711,
+          "uniques": 109,
+          "avg_session_s": 169
+        },
+        {
+          "date": "2026-05-15",
+          "sessions": 162,
+          "page_views": 533,
+          "uniques": 121,
+          "avg_session_s": 170
+        }
+      ],
+      "top_pages": [
+        {
+          "path": "/safety",
+          "views": 220
+        },
+        {
+          "path": "/pipeline",
+          "views": 181
+        },
+        {
+          "path": "/",
+          "views": 102
+        },
+        {
+          "path": "/trials",
+          "views": 66
+        },
+        {
+          "path": "/sites",
+          "views": 44
+        }
+      ],
+      "geo": [
+        {
+          "country": "Germany",
+          "sessions": 1275
+        },
+        {
+          "country": "India",
+          "sessions": 961
+        },
+        {
+          "country": "United Kingdom",
+          "sessions": 459
+        },
+        {
+          "country": "United States",
+          "sessions": 186
+        },
+        {
+          "country": "Australia",
+          "sessions": 400
+        },
+        {
+          "country": "Brazil",
+          "sessions": 186
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "demos": [
+    {
+      "key": "tax-assessment",
+      "name": "Allegheny County Tax",
+      "industry": "Public sector \u00b7 Property assessment",
+      "url": "https://fivetran-jasonchletsos.github.io/tax-assessment-databricks-demo/",
+      "repo": "fivetran-jasonchletsos/tax-assessment-databricks-demo",
+      "warehouse": "Databricks",
+      "owner": "@chletsos",
+      "connectors": [
+        "wprdc",
+        "allegheny_re"
+      ],
+      "pii_tier": "public",
+      "rows_24h": 6049880,
+      "monthly_active": 211,
+      "uptime_pct": 100.0,
+      "cost_30d_usd": 1883.3,
+      "status": "healthy"
+    },
+    {
+      "key": "healthcare",
+      "name": "Epic Clarity",
+      "industry": "Healthcare \u00b7 Clinical analytics",
+      "url": "https://fivetran-jasonchletsos.github.io/Healthcare-EPIC-Snowflake-Demo/",
+      "repo": "fivetran-jasonchletsos/Healthcare-EPIC-Snowflake-Demo",
+      "warehouse": "Snowflake",
+      "owner": "@clinical-data",
+      "connectors": [
+        "epic_clarity",
+        "hl7_fhir"
+      ],
+      "pii_tier": "PHI",
+      "rows_24h": 8484350,
+      "monthly_active": 545,
+      "uptime_pct": 100.0,
+      "cost_30d_usd": 287.88,
+      "status": "healthy"
+    },
+    {
+      "key": "finserv",
+      "name": "Meridian Capital",
+      "industry": "Financial Services \u00b7 Wealth & banking",
+      "url": "https://fivetran-jasonchletsos.github.io/FinServ-ODI-Demo/",
+      "repo": "fivetran-jasonchletsos/FinServ-ODI-Demo",
+      "warehouse": "Athena/Iceberg",
+      "owner": "@research",
+      "connectors": [
+        "sec_edgar",
+        "fred",
+        "cfpb"
+      ],
+      "pii_tier": "PII",
+      "rows_24h": 20120724,
+      "monthly_active": 818,
+      "uptime_pct": 99.87,
+      "cost_30d_usd": 309.98,
+      "status": "healthy"
+    },
+    {
+      "key": "media",
+      "name": "Lighthouse Media",
+      "industry": "Media \u00b7 Audience intelligence",
+      "url": "https://fivetran-jasonchletsos.github.io/Media-ODI-Demo/",
+      "repo": "fivetran-jasonchletsos/Media-ODI-Demo",
+      "warehouse": "Athena/Iceberg",
+      "owner": "@audience",
+      "connectors": [
+        "youtube",
+        "reddit",
+        "wikipedia"
+      ],
+      "pii_tier": "internal",
+      "rows_24h": 2022916,
+      "monthly_active": 207,
+      "uptime_pct": 99.99,
+      "cost_30d_usd": 1317.03,
+      "status": "healthy"
+    },
+    {
+      "key": "retail",
+      "name": "Storefront Analytics",
+      "industry": "Retail & e-commerce",
+      "url": "https://fivetran-jasonchletsos.github.io/RetailEcom-ODI-Demo/",
+      "repo": "fivetran-jasonchletsos/RetailEcom-ODI-Demo",
+      "warehouse": "Athena/Iceberg",
+      "owner": "@ecom",
+      "connectors": [
+        "shopify",
+        "stripe",
+        "klaviyo"
+      ],
+      "pii_tier": "PCI",
+      "rows_24h": 11502549,
+      "monthly_active": 1144,
+      "uptime_pct": 98.66,
+      "cost_30d_usd": 159.28,
+      "status": "failing"
+    },
+    {
+      "key": "techsaas",
+      "name": "SaaS Pulse",
+      "industry": "Tech \u00b7 SaaS analytics",
+      "url": "https://fivetran-jasonchletsos.github.io/TechSaaS-ODI-Demo/",
+      "repo": "fivetran-jasonchletsos/TechSaaS-ODI-Demo",
+      "warehouse": "Athena/Iceberg",
+      "owner": "@platform",
+      "connectors": [
+        "salesforce",
+        "stripe",
+        "pagerduty",
+        "github"
+      ],
+      "pii_tier": "PII",
+      "rows_24h": 13043707,
+      "monthly_active": 732,
+      "uptime_pct": 100.0,
+      "cost_30d_usd": 1445.96,
+      "status": "healthy"
+    },
+    {
+      "key": "supplychain",
+      "name": "Manifest",
+      "industry": "Supply chain \u00b7 Logistics",
+      "url": "https://fivetran-jasonchletsos.github.io/SupplyChain-ODI-Demo/",
+      "repo": "fivetran-jasonchletsos/SupplyChain-ODI-Demo",
+      "warehouse": "Athena/Iceberg",
+      "owner": "@logistics",
+      "connectors": [
+        "sap",
+        "edi",
+        "gps_telemetry"
+      ],
+      "pii_tier": "internal",
+      "rows_24h": 19884735,
+      "monthly_active": 1128,
+      "uptime_pct": 99.55,
+      "cost_30d_usd": 296.0,
+      "status": "healthy"
+    },
+    {
+      "key": "lifesci",
+      "name": "Cohort",
+      "industry": "Life sciences \u00b7 Clinical research",
+      "url": "https://fivetran-jasonchletsos.github.io/LifeSci-ODI-Demo/",
+      "repo": "fivetran-jasonchletsos/LifeSci-ODI-Demo",
+      "warehouse": "Athena/Iceberg",
+      "owner": "@biostats",
+      "connectors": [
+        "veeva_ctms",
+        "redcap",
+        "clinicaltrials_gov"
+      ],
+      "pii_tier": "PHI",
+      "rows_24h": 1579039,
+      "monthly_active": 192,
+      "uptime_pct": 100.0,
+      "cost_30d_usd": 1396.33,
+      "status": "healthy"
+    }
+  ]
+}
