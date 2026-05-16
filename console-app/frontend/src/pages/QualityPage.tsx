@@ -11,17 +11,24 @@ import type {
 
 // ============================================================
 // Demo metadata — keeps page self-contained for filtering/labels.
+// Keyed by string (not DemoKey) so the page survives snapshots that
+// include demos not yet declared in the DemoKey union (e.g. insurance).
 // ============================================================
-const DEMO_META: Record<DemoKey, { name: string; industry: string }> = {
+const DEMO_META: Record<string, { name: string; industry: string }> = {
   'tax-assessment': { name: 'Tax Assessment', industry: 'Public Sector' },
   healthcare:       { name: 'Healthcare',     industry: 'Health & Life Sciences' },
   finserv:          { name: 'FinServ',        industry: 'Financial Services' },
+  insurance:        { name: 'Insurance',      industry: 'Insurance' },
   media:            { name: 'Media',          industry: 'Media & Ent.' },
   retail:           { name: 'Retail',         industry: 'Retail & CPG' },
   techsaas:         { name: 'Tech / SaaS',    industry: 'Technology' },
   supplychain:      { name: 'Supply Chain',   industry: 'Manufacturing' },
   lifesci:          { name: 'Life Sciences',  industry: 'Pharma & Biotech' },
 };
+
+function demoMeta(k: string): { name: string; industry: string } {
+  return DEMO_META[k] ?? { name: k, industry: '—' };
+}
 
 const ALL_DEMOS: DemoKey[] = [
   'tax-assessment', 'healthcare', 'finserv', 'media',
@@ -192,14 +199,14 @@ export default function QualityPage() {
               className="font-mono text-[11px] px-2 py-1 rounded border"
               style={{ borderColor: 'var(--hairline-2)', color: 'var(--ink-2)' }}
             >
-              Clear filter ({DEMO_META[demoFilter].name}) ×
+              Clear filter ({demoMeta(demoFilter).name}) ×
             </button>
           )}
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-8 gap-3">
           {ALL_DEMOS.map((k) => {
             const r = rollupByDemo[k];
-            const meta = DEMO_META[k];
+            const meta = demoMeta(k);
             const active = demoFilter === k;
             return (
               <button
@@ -296,7 +303,7 @@ export default function QualityPage() {
             {demoFilter && (
               <span className="ml-2 normal-case tracking-normal font-normal text-[11px]"
                     style={{ color: 'var(--ink-dim)' }}>
-                · filtered to {DEMO_META[demoFilter].name}
+                · filtered to {demoMeta(demoFilter).name}
               </span>
             )}
           </div>
@@ -347,7 +354,7 @@ export default function QualityPage() {
                       onClick={() => setExpanded(isOpen ? null : m.id)}
                     >
                       <td className="text-[12px]" style={{ color: 'var(--ink-2)' }}>
-                        {DEMO_META[m.demo].name}
+                        {demoMeta(m.demo).name}
                       </td>
                       <td className="font-mono text-[12px]" style={{ color: 'var(--ink)' }}>
                         {m.table}
