@@ -190,15 +190,34 @@ export default function LineagePage() {
               borderBottom: '1px solid var(--hairline)',
             }}
           >
-            {LAYER_ORDER.map((l) => (
-              <div
-                key={l}
-                className="px-3 py-2 text-[10px] font-mono uppercase tracking-widest"
-                style={{ color: LAYER_COLORS[l].tag, borderRight: '1px solid var(--hairline)' }}
-              >
-                {l}
-              </div>
-            ))}
+            {LAYER_ORDER.map((l, i) => {
+              // dbt labs powers the bronze→silver and silver→gold transformations.
+              const showDbtBadge =
+                (l === 'silver' && LAYER_ORDER[i - 1] === 'bronze') ||
+                (l === 'gold' && LAYER_ORDER[i - 1] === 'silver');
+              return (
+                <div
+                  key={l}
+                  className="relative px-3 py-2 text-[10px] font-mono uppercase tracking-widest"
+                  style={{ color: LAYER_COLORS[l].tag, borderRight: '1px solid var(--hairline)' }}
+                >
+                  {l}
+                  {showDbtBadge && (
+                    <span
+                      className="absolute -top-2 -left-3 px-1.5 py-0.5 rounded-sm text-[8px] font-extrabold tracking-[0.5px]"
+                      style={{
+                        background: '#FF694A',
+                        color: '#ffffff',
+                        border: '1px solid #FF694A',
+                        zIndex: 2,
+                      }}
+                    >
+                      dbt labs
+                    </span>
+                  )}
+                </div>
+              );
+            })}
           </div>
 
           <div className="overflow-x-auto" style={{ background: 'var(--bg)' }}>

@@ -11,6 +11,7 @@ const NAV: { to: string; label: string }[] = [
   { to: '/governance', label: 'Governance' },
   { to: '/cost',       label: 'Cost' },
   { to: '/alerts',     label: 'Alerts' },
+  { to: '/traffic',    label: 'Traffic' },
 ];
 
 export default function Layout() {

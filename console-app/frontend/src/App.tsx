@@ -10,6 +10,7 @@ const PipelinesPage  = lazy(() => import('./pages/PipelinesPage'));
 const GovernancePage = lazy(() => import('./pages/GovernancePage'));
 const CostPage       = lazy(() => import('./pages/CostPage'));
 const AlertsPage     = lazy(() => import('./pages/AlertsPage'));
+const TrafficPage    = lazy(() => import('./pages/TrafficPage'));
 
 function Loading() {
   return (
@@ -32,6 +33,7 @@ export default function App() {
         <Route path="governance"   element={<Suspense fallback={<Loading />}><GovernancePage /></Suspense>} />
         <Route path="cost"         element={<Suspense fallback={<Loading />}><CostPage       /></Suspense>} />
         <Route path="alerts"       element={<Suspense fallback={<Loading />}><AlertsPage     /></Suspense>} />
+        <Route path="traffic"      element={<Suspense fallback={<Loading />}><TrafficPage    /></Suspense>} />
       </Route>
     </Routes>
   );

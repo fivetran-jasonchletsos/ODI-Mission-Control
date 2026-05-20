@@ -1,0 +1,41 @@
+name: Fetch GitHub traffic stats
+
+on:
+  schedule:
+    # Daily at 06:30 UTC. GitHub aggregates the 14-day window once per day,
+    # so a single daily pull is sufficient.
+    - cron: "30 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch traffic via gh CLI
+        env:
+          # TRAFFIC_PAT needs "Administration: Read" on each demo repo.
+          # Falls back to GITHUB_TOKEN — which only has access to this repo,
+          # so the snapshot will only contain Mission Control itself unless
+          # TRAFFIC_PAT is set as a repo secret.
+          GITHUB_TOKEN: ${{ secrets.TRAFFIC_PAT || secrets.GITHUB_TOKEN }}
+        run: |
+          chmod +x console-app/scripts/fetch-traffic.sh
+          console-app/scripts/fetch-traffic.sh
+
+      - name: Commit snapshot
+        run: |
+          cd "$GITHUB_WORKSPACE"
+          if git diff --quiet console-app/frontend/public/data/github_traffic.json; then
+            echo "No change in traffic snapshot."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add console-app/frontend/public/data/github_traffic.json
+          git commit -m "chore: refresh github_traffic.json"
+          git push

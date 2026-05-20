@@ -117,7 +117,7 @@
       "monthly_active": 1144,
       "uptime_pct": 98.66,
       "cost_30d_usd": 159.28,
-      "status": "failing"
+      "status": "degraded"
     },
     {
       "key": "techsaas",

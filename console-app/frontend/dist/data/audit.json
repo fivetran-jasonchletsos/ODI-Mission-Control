@@ -1,7 +1,7 @@
 {
   "events": [
     {
-      "ts": "2026-05-15T16:52:30+00:00",
+      "ts": "2026-05-15T20:22:31+00:00",
       "actor": "@chletsos",
       "action": "PERMISSION_DENIED",
       "target": "marts.unknown",
@@ -11,7 +11,7 @@
       "detail": "actor lacked role analytics_admin"
     },
     {
-      "ts": "2026-05-15T15:21:30+00:00",
+      "ts": "2026-05-15T18:51:31+00:00",
       "actor": "vendor-svc@fivetran.com",
       "action": "POLICY_VIOLATION",
       "target": "marts.fct_arr",
@@ -21,7 +21,7 @@
       "detail": "PHI column queried without break-glass approval"
     },
     {
-      "ts": "2026-05-15T14:15:30+00:00",
+      "ts": "2026-05-15T17:45:31+00:00",
       "actor": "platform-ci",
       "action": "REVOKE",
       "target": "marts.fct_carts",
@@ -31,7 +31,7 @@
       "detail": "role contractor_read REVOKED from marts.fct_carts"
     },
     {
-      "ts": "2026-05-15T13:13:30+00:00",
+      "ts": "2026-05-15T16:43:31+00:00",
       "actor": "@chletsos",
       "action": "REVOKE",
       "target": "marts.fct_appeals",
@@ -41,7 +41,7 @@
       "detail": "role contractor_read REVOKED from marts.fct_appeals"
     },
     {
-      "ts": "2026-05-15T13:04:30+00:00",
+      "ts": "2026-05-15T16:34:31+00:00",
       "actor": "compliance@fivetran.com",
       "action": "QUERY",
       "target": "marts.dim_patient",
@@ -51,7 +51,7 @@
       "detail": "SELECT scanned 31 GB"
     },
     {
-      "ts": "2026-05-15T12:45:30+00:00",
+      "ts": "2026-05-15T16:15:31+00:00",
       "actor": "bob@fivetran.com",
       "action": "POLICY_VIOLATION",
       "target": "marts.dim_issuer",
@@ -61,7 +61,7 @@
       "detail": "PHI column queried without break-glass approval"
     },
     {
-      "ts": "2026-05-15T12:44:30+00:00",
+      "ts": "2026-05-15T16:14:31+00:00",
       "actor": "bob@fivetran.com",
       "action": "POLICY_VIOLATION",
       "target": "marts.fct_inventory",
@@ -71,7 +71,7 @@
       "detail": "PHI column queried without break-glass approval"
     },
     {
-      "ts": "2026-05-15T06:56:30+00:00",
+      "ts": "2026-05-15T10:26:31+00:00",
       "actor": "compliance@fivetran.com",
       "action": "DEPLOY",
       "target": "marts.fct_macro_series",
@@ -81,7 +81,7 @@
       "detail": "dbt run \u00b7 52 models built in 589s"
     },
     {
-      "ts": "2026-05-15T05:54:30+00:00",
+      "ts": "2026-05-15T09:24:31+00:00",
       "actor": "compliance@fivetran.com",
       "action": "POLICY_VIOLATION",
       "target": "marts.fct_enrollment",
@@ -91,7 +91,7 @@
       "detail": "PHI column queried without break-glass approval"
     },
     {
-      "ts": "2026-05-15T03:59:30+00:00",
+      "ts": "2026-05-15T07:29:31+00:00",
       "actor": "@chletsos",
       "action": "SCHEMA_CHANGE",
       "target": "marts.fct_shipments",
@@ -101,7 +101,7 @@
       "detail": "+ column added by Fivetran: utm_term"
     },
     {
-      "ts": "2026-05-15T01:44:30+00:00",
+      "ts": "2026-05-15T05:14:31+00:00",
       "actor": "vendor-svc@fivetran.com",
       "action": "REVOKE",
       "target": "marts.dim_account",
@@ -111,7 +111,7 @@
       "detail": "role contractor_read REVOKED from marts.dim_account"
     },
     {
-      "ts": "2026-05-15T00:11:30+00:00",
+      "ts": "2026-05-15T03:41:31+00:00",
       "actor": "alice@fivetran.com",
       "action": "PERMISSION_DENIED",
       "target": "marts.fct_holdings",
@@ -121,7 +121,7 @@
       "detail": "actor lacked role analytics_admin"
     },
     {
-      "ts": "2026-05-14T23:52:30+00:00",
+      "ts": "2026-05-15T03:22:31+00:00",
       "actor": "@chletsos",
       "action": "SECRET_ACCESS",
       "target": "marts.fct_holdings",
@@ -131,7 +131,7 @@
       "detail": "warehouse credential rotated successfully"
     },
     {
-      "ts": "2026-05-14T23:16:30+00:00",
+      "ts": "2026-05-15T02:46:31+00:00",
       "actor": "compliance@fivetran.com",
       "action": "SCHEMA_CHANGE",
       "target": "marts.dim_product",
@@ -141,7 +141,7 @@
       "detail": "+ column added by Fivetran: last_login_ip"
     },
     {
-      "ts": "2026-05-14T21:27:30+00:00",
+      "ts": "2026-05-15T00:57:31+00:00",
       "actor": "@chletsos",
       "action": "SCHEMA_CHANGE",
       "target": "marts.fct_macro_series",
@@ -151,7 +151,7 @@
       "detail": "+ column added by Fivetran: consent_ts"
     },
     {
-      "ts": "2026-05-14T17:06:30+00:00",
+      "ts": "2026-05-14T20:36:31+00:00",
       "actor": "vendor-svc@fivetran.com",
       "action": "REVOKE",
       "target": "marts.fct_encounter",
@@ -161,7 +161,7 @@
       "detail": "role contractor_read REVOKED from marts.fct_encounter"
     },
     {
-      "ts": "2026-05-14T15:06:30+00:00",
+      "ts": "2026-05-14T18:36:31+00:00",
       "actor": "@chletsos",
       "action": "SCHEMA_CHANGE",
       "target": "marts.dim_trial",
@@ -171,7 +171,7 @@
       "detail": "+ column added by Fivetran: consent_ts"
     },
     {
-      "ts": "2026-05-14T14:19:30+00:00",
+      "ts": "2026-05-14T17:49:31+00:00",
       "actor": "alice@fivetran.com",
       "action": "SCHEMA_CHANGE",
       "target": "marts.unknown",
@@ -181,7 +181,7 @@
       "detail": "+ column added by Fivetran: is_pseudo"
     },
     {
-      "ts": "2026-05-14T14:08:30+00:00",
+      "ts": "2026-05-14T17:38:31+00:00",
       "actor": "bob@fivetran.com",
       "action": "POLICY_VIOLATION",
       "target": "marts.fct_lane_perf",
@@ -191,7 +191,7 @@
       "detail": "PHI column queried without break-glass approval"
     },
     {
-      "ts": "2026-05-14T11:36:30+00:00",
+      "ts": "2026-05-14T15:06:31+00:00",
       "actor": "compliance@fivetran.com",
       "action": "POLICY_VIOLATION",
       "target": "marts.fct_deploys",
@@ -201,7 +201,7 @@
       "detail": "PHI column queried without break-glass approval"
     },
     {
-      "ts": "2026-05-14T10:21:30+00:00",
+      "ts": "2026-05-14T13:51:31+00:00",
       "actor": "vendor-svc@fivetran.com",
       "action": "DEPLOY",
       "target": "marts.dim_account",
@@ -211,7 +211,7 @@
       "detail": "dbt run \u00b7 76 models built in 429s"
     },
     {
-      "ts": "2026-05-14T09:23:30+00:00",
+      "ts": "2026-05-14T12:53:31+00:00",
       "actor": "vendor-svc@fivetran.com",
       "action": "GRANT",
       "target": "marts.fct_encounter",
@@ -221,7 +221,7 @@
       "detail": "role analytics_reader granted SELECT on marts.fct_encounter"
     },
     {
-      "ts": "2026-05-14T07:42:30+00:00",
+      "ts": "2026-05-14T11:12:31+00:00",
       "actor": "bob@fivetran.com",
       "action": "POLICY_VIOLATION",
       "target": "marts.dim_account",
@@ -231,7 +231,7 @@
       "detail": "PHI column queried without break-glass approval"
     },
     {
-      "ts": "2026-05-14T02:53:30+00:00",
+      "ts": "2026-05-14T06:23:31+00:00",
       "actor": "bob@fivetran.com",
       "action": "DEPLOY",
       "target": "marts.fct_holdings",
@@ -241,7 +241,7 @@
       "detail": "dbt run \u00b7 60 models built in 491s"
     },
     {
-      "ts": "2026-05-13T23:58:30+00:00",
+      "ts": "2026-05-14T03:28:31+00:00",
       "actor": "bob@fivetran.com",
       "action": "DEPLOY",
       "target": "marts.dim_customer",
@@ -251,7 +251,7 @@
       "detail": "dbt run \u00b7 50 models built in 427s"
     },
     {
-      "ts": "2026-05-13T19:25:30+00:00",
+      "ts": "2026-05-13T22:55:31+00:00",
       "actor": "alice@fivetran.com",
       "action": "REVOKE",
       "target": "marts.fct_trend",
@@ -261,7 +261,7 @@
       "detail": "role contractor_read REVOKED from marts.fct_trend"
     },
     {
-      "ts": "2026-05-13T19:07:30+00:00",
+      "ts": "2026-05-13T22:37:31+00:00",
       "actor": "platform-ci",
       "action": "GRANT",
       "target": "marts.unknown",
@@ -271,7 +271,7 @@
       "detail": "role analytics_reader granted SELECT on marts.unknown"
     },
     {
-      "ts": "2026-05-13T18:53:30+00:00",
+      "ts": "2026-05-13T22:23:31+00:00",
       "actor": "@chletsos",
       "action": "POLICY_VIOLATION",
       "target": "marts.fct_enrollment",
@@ -281,7 +281,7 @@
       "detail": "PHI column queried without break-glass approval"
     },
     {
-      "ts": "2026-05-13T18:51:30+00:00",
+      "ts": "2026-05-13T22:21:31+00:00",
       "actor": "vendor-svc@fivetran.com",
       "action": "SCHEMA_CHANGE",
       "target": "marts.fct_incidents",
@@ -291,7 +291,7 @@
       "detail": "+ column added by Fivetran: is_pseudo"
     },
     {
-      "ts": "2026-05-13T12:28:30+00:00",
+      "ts": "2026-05-13T15:58:31+00:00",
       "actor": "data-eng-bot",
       "action": "SECRET_ACCESS",
       "target": "marts.fct_arr",
@@ -301,7 +301,7 @@
       "detail": "warehouse credential rotated successfully"
     },
     {
-      "ts": "2026-05-13T10:39:30+00:00",
+      "ts": "2026-05-13T14:09:31+00:00",
       "actor": "platform-ci",
       "action": "SCHEMA_CHANGE",
       "target": "marts.fct_orders",
@@ -311,7 +311,7 @@
       "detail": "+ column added by Fivetran: utm_term"
     },
     {
-      "ts": "2026-05-13T07:55:30+00:00",
+      "ts": "2026-05-13T11:25:31+00:00",
       "actor": "data-eng-bot",
       "action": "PERMISSION_DENIED",
       "target": "marts.dim_trial",
@@ -321,7 +321,7 @@
       "detail": "actor lacked role analytics_admin"
     },
     {
-      "ts": "2026-05-13T07:13:30+00:00",
+      "ts": "2026-05-13T10:43:31+00:00",
       "actor": "compliance@fivetran.com",
       "action": "SECRET_ACCESS",
       "target": "marts.fct_conversations",
@@ -331,7 +331,7 @@
       "detail": "warehouse credential rotated successfully"
     },
     {
-      "ts": "2026-05-13T06:44:30+00:00",
+      "ts": "2026-05-13T10:14:31+00:00",
       "actor": "compliance@fivetran.com",
       "action": "REVOKE",
       "target": "marts.fct_deploys",
@@ -341,7 +341,7 @@
       "detail": "role contractor_read REVOKED from marts.fct_deploys"
     },
     {
-      "ts": "2026-05-13T06:44:30+00:00",
+      "ts": "2026-05-13T10:14:31+00:00",
       "actor": "@chletsos",
       "action": "QUERY",
       "target": "marts.fct_shipments",
@@ -351,7 +351,7 @@
       "detail": "SELECT scanned 30 GB"
     },
     {
-      "ts": "2026-05-13T06:30:30+00:00",
+      "ts": "2026-05-13T10:00:31+00:00",
       "actor": "alice@fivetran.com",
       "action": "SCHEMA_CHANGE",
       "target": "marts.unknown",
@@ -361,7 +361,7 @@
       "detail": "+ column added by Fivetran: last_login_ip"
     },
     {
-      "ts": "2026-05-13T06:21:30+00:00",
+      "ts": "2026-05-13T09:51:31+00:00",
       "actor": "kim@fivetran.com",
       "action": "REVOKE",
       "target": "marts.dim_parcel",
@@ -371,7 +371,7 @@
       "detail": "role contractor_read REVOKED from marts.dim_parcel"
     },
     {
-      "ts": "2026-05-13T04:07:30+00:00",
+      "ts": "2026-05-13T07:37:31+00:00",
       "actor": "bob@fivetran.com",
       "action": "POLICY_VIOLATION",
       "target": "marts.fct_inventory",
@@ -381,7 +381,7 @@
       "detail": "PHI column queried without break-glass approval"
     },
     {
-      "ts": "2026-05-13T00:08:30+00:00",
+      "ts": "2026-05-13T03:38:31+00:00",
       "actor": "platform-ci",
       "action": "PERMISSION_DENIED",
       "target": "marts.fct_carts",
@@ -391,7 +391,7 @@
       "detail": "actor lacked role analytics_admin"
     },
     {
-      "ts": "2026-05-12T23:53:30+00:00",
+      "ts": "2026-05-13T03:23:31+00:00",
       "actor": "data-eng-bot",
       "action": "REVOKE",
       "target": "marts.dim_parcel",
@@ -401,7 +401,7 @@
       "detail": "role contractor_read REVOKED from marts.dim_parcel"
     },
     {
-      "ts": "2026-05-12T22:55:30+00:00",
+      "ts": "2026-05-13T02:25:31+00:00",
       "actor": "@chletsos",
       "action": "DEPLOY",
       "target": "marts.dim_sku",
@@ -411,7 +411,7 @@
       "detail": "dbt run \u00b7 53 models built in 561s"
     },
     {
-      "ts": "2026-05-12T21:03:30+00:00",
+      "ts": "2026-05-13T00:33:31+00:00",
       "actor": "compliance@fivetran.com",
       "action": "SECRET_ACCESS",
       "target": "marts.dim_sku",
@@ -421,7 +421,7 @@
       "detail": "warehouse credential rotated successfully"
     },
     {
-      "ts": "2026-05-12T20:27:30+00:00",
+      "ts": "2026-05-12T23:57:31+00:00",
       "actor": "alice@fivetran.com",
       "action": "SECRET_ACCESS",
       "target": "marts.fct_orders",
@@ -431,7 +431,7 @@
       "detail": "warehouse credential rotated successfully"
     },
     {
-      "ts": "2026-05-12T19:15:30+00:00",
+      "ts": "2026-05-12T22:45:31+00:00",
       "actor": "platform-ci",
       "action": "SECRET_ACCESS",
       "target": "marts.fct_incidents",
@@ -441,7 +441,7 @@
       "detail": "warehouse credential rotated successfully"
     },
     {
-      "ts": "2026-05-12T17:40:30+00:00",
+      "ts": "2026-05-12T21:10:31+00:00",
       "actor": "platform-ci",
       "action": "PERMISSION_DENIED",
       "target": "marts.fct_trend",
@@ -451,7 +451,7 @@
       "detail": "actor lacked role analytics_admin"
     },
     {
-      "ts": "2026-05-12T13:55:30+00:00",
+      "ts": "2026-05-12T17:25:31+00:00",
       "actor": "bob@fivetran.com",
       "action": "SCHEMA_CHANGE",
       "target": "marts.dim_trial",
@@ -461,7 +461,7 @@
       "detail": "+ column added by Fivetran: is_pseudo"
     },
     {
-      "ts": "2026-05-12T12:49:30+00:00",
+      "ts": "2026-05-12T16:19:31+00:00",
       "actor": "data-eng-bot",
       "action": "SCHEMA_CHANGE",
       "target": "marts.unknown",
@@ -471,7 +471,7 @@
       "detail": "+ column added by Fivetran: is_pseudo"
     },
     {
-      "ts": "2026-05-12T11:26:30+00:00",
+      "ts": "2026-05-12T14:56:31+00:00",
       "actor": "alice@fivetran.com",
       "action": "SCHEMA_CHANGE",
       "target": "marts.fct_diagnosis",
@@ -481,7 +481,7 @@
       "detail": "+ column added by Fivetran: consent_ts"
     },
     {
-      "ts": "2026-05-12T11:08:30+00:00",
+      "ts": "2026-05-12T14:38:31+00:00",
       "actor": "platform-ci",
       "action": "PERMISSION_DENIED",
       "target": "marts.fct_exemptions_summary",
@@ -491,7 +491,7 @@
       "detail": "actor lacked role analytics_admin"
     },
     {
-      "ts": "2026-05-12T07:57:30+00:00",
+      "ts": "2026-05-12T11:27:31+00:00",
       "actor": "platform-ci",
       "action": "QUERY",
       "target": "marts.fct_adverse_event",
@@ -501,7 +501,7 @@
       "detail": "SELECT scanned 13 GB"
     },
     {
-      "ts": "2026-05-12T07:47:30+00:00",
+      "ts": "2026-05-12T11:17:31+00:00",
       "actor": "kim@fivetran.com",
       "action": "SCHEMA_CHANGE",
       "target": "marts.fct_complaints",
@@ -511,7 +511,7 @@
       "detail": "+ column added by Fivetran: consent_ts"
     },
     {
-      "ts": "2026-05-12T04:41:30+00:00",
+      "ts": "2026-05-12T08:11:31+00:00",
       "actor": "bob@fivetran.com",
       "action": "PERMISSION_DENIED",
       "target": "marts.dim_issuer",
@@ -521,7 +521,7 @@
       "detail": "actor lacked role analytics_admin"
     },
     {
-      "ts": "2026-05-12T02:56:30+00:00",
+      "ts": "2026-05-12T06:26:31+00:00",
       "actor": "@chletsos",
       "action": "SCHEMA_CHANGE",
       "target": "marts.unknown",
@@ -531,7 +531,7 @@
       "detail": "+ column added by Fivetran: consent_ts"
     },
     {
-      "ts": "2026-05-12T01:36:30+00:00",
+      "ts": "2026-05-12T05:06:31+00:00",
       "actor": "vendor-svc@fivetran.com",
       "action": "QUERY",
       "target": "marts.dim_account",
@@ -541,7 +541,7 @@
       "detail": "SELECT scanned 41 GB"
     },
     {
-      "ts": "2026-05-12T00:38:30+00:00",
+      "ts": "2026-05-12T04:08:31+00:00",
       "actor": "alice@fivetran.com",
       "action": "GRANT",
       "target": "marts.fct_arr",
@@ -551,7 +551,7 @@
       "detail": "role analytics_reader granted SELECT on marts.fct_arr"
     },
     {
-      "ts": "2026-05-12T00:10:30+00:00",
+      "ts": "2026-05-12T03:40:31+00:00",
       "actor": "kim@fivetran.com",
       "action": "PERMISSION_DENIED",
       "target": "marts.fct_deploys",
@@ -561,7 +561,7 @@
       "detail": "actor lacked role analytics_admin"
     },
     {
-      "ts": "2026-05-11T20:00:30+00:00",
+      "ts": "2026-05-11T23:30:31+00:00",
       "actor": "bob@fivetran.com",
       "action": "SCHEMA_CHANGE",
       "target": "marts.dim_issuer",
@@ -571,7 +571,7 @@
       "detail": "+ column added by Fivetran: consent_ts"
     },
     {
-      "ts": "2026-05-11T17:22:30+00:00",
+      "ts": "2026-05-11T20:52:31+00:00",
       "actor": "vendor-svc@fivetran.com",
       "action": "POLICY_VIOLATION",
       "target": "marts.dim_account",
@@ -581,7 +581,7 @@
       "detail": "PHI column queried without break-glass approval"
     },
     {
-      "ts": "2026-05-11T14:34:30+00:00",
+      "ts": "2026-05-11T18:04:31+00:00",
       "actor": "vendor-svc@fivetran.com",
       "action": "QUERY",
       "target": "marts.dim_issuer",
@@ -591,7 +591,7 @@
       "detail": "SELECT scanned 31 GB"
     },
     {
-      "ts": "2026-05-11T14:08:30+00:00",
+      "ts": "2026-05-11T17:38:31+00:00",
       "actor": "vendor-svc@fivetran.com",
       "action": "QUERY",
       "target": "marts.fct_assessments",
@@ -601,7 +601,7 @@
       "detail": "SELECT scanned 27 GB"
     },
     {
-      "ts": "2026-05-11T12:18:30+00:00",
+      "ts": "2026-05-11T15:48:31+00:00",
       "actor": "compliance@fivetran.com",
       "action": "REVOKE",
       "target": "marts.fct_trend",
@@ -611,7 +611,7 @@
       "detail": "role contractor_read REVOKED from marts.fct_trend"
     },
     {
-      "ts": "2026-05-11T10:03:30+00:00",
+      "ts": "2026-05-11T13:33:31+00:00",
       "actor": "compliance@fivetran.com",
       "action": "PERMISSION_DENIED",
       "target": "marts.dim_channel",
@@ -621,7 +621,7 @@
       "detail": "actor lacked role analytics_admin"
     },
     {
-      "ts": "2026-05-11T09:28:30+00:00",
+      "ts": "2026-05-11T12:58:31+00:00",
       "actor": "alice@fivetran.com",
       "action": "POLICY_VIOLATION",
       "target": "marts.fct_incidents",
@@ -631,7 +631,7 @@
       "detail": "PHI column queried without break-glass approval"
     },
     {
-      "ts": "2026-05-11T07:42:30+00:00",
+      "ts": "2026-05-11T11:12:31+00:00",
       "actor": "platform-ci",
       "action": "POLICY_VIOLATION",
       "target": "marts.dim_product",
@@ -641,7 +641,7 @@
       "detail": "PHI column queried without break-glass approval"
     },
     {
-      "ts": "2026-05-11T06:15:30+00:00",
+      "ts": "2026-05-11T09:45:31+00:00",
       "actor": "bob@fivetran.com",
       "action": "GRANT",
       "target": "marts.fct_deploys",
@@ -651,7 +651,7 @@
       "detail": "role analytics_reader granted SELECT on marts.fct_deploys"
     },
     {
-      "ts": "2026-05-11T05:51:30+00:00",
+      "ts": "2026-05-11T09:21:31+00:00",
       "actor": "platform-ci",
       "action": "PERMISSION_DENIED",
       "target": "marts.fct_diagnosis",
@@ -661,7 +661,7 @@
       "detail": "actor lacked role analytics_admin"
     },
     {
-      "ts": "2026-05-11T04:14:30+00:00",
+      "ts": "2026-05-11T07:44:31+00:00",
       "actor": "@chletsos",
       "action": "POLICY_VIOLATION",
       "target": "marts.dim_issuer",
@@ -671,7 +671,7 @@
       "detail": "PHI column queried without break-glass approval"
     },
     {
-      "ts": "2026-05-11T00:58:30+00:00",
+      "ts": "2026-05-11T04:28:31+00:00",
       "actor": "data-eng-bot",
       "action": "QUERY",
       "target": "marts.dim_parcel",
@@ -681,7 +681,7 @@
       "detail": "SELECT scanned 39 GB"
     },
     {
-      "ts": "2026-05-10T23:56:30+00:00",
+      "ts": "2026-05-11T03:26:31+00:00",
       "actor": "bob@fivetran.com",
       "action": "REVOKE",
       "target": "marts.fct_diagnosis",
@@ -691,7 +691,7 @@
       "detail": "role contractor_read REVOKED from marts.fct_diagnosis"
     },
     {
-      "ts": "2026-05-10T22:56:30+00:00",
+      "ts": "2026-05-11T02:26:31+00:00",
       "actor": "bob@fivetran.com",
       "action": "SECRET_ACCESS",
       "target": "marts.dim_channel",
@@ -701,7 +701,7 @@
       "detail": "warehouse credential rotated successfully"
     },
     {
-      "ts": "2026-05-10T20:20:30+00:00",
+      "ts": "2026-05-10T23:50:31+00:00",
       "actor": "compliance@fivetran.com",
       "action": "POLICY_VIOLATION",
       "target": "marts.fct_site_visit",
@@ -711,7 +711,7 @@
       "detail": "PHI column queried without break-glass approval"
     },
     {
-      "ts": "2026-05-10T18:52:30+00:00",
+      "ts": "2026-05-10T22:22:31+00:00",
       "actor": "kim@fivetran.com",
       "action": "QUERY",
       "target": "marts.dim_patient",
@@ -721,7 +721,7 @@
       "detail": "SELECT scanned 32 GB"
     },
     {
-      "ts": "2026-05-10T18:30:30+00:00",
+      "ts": "2026-05-10T22:00:31+00:00",
       "actor": "kim@fivetran.com",
       "action": "POLICY_VIOLATION",
       "target": "marts.dim_customer",
@@ -731,7 +731,7 @@
       "detail": "PHI column queried without break-glass approval"
     },
     {
-      "ts": "2026-05-10T12:53:30+00:00",
+      "ts": "2026-05-10T16:23:31+00:00",
       "actor": "alice@fivetran.com",
       "action": "SCHEMA_CHANGE",
       "target": "marts.unknown",
@@ -741,7 +741,7 @@
       "detail": "+ column added by Fivetran: utm_term"
     },
     {
-      "ts": "2026-05-10T10:52:30+00:00",
+      "ts": "2026-05-10T14:22:31+00:00",
       "actor": "vendor-svc@fivetran.com",
       "action": "SECRET_ACCESS",
       "target": "marts.dim_patient",
@@ -751,7 +751,7 @@
       "detail": "warehouse credential rotated successfully"
     },
     {
-      "ts": "2026-05-10T10:49:30+00:00",
+      "ts": "2026-05-10T14:19:31+00:00",
       "actor": "bob@fivetran.com",
       "action": "QUERY",
       "target": "marts.dim_patient",
@@ -761,7 +761,7 @@
       "detail": "SELECT scanned 39 GB"
     },
     {
-      "ts": "2026-05-10T08:41:30+00:00",
+      "ts": "2026-05-10T12:11:31+00:00",
       "actor": "alice@fivetran.com",
       "action": "GRANT",
       "target": "marts.fct_trend",
@@ -771,7 +771,7 @@
       "detail": "role analytics_reader granted SELECT on marts.fct_trend"
     },
     {
-      "ts": "2026-05-10T07:37:30+00:00",
+      "ts": "2026-05-10T11:07:31+00:00",
       "actor": "vendor-svc@fivetran.com",
       "action": "SCHEMA_CHANGE",
       "target": "marts.fct_diagnosis",
@@ -781,7 +781,7 @@
       "detail": "+ column added by Fivetran: last_login_ip"
     },
     {
-      "ts": "2026-05-10T03:42:30+00:00",
+      "ts": "2026-05-10T07:12:31+00:00",
       "actor": "platform-ci",
       "action": "SCHEMA_CHANGE",
       "target": "marts.unknown",
@@ -791,7 +791,7 @@
       "detail": "+ column added by Fivetran: utm_term"
     },
     {
-      "ts": "2026-05-10T03:22:30+00:00",
+      "ts": "2026-05-10T06:52:31+00:00",
       "actor": "bob@fivetran.com",
       "action": "POLICY_VIOLATION",
       "target": "marts.fct_exemptions_summary",
@@ -801,7 +801,7 @@
       "detail": "PHI column queried without break-glass approval"
     },
     {
-      "ts": "2026-05-10T01:54:30+00:00",
+      "ts": "2026-05-10T05:24:31+00:00",
       "actor": "bob@fivetran.com",
       "action": "QUERY",
       "target": "marts.fct_exemptions_summary",
@@ -811,7 +811,7 @@
       "detail": "SELECT scanned 29 GB"
     },
     {
-      "ts": "2026-05-09T22:11:30+00:00",
+      "ts": "2026-05-10T01:41:31+00:00",
       "actor": "alice@fivetran.com",
       "action": "POLICY_VIOLATION",
       "target": "marts.fct_macro_series",
@@ -821,7 +821,7 @@
       "detail": "PHI column queried without break-glass approval"
     },
     {
-      "ts": "2026-05-09T18:12:30+00:00",
+      "ts": "2026-05-09T21:42:31+00:00",
       "actor": "platform-ci",
       "action": "SECRET_ACCESS",
       "target": "marts.unknown",
@@ -831,7 +831,7 @@
       "detail": "warehouse credential rotated successfully"
     },
     {
-      "ts": "2026-05-09T17:37:30+00:00",
+      "ts": "2026-05-09T21:07:31+00:00",
       "actor": "data-eng-bot",
       "action": "POLICY_VIOLATION",
       "target": "marts.dim_patient",
@@ -841,7 +841,7 @@
       "detail": "PHI column queried without break-glass approval"
     },
     {
-      "ts": "2026-05-09T15:23:30+00:00",
+      "ts": "2026-05-09T18:53:31+00:00",
       "actor": "kim@fivetran.com",
       "action": "DEPLOY",
       "target": "marts.fct_lane_perf",
@@ -851,7 +851,7 @@
       "detail": "dbt run \u00b7 36 models built in 232s"
     },
     {
-      "ts": "2026-05-09T08:22:30+00:00",
+      "ts": "2026-05-09T11:52:31+00:00",
       "actor": "data-eng-bot",
       "action": "PERMISSION_DENIED",
       "target": "marts.dim_trial",
@@ -861,7 +861,7 @@
       "detail": "actor lacked role analytics_admin"
     },
     {
-      "ts": "2026-05-09T05:47:30+00:00",
+      "ts": "2026-05-09T09:17:31+00:00",
       "actor": "data-eng-bot",
       "action": "PERMISSION_DENIED",
       "target": "marts.fct_shipments",
@@ -871,7 +871,7 @@
       "detail": "actor lacked role analytics_admin"
     },
     {
-      "ts": "2026-05-09T05:36:30+00:00",
+      "ts": "2026-05-09T09:06:31+00:00",
       "actor": "kim@fivetran.com",
       "action": "REVOKE",
       "target": "marts.dim_sku",
@@ -881,7 +881,7 @@
       "detail": "role contractor_read REVOKED from marts.dim_sku"
     },
     {
-      "ts": "2026-05-09T01:28:30+00:00",
+      "ts": "2026-05-09T04:58:31+00:00",
       "actor": "kim@fivetran.com",
       "action": "PERMISSION_DENIED",
       "target": "marts.fct_views",
@@ -891,7 +891,7 @@
       "detail": "actor lacked role analytics_admin"
     },
     {
-      "ts": "2026-05-08T23:19:30+00:00",
+      "ts": "2026-05-09T02:49:31+00:00",
       "actor": "@chletsos",
       "action": "PERMISSION_DENIED",
       "target": "marts.fct_appeals",
@@ -901,7 +901,7 @@
       "detail": "actor lacked role analytics_admin"
     },
     {
-      "ts": "2026-05-08T21:11:30+00:00",
+      "ts": "2026-05-09T00:41:31+00:00",
       "actor": "@chletsos",
       "action": "DEPLOY",
       "target": "marts.unknown",
@@ -911,7 +911,7 @@
       "detail": "dbt run \u00b7 68 models built in 587s"
     },
     {
-      "ts": "2026-05-08T20:40:30+00:00",
+      "ts": "2026-05-09T00:10:31+00:00",
       "actor": "data-eng-bot",
       "action": "DEPLOY",
       "target": "marts.fct_lab_result",
@@ -921,7 +921,7 @@
       "detail": "dbt run \u00b7 72 models built in 567s"
     },
     {
-      "ts": "2026-05-08T20:10:30+00:00",
+      "ts": "2026-05-08T23:40:31+00:00",
       "actor": "compliance@fivetran.com",
       "action": "DEPLOY",
       "target": "marts.dim_account",
@@ -931,7 +931,7 @@
       "detail": "dbt run \u00b7 33 models built in 339s"
     },
     {
-      "ts": "2026-05-08T17:39:30+00:00",
+      "ts": "2026-05-08T21:09:31+00:00",
       "actor": "alice@fivetran.com",
       "action": "QUERY",
       "target": "marts.fct_conversations",
@@ -941,7 +941,7 @@
       "detail": "SELECT scanned 28 GB"
     },
     {
-      "ts": "2026-05-08T16:07:30+00:00",
+      "ts": "2026-05-08T19:37:31+00:00",
       "actor": "compliance@fivetran.com",
       "action": "DEPLOY",
       "target": "marts.fct_holdings",
@@ -951,7 +951,7 @@
       "detail": "dbt run \u00b7 80 models built in 181s"
     },
     {
-      "ts": "2026-05-08T15:35:30+00:00",
+      "ts": "2026-05-08T19:05:31+00:00",
       "actor": "vendor-svc@fivetran.com",
       "action": "QUERY",
       "target": "marts.fct_assessments",
@@ -961,7 +961,7 @@
       "detail": "SELECT scanned 25 GB"
     },
     {
-      "ts": "2026-05-08T15:23:30+00:00",
+      "ts": "2026-05-08T18:53:31+00:00",
       "actor": "alice@fivetran.com",
       "action": "DEPLOY",
       "target": "marts.fct_encounter",
@@ -971,7 +971,7 @@
       "detail": "dbt run \u00b7 62 models built in 351s"
     },
     {
-      "ts": "2026-05-08T13:12:30+00:00",
+      "ts": "2026-05-08T16:42:31+00:00",
       "actor": "kim@fivetran.com",
       "action": "GRANT",
       "target": "marts.fct_exemptions_summary",
@@ -981,7 +981,7 @@
       "detail": "role analytics_reader granted SELECT on marts.fct_exemptions_summary"
     },
     {
-      "ts": "2026-05-08T12:49:30+00:00",
+      "ts": "2026-05-08T16:19:31+00:00",
       "actor": "kim@fivetran.com",
       "action": "SCHEMA_CHANGE",
       "target": "marts.dim_channel",
@@ -991,7 +991,7 @@
       "detail": "+ column added by Fivetran: utm_term"
     },
     {
-      "ts": "2026-05-08T10:58:30+00:00",
+      "ts": "2026-05-08T14:28:31+00:00",
       "actor": "alice@fivetran.com",
       "action": "POLICY_VIOLATION",
       "target": "marts.dim_product",
@@ -1001,7 +1001,7 @@
       "detail": "PHI column queried without break-glass approval"
     },
     {
-      "ts": "2026-05-08T09:37:30+00:00",
+      "ts": "2026-05-08T13:07:31+00:00",
       "actor": "data-eng-bot",
       "action": "PERMISSION_DENIED",
       "target": "marts.fct_deploys",
@@ -1011,7 +1011,7 @@
       "detail": "actor lacked role analytics_admin"
     },
     {
-      "ts": "2026-05-08T05:19:30+00:00",
+      "ts": "2026-05-08T08:49:31+00:00",
       "actor": "alice@fivetran.com",
       "action": "PERMISSION_DENIED",
       "target": "marts.fct_conversations",
@@ -1021,7 +1021,7 @@
       "detail": "actor lacked role analytics_admin"
     },
     {
-      "ts": "2026-05-08T05:03:30+00:00",
+      "ts": "2026-05-08T08:33:31+00:00",
       "actor": "data-eng-bot",
       "action": "POLICY_VIOLATION",
       "target": "marts.unknown",
@@ -1031,7 +1031,7 @@
       "detail": "PHI column queried without break-glass approval"
     },
     {
-      "ts": "2026-05-08T03:36:30+00:00",
+      "ts": "2026-05-08T07:06:31+00:00",
       "actor": "kim@fivetran.com",
       "action": "GRANT",
       "target": "marts.fct_appeals",
@@ -1041,7 +1041,7 @@
       "detail": "role analytics_reader granted SELECT on marts.fct_appeals"
     },
     {
-      "ts": "2026-05-08T01:00:30+00:00",
+      "ts": "2026-05-08T04:30:31+00:00",
       "actor": "platform-ci",
       "action": "DEPLOY",
       "target": "marts.dim_product",
@@ -1051,7 +1051,7 @@
       "detail": "dbt run \u00b7 51 models built in 442s"
     },
     {
-      "ts": "2026-05-08T00:52:30+00:00",
+      "ts": "2026-05-08T04:22:31+00:00",
       "actor": "data-eng-bot",
       "action": "SECRET_ACCESS",
       "target": "marts.fct_trend",
@@ -1061,7 +1061,7 @@
       "detail": "warehouse credential rotated successfully"
     },
     {
-      "ts": "2026-05-08T00:41:30+00:00",
+      "ts": "2026-05-08T04:11:31+00:00",
       "actor": "@chletsos",
       "action": "SCHEMA_CHANGE",
       "target": "marts.fct_appeals",
@@ -1071,7 +1071,7 @@
       "detail": "+ column added by Fivetran: utm_term"
     },
     {
-      "ts": "2026-05-08T00:26:30+00:00",
+      "ts": "2026-05-08T03:56:31+00:00",
       "actor": "alice@fivetran.com",
       "action": "DEPLOY",
       "target": "marts.dim_sku",
@@ -1081,7 +1081,7 @@
       "detail": "dbt run \u00b7 32 models built in 137s"
     },
     {
-      "ts": "2026-05-07T22:30:30+00:00",
+      "ts": "2026-05-08T02:00:31+00:00",
       "actor": "alice@fivetran.com",
       "action": "GRANT",
       "target": "marts.dim_product",
@@ -1091,7 +1091,7 @@
       "detail": "role analytics_reader granted SELECT on marts.dim_product"
     },
     {
-      "ts": "2026-05-07T20:07:30+00:00",
+      "ts": "2026-05-07T23:37:31+00:00",
       "actor": "kim@fivetran.com",
       "action": "SCHEMA_CHANGE",
       "target": "marts.fct_views",
@@ -1101,7 +1101,7 @@
       "detail": "+ column added by Fivetran: is_pseudo"
     },
     {
-      "ts": "2026-05-07T19:59:30+00:00",
+      "ts": "2026-05-07T23:29:31+00:00",
       "actor": "@chletsos",
       "action": "QUERY",
       "target": "marts.fct_encounter",
@@ -1111,7 +1111,7 @@
       "detail": "SELECT scanned 24 GB"
     },
     {
-      "ts": "2026-05-07T19:33:30+00:00",
+      "ts": "2026-05-07T23:03:31+00:00",
       "actor": "compliance@fivetran.com",
       "action": "SECRET_ACCESS",
       "target": "marts.fct_inventory",
@@ -1121,7 +1121,7 @@
       "detail": "warehouse credential rotated successfully"
     },
     {
-      "ts": "2026-05-07T19:09:30+00:00",
+      "ts": "2026-05-07T22:39:31+00:00",
       "actor": "data-eng-bot",
       "action": "REVOKE",
       "target": "marts.fct_adverse_event",
@@ -1131,7 +1131,7 @@
       "detail": "role contractor_read REVOKED from marts.fct_adverse_event"
     },
     {
-      "ts": "2026-05-07T18:48:30+00:00",
+      "ts": "2026-05-07T22:18:31+00:00",
       "actor": "data-eng-bot",
       "action": "QUERY",
       "target": "marts.fct_arr",
@@ -1141,7 +1141,7 @@
       "detail": "SELECT scanned 11 GB"
     },
     {
-      "ts": "2026-05-07T15:12:30+00:00",
+      "ts": "2026-05-07T18:42:31+00:00",
       "actor": "data-eng-bot",
       "action": "SCHEMA_CHANGE",
       "target": "marts.fct_macro_series",
@@ -1151,7 +1151,7 @@
       "detail": "+ column added by Fivetran: utm_term"
     },
     {
-      "ts": "2026-05-07T14:00:30+00:00",
+      "ts": "2026-05-07T17:30:31+00:00",
       "actor": "platform-ci",
       "action": "SECRET_ACCESS",
       "target": "marts.dim_issuer",
@@ -1161,7 +1161,7 @@
       "detail": "warehouse credential rotated successfully"
     },
     {
-      "ts": "2026-05-07T13:54:30+00:00",
+      "ts": "2026-05-07T17:24:31+00:00",
       "actor": "kim@fivetran.com",
       "action": "PERMISSION_DENIED",
       "target": "marts.fct_appeals",
@@ -1171,7 +1171,7 @@
       "detail": "actor lacked role analytics_admin"
     },
     {
-      "ts": "2026-05-07T12:47:30+00:00",
+      "ts": "2026-05-07T16:17:31+00:00",
       "actor": "vendor-svc@fivetran.com",
       "action": "QUERY",
       "target": "marts.dim_trial",
@@ -1181,7 +1181,7 @@
       "detail": "SELECT scanned 45 GB"
     },
     {
-      "ts": "2026-05-07T11:37:30+00:00",
+      "ts": "2026-05-07T15:07:31+00:00",
       "actor": "compliance@fivetran.com",
       "action": "QUERY",
       "target": "marts.fct_lane_perf",
@@ -1191,7 +1191,7 @@
       "detail": "SELECT scanned 30 GB"
     },
     {
-      "ts": "2026-05-07T09:45:30+00:00",
+      "ts": "2026-05-07T13:15:31+00:00",
       "actor": "bob@fivetran.com",
       "action": "POLICY_VIOLATION",
       "target": "marts.fct_appeals",
@@ -1201,7 +1201,7 @@
       "detail": "PHI column queried without break-glass approval"
     },
     {
-      "ts": "2026-05-07T06:17:30+00:00",
+      "ts": "2026-05-07T09:47:31+00:00",
       "actor": "platform-ci",
       "action": "GRANT",
       "target": "marts.dim_customer",
@@ -1211,7 +1211,7 @@
       "detail": "role analytics_reader granted SELECT on marts.dim_customer"
     },
     {
-      "ts": "2026-05-07T05:11:30+00:00",
+      "ts": "2026-05-07T08:41:31+00:00",
       "actor": "compliance@fivetran.com",
       "action": "GRANT",
       "target": "marts.dim_sku",
@@ -1221,7 +1221,7 @@
       "detail": "role analytics_reader granted SELECT on marts.dim_sku"
     },
     {
-      "ts": "2026-05-07T03:46:30+00:00",
+      "ts": "2026-05-07T07:16:31+00:00",
       "actor": "compliance@fivetran.com",
       "action": "POLICY_VIOLATION",
       "target": "marts.unknown",
@@ -1231,7 +1231,7 @@
       "detail": "PHI column queried without break-glass approval"
     },
     {
-      "ts": "2026-05-07T03:12:30+00:00",
+      "ts": "2026-05-07T06:42:31+00:00",
       "actor": "compliance@fivetran.com",
       "action": "POLICY_VIOLATION",
       "target": "marts.dim_channel",
@@ -1241,7 +1241,7 @@
       "detail": "PHI column queried without break-glass approval"
     },
     {
-      "ts": "2026-05-06T17:27:30+00:00",
+      "ts": "2026-05-06T20:57:31+00:00",
       "actor": "@chletsos",
       "action": "SECRET_ACCESS",
       "target": "marts.fct_views",
@@ -1251,7 +1251,7 @@
       "detail": "warehouse credential rotated successfully"
     },
     {
-      "ts": "2026-05-06T17:24:30+00:00",
+      "ts": "2026-05-06T20:54:31+00:00",
       "actor": "platform-ci",
       "action": "QUERY",
       "target": "marts.fct_appeals",
@@ -1261,7 +1261,7 @@
       "detail": "SELECT scanned 19 GB"
     },
     {
-      "ts": "2026-05-06T16:32:30+00:00",
+      "ts": "2026-05-06T20:02:31+00:00",
       "actor": "bob@fivetran.com",
       "action": "SCHEMA_CHANGE",
       "target": "marts.dim_trial",
@@ -1271,7 +1271,7 @@
       "detail": "+ column added by Fivetran: is_pseudo"
     },
     {
-      "ts": "2026-05-06T14:53:30+00:00",
+      "ts": "2026-05-06T18:23:31+00:00",
       "actor": "compliance@fivetran.com",
       "action": "DEPLOY",
       "target": "marts.dim_patient",
@@ -1281,7 +1281,7 @@
       "detail": "dbt run \u00b7 57 models built in 126s"
     },
     {
-      "ts": "2026-05-06T12:34:30+00:00",
+      "ts": "2026-05-06T16:04:31+00:00",
       "actor": "alice@fivetran.com",
       "action": "PERMISSION_DENIED",
       "target": "marts.fct_holdings",
@@ -1291,7 +1291,7 @@
       "detail": "actor lacked role analytics_admin"
     },
     {
-      "ts": "2026-05-06T12:13:30+00:00",
+      "ts": "2026-05-06T15:43:31+00:00",
       "actor": "platform-ci",
       "action": "PERMISSION_DENIED",
       "target": "marts.fct_orders",
@@ -1301,7 +1301,7 @@
       "detail": "actor lacked role analytics_admin"
     },
     {
-      "ts": "2026-05-06T10:46:30+00:00",
+      "ts": "2026-05-06T14:16:31+00:00",
       "actor": "bob@fivetran.com",
       "action": "DEPLOY",
       "target": "marts.dim_parcel",
@@ -1311,7 +1311,7 @@
       "detail": "dbt run \u00b7 63 models built in 110s"
     },
     {
-      "ts": "2026-05-06T08:39:30+00:00",
+      "ts": "2026-05-06T12:09:31+00:00",
       "actor": "platform-ci",
       "action": "POLICY_VIOLATION",
       "target": "marts.fct_adverse_event",
@@ -1321,7 +1321,7 @@
       "detail": "PHI column queried without break-glass approval"
     },
     {
-      "ts": "2026-05-06T07:36:30+00:00",
+      "ts": "2026-05-06T11:06:31+00:00",
       "actor": "data-eng-bot",
       "action": "SCHEMA_CHANGE",
       "target": "marts.dim_sku",
@@ -1331,7 +1331,7 @@
       "detail": "+ column added by Fivetran: is_pseudo"
     },
     {
-      "ts": "2026-05-06T07:16:30+00:00",
+      "ts": "2026-05-06T10:46:31+00:00",
       "actor": "bob@fivetran.com",
       "action": "POLICY_VIOLATION",
       "target": "marts.dim_patient",
@@ -1341,7 +1341,7 @@
       "detail": "PHI column queried without break-glass approval"
     },
     {
-      "ts": "2026-05-06T04:08:30+00:00",
+      "ts": "2026-05-06T07:38:31+00:00",
       "actor": "platform-ci",
       "action": "QUERY",
       "target": "marts.fct_incidents",
@@ -1351,7 +1351,7 @@
       "detail": "SELECT scanned 16 GB"
     },
     {
-      "ts": "2026-05-06T03:43:30+00:00",
+      "ts": "2026-05-06T07:13:31+00:00",
       "actor": "data-eng-bot",
       "action": "POLICY_VIOLATION",
       "target": "marts.fct_site_visit",
@@ -1361,7 +1361,7 @@
       "detail": "PHI column queried without break-glass approval"
     },
     {
-      "ts": "2026-05-06T01:58:30+00:00",
+      "ts": "2026-05-06T05:28:31+00:00",
       "actor": "@chletsos",
       "action": "QUERY",
       "target": "marts.fct_exemptions_summary",
@@ -1371,7 +1371,7 @@
       "detail": "SELECT scanned 8 GB"
     },
     {
-      "ts": "2026-05-06T01:11:30+00:00",
+      "ts": "2026-05-06T04:41:31+00:00",
       "actor": "compliance@fivetran.com",
       "action": "GRANT",
       "target": "marts.fct_conversations",
@@ -1381,7 +1381,7 @@
       "detail": "role analytics_reader granted SELECT on marts.fct_conversations"
     },
     {
-      "ts": "2026-05-05T23:02:30+00:00",
+      "ts": "2026-05-06T02:32:31+00:00",
       "actor": "vendor-svc@fivetran.com",
       "action": "GRANT",
       "target": "marts.fct_views",
@@ -1391,7 +1391,7 @@
       "detail": "role analytics_reader granted SELECT on marts.fct_views"
     },
     {
-      "ts": "2026-05-05T21:46:30+00:00",
+      "ts": "2026-05-06T01:16:31+00:00",
       "actor": "alice@fivetran.com",
       "action": "GRANT",
       "target": "marts.fct_holdings",
@@ -1401,7 +1401,7 @@
       "detail": "role analytics_reader granted SELECT on marts.fct_holdings"
     },
     {
-      "ts": "2026-05-05T19:58:30+00:00",
+      "ts": "2026-05-05T23:28:31+00:00",
       "actor": "kim@fivetran.com",
       "action": "REVOKE",
       "target": "marts.dim_product",
@@ -1411,7 +1411,7 @@
       "detail": "role contractor_read REVOKED from marts.dim_product"
     },
     {
-      "ts": "2026-05-05T19:40:30+00:00",
+      "ts": "2026-05-05T23:10:31+00:00",
       "actor": "compliance@fivetran.com",
       "action": "QUERY",
       "target": "marts.unknown",
@@ -1421,7 +1421,7 @@
       "detail": "SELECT scanned 3 GB"
     },
     {
-      "ts": "2026-05-05T19:14:30+00:00",
+      "ts": "2026-05-05T22:44:31+00:00",
       "actor": "data-eng-bot",
       "action": "DEPLOY",
       "target": "marts.dim_account",
@@ -1431,7 +1431,7 @@
       "detail": "dbt run \u00b7 70 models built in 233s"
     },
     {
-      "ts": "2026-05-05T18:30:30+00:00",
+      "ts": "2026-05-05T22:00:31+00:00",
       "actor": "kim@fivetran.com",
       "action": "QUERY",
       "target": "marts.dim_customer",
@@ -1441,7 +1441,7 @@
       "detail": "SELECT scanned 34 GB"
     },
     {
-      "ts": "2026-05-05T17:30:30+00:00",
+      "ts": "2026-05-05T21:00:31+00:00",
       "actor": "data-eng-bot",
       "action": "SECRET_ACCESS",
       "target": "marts.unknown",
@@ -1451,7 +1451,7 @@
       "detail": "warehouse credential rotated successfully"
     },
     {
-      "ts": "2026-05-05T17:09:30+00:00",
+      "ts": "2026-05-05T20:39:31+00:00",
       "actor": "kim@fivetran.com",
       "action": "QUERY",
       "target": "marts.dim_customer",
@@ -1461,7 +1461,7 @@
       "detail": "SELECT scanned 42 GB"
     },
     {
-      "ts": "2026-05-05T15:32:30+00:00",
+      "ts": "2026-05-05T19:02:31+00:00",
       "actor": "kim@fivetran.com",
       "action": "SCHEMA_CHANGE",
       "target": "marts.dim_sku",
@@ -1471,7 +1471,7 @@
       "detail": "+ column added by Fivetran: last_login_ip"
     },
     {
-      "ts": "2026-05-05T14:48:30+00:00",
+      "ts": "2026-05-05T18:18:31+00:00",
       "actor": "bob@fivetran.com",
       "action": "GRANT",
       "target": "marts.fct_trend",
@@ -1481,7 +1481,7 @@
       "detail": "role analytics_reader granted SELECT on marts.fct_trend"
     },
     {
-      "ts": "2026-05-05T14:44:30+00:00",
+      "ts": "2026-05-05T18:14:31+00:00",
       "actor": "data-eng-bot",
       "action": "SCHEMA_CHANGE",
       "target": "marts.fct_deploys",
@@ -1491,7 +1491,7 @@
       "detail": "+ column added by Fivetran: utm_term"
     },
     {
-      "ts": "2026-05-05T07:08:30+00:00",
+      "ts": "2026-05-05T10:38:31+00:00",
       "actor": "platform-ci",
       "action": "POLICY_VIOLATION",
       "target": "marts.fct_holdings",
@@ -1501,7 +1501,7 @@
       "detail": "PHI column queried without break-glass approval"
     },
     {
-      "ts": "2026-05-05T06:47:30+00:00",
+      "ts": "2026-05-05T10:17:31+00:00",
       "actor": "kim@fivetran.com",
       "action": "GRANT",
       "target": "marts.unknown",
@@ -1511,7 +1511,7 @@
       "detail": "role analytics_reader granted SELECT on marts.unknown"
     },
     {
-      "ts": "2026-05-05T04:19:30+00:00",
+      "ts": "2026-05-05T07:49:31+00:00",
       "actor": "vendor-svc@fivetran.com",
       "action": "REVOKE",
       "target": "marts.fct_lane_perf",
@@ -1521,7 +1521,7 @@
       "detail": "role contractor_read REVOKED from marts.fct_lane_perf"
     },
     {
-      "ts": "2026-05-05T04:07:30+00:00",
+      "ts": "2026-05-05T07:37:31+00:00",
       "actor": "alice@fivetran.com",
       "action": "GRANT",
       "target": "marts.fct_site_visit",
@@ -1531,7 +1531,7 @@
       "detail": "role analytics_reader granted SELECT on marts.fct_site_visit"
     },
     {
-      "ts": "2026-05-05T01:26:30+00:00",
+      "ts": "2026-05-05T04:56:31+00:00",
       "actor": "platform-ci",
       "action": "REVOKE",
       "target": "marts.fct_enrollment",
@@ -1541,7 +1541,7 @@
       "detail": "role contractor_read REVOKED from marts.fct_enrollment"
     },
     {
-      "ts": "2026-05-05T00:33:30+00:00",
+      "ts": "2026-05-05T04:03:31+00:00",
       "actor": "data-eng-bot",
       "action": "QUERY",
       "target": "marts.fct_views",
@@ -1551,7 +1551,7 @@
       "detail": "SELECT scanned 3 GB"
     },
     {
-      "ts": "2026-05-04T23:08:30+00:00",
+      "ts": "2026-05-05T02:38:31+00:00",
       "actor": "bob@fivetran.com",
       "action": "POLICY_VIOLATION",
       "target": "marts.dim_account",
@@ -1561,7 +1561,7 @@
       "detail": "PHI column queried without break-glass approval"
     },
     {
-      "ts": "2026-05-04T22:39:30+00:00",
+      "ts": "2026-05-05T02:09:31+00:00",
       "actor": "platform-ci",
       "action": "SECRET_ACCESS",
       "target": "marts.unknown",
@@ -1571,7 +1571,7 @@
       "detail": "warehouse credential rotated successfully"
     },
     {
-      "ts": "2026-05-04T22:26:30+00:00",
+      "ts": "2026-05-05T01:56:31+00:00",
       "actor": "platform-ci",
       "action": "GRANT",
       "target": "marts.fct_adverse_event",
@@ -1581,7 +1581,7 @@
       "detail": "role analytics_reader granted SELECT on marts.fct_adverse_event"
     },
     {
-      "ts": "2026-05-04T20:20:30+00:00",
+      "ts": "2026-05-04T23:50:31+00:00",
       "actor": "bob@fivetran.com",
       "action": "POLICY_VIOLATION",
       "target": "marts.fct_encounter",
@@ -1591,7 +1591,7 @@
       "detail": "PHI column queried without break-glass approval"
     },
     {
-      "ts": "2026-05-04T18:56:30+00:00",
+      "ts": "2026-05-04T22:26:31+00:00",
       "actor": "vendor-svc@fivetran.com",
       "action": "GRANT",
       "target": "marts.dim_patient",
@@ -1601,7 +1601,7 @@
       "detail": "role analytics_reader granted SELECT on marts.dim_patient"
     },
     {
-      "ts": "2026-05-04T12:01:30+00:00",
+      "ts": "2026-05-04T15:31:31+00:00",
       "actor": "kim@fivetran.com",
       "action": "GRANT",
       "target": "marts.fct_lane_perf",
@@ -1611,7 +1611,7 @@
       "detail": "role analytics_reader granted SELECT on marts.fct_lane_perf"
     },
     {
-      "ts": "2026-05-04T11:26:30+00:00",
+      "ts": "2026-05-04T14:56:31+00:00",
       "actor": "@chletsos",
       "action": "REVOKE",
       "target": "marts.fct_views",
@@ -1621,7 +1621,7 @@
       "detail": "role contractor_read REVOKED from marts.fct_views"
     },
     {
-      "ts": "2026-05-04T10:04:30+00:00",
+      "ts": "2026-05-04T13:34:31+00:00",
       "actor": "kim@fivetran.com",
       "action": "GRANT",
       "target": "marts.fct_site_visit",
@@ -1631,7 +1631,7 @@
       "detail": "role analytics_reader granted SELECT on marts.fct_site_visit"
     },
     {
-      "ts": "2026-05-04T09:37:30+00:00",
+      "ts": "2026-05-04T13:07:31+00:00",
       "actor": "kim@fivetran.com",
       "action": "GRANT",
       "target": "marts.unknown",
@@ -1641,7 +1641,7 @@
       "detail": "role analytics_reader granted SELECT on marts.unknown"
     },
     {
-      "ts": "2026-05-04T07:38:30+00:00",
+      "ts": "2026-05-04T11:08:31+00:00",
       "actor": "alice@fivetran.com",
       "action": "GRANT",
       "target": "marts.dim_product",
@@ -1651,7 +1651,7 @@
       "detail": "role analytics_reader granted SELECT on marts.dim_product"
     },
     {
-      "ts": "2026-05-04T06:05:30+00:00",
+      "ts": "2026-05-04T09:35:31+00:00",
       "actor": "alice@fivetran.com",
       "action": "DEPLOY",
       "target": "marts.fct_holdings",
@@ -1661,7 +1661,7 @@
       "detail": "dbt run \u00b7 29 models built in 555s"
     },
     {
-      "ts": "2026-05-04T03:05:30+00:00",
+      "ts": "2026-05-04T06:35:31+00:00",
       "actor": "kim@fivetran.com",
       "action": "REVOKE",
       "target": "marts.unknown",
@@ -1671,7 +1671,7 @@
       "detail": "role contractor_read REVOKED from marts.unknown"
     },
     {
-      "ts": "2026-05-04T03:01:30+00:00",
+      "ts": "2026-05-04T06:31:31+00:00",
       "actor": "vendor-svc@fivetran.com",
       "action": "SECRET_ACCESS",
       "target": "marts.dim_issuer",
@@ -1681,7 +1681,7 @@
       "detail": "warehouse credential rotated successfully"
     },
     {
-      "ts": "2026-05-04T00:28:30+00:00",
+      "ts": "2026-05-04T03:58:31+00:00",
       "actor": "kim@fivetran.com",
       "action": "PERMISSION_DENIED",
       "target": "marts.dim_patient",
@@ -1691,7 +1691,7 @@
       "detail": "actor lacked role analytics_admin"
     },
     {
-      "ts": "2026-05-03T22:30:30+00:00",
+      "ts": "2026-05-04T02:00:31+00:00",
       "actor": "compliance@fivetran.com",
       "action": "GRANT",
       "target": "marts.fct_adverse_event",
@@ -1701,7 +1701,7 @@
       "detail": "role analytics_reader granted SELECT on marts.fct_adverse_event"
     },
     {
-      "ts": "2026-05-03T21:56:30+00:00",
+      "ts": "2026-05-04T01:26:31+00:00",
       "actor": "data-eng-bot",
       "action": "PERMISSION_DENIED",
       "target": "marts.fct_enrollment",
@@ -1711,7 +1711,7 @@
       "detail": "actor lacked role analytics_admin"
     },
     {
-      "ts": "2026-05-03T21:29:30+00:00",
+      "ts": "2026-05-04T00:59:31+00:00",
       "actor": "compliance@fivetran.com",
       "action": "DEPLOY",
       "target": "marts.unknown",
@@ -1721,7 +1721,7 @@
       "detail": "dbt run \u00b7 22 models built in 402s"
     },
     {
-      "ts": "2026-05-03T21:21:30+00:00",
+      "ts": "2026-05-04T00:51:31+00:00",
       "actor": "bob@fivetran.com",
       "action": "POLICY_VIOLATION",
       "target": "marts.dim_patient",
@@ -1731,7 +1731,7 @@
       "detail": "PHI column queried without break-glass approval"
     },
     {
-      "ts": "2026-05-03T21:08:30+00:00",
+      "ts": "2026-05-04T00:38:31+00:00",
       "actor": "kim@fivetran.com",
       "action": "PERMISSION_DENIED",
       "target": "marts.fct_shipments",
@@ -1741,7 +1741,7 @@
       "detail": "actor lacked role analytics_admin"
     },
     {
-      "ts": "2026-05-03T16:08:30+00:00",
+      "ts": "2026-05-03T19:38:31+00:00",
       "actor": "@chletsos",
       "action": "QUERY",
       "target": "marts.fct_adverse_event",
@@ -1751,7 +1751,7 @@
       "detail": "SELECT scanned 47 GB"
     },
     {
-      "ts": "2026-05-03T13:45:30+00:00",
+      "ts": "2026-05-03T17:15:31+00:00",
       "actor": "alice@fivetran.com",
       "action": "SCHEMA_CHANGE",
       "target": "marts.fct_complaints",
@@ -1761,7 +1761,7 @@
       "detail": "+ column added by Fivetran: consent_ts"
     },
     {
-      "ts": "2026-05-03T12:43:30+00:00",
+      "ts": "2026-05-03T16:13:31+00:00",
       "actor": "alice@fivetran.com",
       "action": "SCHEMA_CHANGE",
       "target": "marts.fct_macro_series",
@@ -1771,7 +1771,7 @@
       "detail": "+ column added by Fivetran: last_login_ip"
     },
     {
-      "ts": "2026-05-03T11:25:30+00:00",
+      "ts": "2026-05-03T14:55:31+00:00",
       "actor": "data-eng-bot",
       "action": "SECRET_ACCESS",
       "target": "marts.fct_site_visit",
@@ -1781,7 +1781,7 @@
       "detail": "warehouse credential rotated successfully"
     },
     {
-      "ts": "2026-05-03T09:09:30+00:00",
+      "ts": "2026-05-03T12:39:31+00:00",
       "actor": "alice@fivetran.com",
       "action": "GRANT",
       "target": "marts.unknown",
@@ -1791,7 +1791,7 @@
       "detail": "role analytics_reader granted SELECT on marts.unknown"
     },
     {
-      "ts": "2026-05-03T07:48:30+00:00",
+      "ts": "2026-05-03T11:18:31+00:00",
       "actor": "bob@fivetran.com",
       "action": "QUERY",
       "target": "marts.fct_orders",
@@ -1801,7 +1801,7 @@
       "detail": "SELECT scanned 20 GB"
     },
     {
-      "ts": "2026-05-03T07:36:30+00:00",
+      "ts": "2026-05-03T11:06:31+00:00",
       "actor": "bob@fivetran.com",
       "action": "PERMISSION_DENIED",
       "target": "marts.dim_trial",
@@ -1811,7 +1811,7 @@
       "detail": "actor lacked role analytics_admin"
     },
     {
-      "ts": "2026-05-03T06:32:30+00:00",
+      "ts": "2026-05-03T10:02:31+00:00",
       "actor": "kim@fivetran.com",
       "action": "GRANT",
       "target": "marts.fct_complaints",
@@ -1821,7 +1821,7 @@
       "detail": "role analytics_reader granted SELECT on marts.fct_complaints"
     },
     {
-      "ts": "2026-05-03T06:29:30+00:00",
+      "ts": "2026-05-03T09:59:31+00:00",
       "actor": "compliance@fivetran.com",
       "action": "REVOKE",
       "target": "marts.dim_product",
@@ -1831,7 +1831,7 @@
       "detail": "role contractor_read REVOKED from marts.dim_product"
     },
     {
-      "ts": "2026-05-03T02:18:30+00:00",
+      "ts": "2026-05-03T05:48:31+00:00",
       "actor": "compliance@fivetran.com",
       "action": "QUERY",
       "target": "marts.fct_lane_perf",
@@ -1841,7 +1841,7 @@
       "detail": "SELECT scanned 8 GB"
     },
     {
-      "ts": "2026-05-03T01:37:30+00:00",
+      "ts": "2026-05-03T05:07:31+00:00",
       "actor": "data-eng-bot",
       "action": "QUERY",
       "target": "marts.fct_encounter",
@@ -1851,7 +1851,7 @@
       "detail": "SELECT scanned 24 GB"
     },
     {
-      "ts": "2026-05-03T00:53:30+00:00",
+      "ts": "2026-05-03T04:23:31+00:00",
       "actor": "data-eng-bot",
       "action": "POLICY_VIOLATION",
       "target": "marts.dim_trial",
@@ -1861,7 +1861,7 @@
       "detail": "PHI column queried without break-glass approval"
     },
     {
-      "ts": "2026-05-03T00:35:30+00:00",
+      "ts": "2026-05-03T04:05:31+00:00",
       "actor": "kim@fivetran.com",
       "action": "DEPLOY",
       "target": "marts.fct_diagnosis",
@@ -1871,7 +1871,7 @@
       "detail": "dbt run \u00b7 42 models built in 89s"
     },
     {
-      "ts": "2026-05-03T00:21:30+00:00",
+      "ts": "2026-05-03T03:51:31+00:00",
       "actor": "@chletsos",
       "action": "QUERY",
       "target": "marts.fct_appeals",
@@ -1881,7 +1881,7 @@
       "detail": "SELECT scanned 28 GB"
     },
     {
-      "ts": "2026-05-03T00:04:30+00:00",
+      "ts": "2026-05-03T03:34:31+00:00",
       "actor": "bob@fivetran.com",
       "action": "REVOKE",
       "target": "marts.dim_sku",
@@ -1891,7 +1891,7 @@
       "detail": "role contractor_read REVOKED from marts.dim_sku"
     },
     {
-      "ts": "2026-05-02T19:42:30+00:00",
+      "ts": "2026-05-02T23:12:31+00:00",
       "actor": "data-eng-bot",
       "action": "GRANT",
       "target": "marts.fct_views",
@@ -1901,7 +1901,7 @@
       "detail": "role analytics_reader granted SELECT on marts.fct_views"
     },
     {
-      "ts": "2026-05-02T19:05:30+00:00",
+      "ts": "2026-05-02T22:35:31+00:00",
       "actor": "bob@fivetran.com",
       "action": "SCHEMA_CHANGE",
       "target": "marts.fct_appeals",
@@ -1911,7 +1911,7 @@
       "detail": "+ column added by Fivetran: is_pseudo"
     },
     {
-      "ts": "2026-05-02T12:22:30+00:00",
+      "ts": "2026-05-02T15:52:31+00:00",
       "actor": "platform-ci",
       "action": "POLICY_VIOLATION",
       "target": "marts.fct_holdings",
@@ -1921,7 +1921,7 @@
       "detail": "PHI column queried without break-glass approval"
     },
     {
-      "ts": "2026-05-02T09:22:30+00:00",
+      "ts": "2026-05-02T12:52:31+00:00",
       "actor": "bob@fivetran.com",
       "action": "PERMISSION_DENIED",
       "target": "marts.fct_site_visit",
@@ -1931,7 +1931,7 @@
       "detail": "actor lacked role analytics_admin"
     },
     {
-      "ts": "2026-05-02T07:56:30+00:00",
+      "ts": "2026-05-02T11:26:31+00:00",
       "actor": "compliance@fivetran.com",
       "action": "PERMISSION_DENIED",
       "target": "marts.unknown",
@@ -1941,7 +1941,7 @@
       "detail": "actor lacked role analytics_admin"
     },
     {
-      "ts": "2026-05-02T06:16:30+00:00",
+      "ts": "2026-05-02T09:46:31+00:00",
       "actor": "bob@fivetran.com",
       "action": "DEPLOY",
       "target": "marts.fct_carts",
@@ -1951,7 +1951,7 @@
       "detail": "dbt run \u00b7 75 models built in 213s"
     },
     {
-      "ts": "2026-05-02T01:57:30+00:00",
+      "ts": "2026-05-02T05:27:31+00:00",
       "actor": "kim@fivetran.com",
       "action": "POLICY_VIOLATION",
       "target": "marts.dim_channel",
@@ -1961,7 +1961,7 @@
       "detail": "PHI column queried without break-glass approval"
     },
     {
-      "ts": "2026-05-02T01:07:30+00:00",
+      "ts": "2026-05-02T04:37:31+00:00",
       "actor": "kim@fivetran.com",
       "action": "REVOKE",
       "target": "marts.unknown",
@@ -1971,7 +1971,7 @@
       "detail": "role contractor_read REVOKED from marts.unknown"
     },
     {
-      "ts": "2026-05-02T01:03:30+00:00",
+      "ts": "2026-05-02T04:33:31+00:00",
       "actor": "bob@fivetran.com",
       "action": "POLICY_VIOLATION",
       "target": "marts.dim_trial",
@@ -1981,7 +1981,7 @@
       "detail": "PHI column queried without break-glass approval"
     },
     {
-      "ts": "2026-05-01T21:42:30+00:00",
+      "ts": "2026-05-02T01:12:31+00:00",
       "actor": "@chletsos",
       "action": "POLICY_VIOLATION",
       "target": "marts.dim_patient",
