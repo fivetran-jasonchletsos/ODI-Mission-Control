@@ -117,7 +117,7 @@ export default function PortfolioPage() {
   }, [demos]);
 
   return (
-    <div className="mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-8 py-6">
+    <div className="mc-page mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-8 py-6">
       {/* Header */}
       <div className="flex items-end justify-between gap-4 mb-5">
         <div>

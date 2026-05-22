@@ -49,7 +49,7 @@ export default function TrafficPage() {
   }, []);
 
   return (
-    <div className="mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-8 py-8 lg:py-12">
+    <div className="mc-page mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-8 py-8 lg:py-12">
       <div className="mb-8">
         <p className="font-mono text-[10px] uppercase tracking-[0.3em]" style={{ color: 'var(--accent)' }}>
           Traffic — GitHub Pages

@@ -30,20 +30,37 @@ export default function Layout() {
       {/* Top chrome */}
       <header
         className="sticky top-0 z-30"
-        style={{ background: 'rgba(10,12,16,0.92)', backdropFilter: 'blur(8px)', borderBottom: '1px solid var(--hairline)' }}
+        style={{
+          background: 'rgba(7,9,13,0.94)',
+          backdropFilter: 'blur(10px)',
+          borderBottom: '1px solid rgba(0,212,245,0.12)',
+          boxShadow: '0 1px 24px rgba(0,0,0,0.6)',
+        }}
       >
         <div className="mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-8 h-14 flex items-center gap-4">
-          <Link to="/" className="flex items-center gap-2.5 shrink-0">
+          <Link to="/" className="flex items-center gap-3 shrink-0">
             <span
-              className="inline-flex w-7 h-7 rounded items-center justify-center font-black text-base font-mono"
-              style={{ background: '#0a0a0a', color: 'var(--info)', border: '1px solid var(--hairline-2)' }}
+              className="inline-flex w-8 h-8 rounded-sm items-center justify-center font-black text-sm"
+              style={{
+                background: 'linear-gradient(135deg, #0d1018 0%, #101620 100%)',
+                color: 'var(--info)',
+                border: '1px solid rgba(0,212,245,0.35)',
+                fontFamily: 'var(--font-display)',
+                letterSpacing: '0.05em',
+                boxShadow: '0 0 12px rgba(0,212,245,0.12)',
+              }}
               aria-hidden="true"
             >
-              M
+              MC
             </span>
             <div className="flex flex-col leading-tight">
-              <span className="text-[13px] font-bold tracking-tight">ODI Mission Control</span>
-              <span className="text-[10px] uppercase tracking-widest" style={{ color: 'var(--ink-dim)' }}>
+              <span
+                className="text-[14px] font-bold tracking-wide"
+                style={{ fontFamily: 'var(--font-display)', letterSpacing: '0.08em', color: 'var(--ink)' }}
+              >
+                ODI MISSION CONTROL
+              </span>
+              <span className="text-[9px] uppercase tracking-[0.22em]" style={{ color: 'var(--ink-dim)', fontFamily: 'var(--font-display)' }}>
                 Governance · Observability
               </span>
             </div>
@@ -103,11 +120,11 @@ export default function Layout() {
         <Outlet />
       </main>
 
-      <footer className="mt-auto" style={{ borderTop: '1px solid var(--hairline)' }}>
-        <div className="mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 text-[11px] font-mono"
+      <footer className="mt-auto" style={{ borderTop: '1px solid rgba(0,212,245,0.10)' }}>
+        <div className="mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-8 py-3 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2"
              style={{ color: 'var(--ink-dim)' }}>
-          <span>Fivetran ODI · governance + observability over 8 industry demos</span>
-          <span>v1 · daily refresh</span>
+          <span className="text-[11px] font-mono">Fivetran ODI · governance + observability · 8 industry demos</span>
+          <span className="text-[10px] uppercase tracking-[0.16em]" style={{ fontFamily: 'var(--font-display)', color: 'var(--ink-dim)' }}>v1 · daily refresh</span>
         </div>
       </footer>
     </div>

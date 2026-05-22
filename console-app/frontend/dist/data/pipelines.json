@@ -2,6 +2,7 @@
   "connectors": [
     {
       "id": "tax-assessment_wprdc",
+      "fivetran_id": "tax-assessment_wprdc",
       "demo": "tax-assessment",
       "source": "wprdc",
       "destination": "databricks",
@@ -65,6 +66,7 @@
     },
     {
       "id": "tax-assessment_allegheny_re",
+      "fivetran_id": "tax-assessment_allegheny_re",
       "demo": "tax-assessment",
       "source": "allegheny_re",
       "destination": "databricks",
@@ -128,6 +130,7 @@
     },
     {
       "id": "healthcare_epic_clarity",
+      "fivetran_id": "healthcare_epic_clarity",
       "demo": "healthcare",
       "source": "epic_clarity",
       "destination": "snowflake",
@@ -191,6 +194,7 @@
     },
     {
       "id": "healthcare_hl7_fhir",
+      "fivetran_id": "healthcare_hl7_fhir",
       "demo": "healthcare",
       "source": "hl7_fhir",
       "destination": "snowflake",
@@ -254,6 +258,7 @@
     },
     {
       "id": "finserv_sec_edgar",
+      "fivetran_id": "finserv_sec_edgar",
       "demo": "finserv",
       "source": "sec_edgar",
       "destination": "athena/iceberg",
@@ -317,6 +322,7 @@
     },
     {
       "id": "finserv_fred",
+      "fivetran_id": "finserv_fred",
       "demo": "finserv",
       "source": "fred",
       "destination": "athena/iceberg",
@@ -380,6 +386,7 @@
     },
     {
       "id": "finserv_cfpb",
+      "fivetran_id": "finserv_cfpb",
       "demo": "finserv",
       "source": "cfpb",
       "destination": "athena/iceberg",
@@ -443,6 +450,7 @@
     },
     {
       "id": "insurance_oracle_pas",
+      "fivetran_id": "insurance_oracle_pas",
       "demo": "insurance",
       "source": "oracle_pas",
       "destination": "athena/iceberg",
@@ -506,6 +514,7 @@
     },
     {
       "id": "insurance_sqlserver_claims",
+      "fivetran_id": "insurance_sqlserver_claims",
       "demo": "insurance",
       "source": "sqlserver_claims",
       "destination": "athena/iceberg",
@@ -569,6 +578,7 @@
     },
     {
       "id": "insurance_naic_filings",
+      "fivetran_id": "insurance_naic_filings",
       "demo": "insurance",
       "source": "naic_filings",
       "destination": "athena/iceberg",
@@ -632,6 +642,7 @@
     },
     {
       "id": "insurance_noaa_storm_events",
+      "fivetran_id": "insurance_noaa_storm_events",
       "demo": "insurance",
       "source": "noaa_storm_events",
       "destination": "athena/iceberg",
@@ -695,6 +706,7 @@
     },
     {
       "id": "media_youtube",
+      "fivetran_id": "media_youtube",
       "demo": "media",
       "source": "youtube",
       "destination": "athena/iceberg",
@@ -758,6 +770,7 @@
     },
     {
       "id": "media_reddit",
+      "fivetran_id": "media_reddit",
       "demo": "media",
       "source": "reddit",
       "destination": "athena/iceberg",
@@ -821,6 +834,7 @@
     },
     {
       "id": "media_wikipedia",
+      "fivetran_id": "media_wikipedia",
       "demo": "media",
       "source": "wikipedia",
       "destination": "athena/iceberg",
@@ -884,6 +898,7 @@
     },
     {
       "id": "retail_shopify",
+      "fivetran_id": "retail_shopify",
       "demo": "retail",
       "source": "shopify",
       "destination": "athena/iceberg",
@@ -947,6 +962,7 @@
     },
     {
       "id": "retail_stripe",
+      "fivetran_id": "retail_stripe",
       "demo": "retail",
       "source": "stripe",
       "destination": "athena/iceberg",
@@ -1010,6 +1026,7 @@
     },
     {
       "id": "retail_klaviyo",
+      "fivetran_id": "retail_klaviyo",
       "demo": "retail",
       "source": "klaviyo",
       "destination": "athena/iceberg",
@@ -1073,6 +1090,7 @@
     },
     {
       "id": "techsaas_salesforce",
+      "fivetran_id": "techsaas_salesforce",
       "demo": "techsaas",
       "source": "salesforce",
       "destination": "athena/iceberg",
@@ -1136,6 +1154,7 @@
     },
     {
       "id": "techsaas_stripe",
+      "fivetran_id": "techsaas_stripe",
       "demo": "techsaas",
       "source": "stripe",
       "destination": "athena/iceberg",
@@ -1199,6 +1218,7 @@
     },
     {
       "id": "techsaas_pagerduty",
+      "fivetran_id": "techsaas_pagerduty",
       "demo": "techsaas",
       "source": "pagerduty",
       "destination": "athena/iceberg",
@@ -1262,6 +1282,7 @@
     },
     {
       "id": "techsaas_github",
+      "fivetran_id": "techsaas_github",
       "demo": "techsaas",
       "source": "github",
       "destination": "athena/iceberg",
@@ -1325,6 +1346,7 @@
     },
     {
       "id": "supplychain_sap",
+      "fivetran_id": "supplychain_sap",
       "demo": "supplychain",
       "source": "sap",
       "destination": "athena/iceberg",
@@ -1388,6 +1410,7 @@
     },
     {
       "id": "supplychain_edi",
+      "fivetran_id": "supplychain_edi",
       "demo": "supplychain",
       "source": "edi",
       "destination": "athena/iceberg",
@@ -1451,6 +1474,7 @@
     },
     {
       "id": "supplychain_gps_telemetry",
+      "fivetran_id": "supplychain_gps_telemetry",
       "demo": "supplychain",
       "source": "gps_telemetry",
       "destination": "athena/iceberg",
@@ -1514,6 +1538,7 @@
     },
     {
       "id": "lifesci_veeva_ctms",
+      "fivetran_id": "lifesci_veeva_ctms",
       "demo": "lifesci",
       "source": "veeva_ctms",
       "destination": "athena/iceberg",
@@ -1577,6 +1602,7 @@
     },
     {
       "id": "lifesci_redcap",
+      "fivetran_id": "lifesci_redcap",
       "demo": "lifesci",
       "source": "redcap",
       "destination": "athena/iceberg",
@@ -1640,6 +1666,7 @@
     },
     {
       "id": "lifesci_clinicaltrials_gov",
+      "fivetran_id": "lifesci_clinicaltrials_gov",
       "demo": "lifesci",
       "source": "clinicaltrials_gov",
       "destination": "athena/iceberg",

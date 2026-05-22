@@ -165,6 +165,7 @@ export interface CostBreakdown {
 
 export interface PipelineConnector {
   id: string;
+  fivetran_id?: string;                // Fivetran connector slug for deep-link
   demo: DemoKey;
   source: string;                      // e.g. "postgres", "veeva"
   destination: string;                 // e.g. "databricks"

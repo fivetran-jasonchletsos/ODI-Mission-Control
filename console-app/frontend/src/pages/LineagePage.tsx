@@ -136,7 +136,7 @@ export default function LineagePage() {
   );
 
   return (
-    <div className="mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-8 py-6">
+    <div className="mc-page mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-8 py-6">
       {/* ---------- Header ---------- */}
       <header className="mb-5">
         <div className="eyebrow">Lineage explorer</div>
@@ -366,8 +366,11 @@ export default function LineagePage() {
             ) : (
               <div className="space-y-3 text-[12px]">
                 <div>
-                  <div className="eyebrow mb-1">ID</div>
+                  <div className="eyebrow mb-1">Table</div>
                   <div className="font-mono break-all" style={{ color: 'var(--ink)' }}>
+                    {shortName(selectedNode.id)}
+                  </div>
+                  <div className="font-mono text-[10px] mt-0.5 break-all" style={{ color: 'var(--ink-dim)' }}>
                     {selectedNode.id}
                   </div>
                 </div>
@@ -484,20 +487,23 @@ function EdgeList({
         </div>
       ) : (
         <ul className="space-y-1.5">
-          {edges.map((e, i) => (
-            <li
-              key={`${e.from}->${e.to}-${i}`}
-              className="rounded px-2 py-1.5"
-              style={{ background: 'rgba(255,255,255,0.02)', border: '1px solid var(--hairline)' }}
-            >
-              <div className="font-mono text-[11px] break-all" style={{ color: 'var(--ink-2)' }}>
-                {side === 'from' ? e.from : e.to}
-              </div>
-              <div className="font-mono text-[10px] mt-0.5" style={{ color: 'var(--ink-dim)' }}>
-                {e.transform}
-              </div>
-            </li>
-          ))}
+          {edges.map((e, i) => {
+            const rawId = side === 'from' ? e.from : e.to;
+            return (
+              <li
+                key={`${e.from}->${e.to}-${i}`}
+                className="rounded px-2 py-1.5"
+                style={{ background: 'rgba(255,255,255,0.02)', border: '1px solid var(--hairline)' }}
+              >
+                <div className="font-mono text-[11px] break-all" style={{ color: 'var(--ink-2)' }}>
+                  {shortName(rawId)}
+                </div>
+                <div className="font-mono text-[10px] mt-0.5" style={{ color: 'var(--ink-dim)' }}>
+                  {e.transform}
+                </div>
+              </li>
+            );
+          })}
         </ul>
       )}
     </div>

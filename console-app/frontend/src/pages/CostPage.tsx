@@ -90,7 +90,7 @@ export default function CostPage() {
   const loading = !cost;
 
   return (
-    <div className="mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-8 py-6">
+    <div className="mc-page mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-8 py-6">
       {/* Anomaly banners */}
       {anomalies.length > 0 && (
         <div className="mb-4 space-y-2">

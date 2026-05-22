@@ -158,7 +158,7 @@ export default function QualityPage() {
   }, [monitors, demoFilter]);
 
   return (
-    <div className="mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-8 py-6">
+    <div className="mc-page mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-8 py-6">
       {/* ---------- Page Header ---------- */}
       <header className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-3 mb-6">
         <div>

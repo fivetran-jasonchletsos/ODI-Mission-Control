@@ -98,7 +98,7 @@ export default function PipelinesPage() {
   }, [pipelines, demos, demoNameByKey]);
 
   return (
-    <div className="mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-8 py-6">
+    <div className="mc-page mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-8 py-6">
       {/* Header */}
       <div className="flex items-end justify-between gap-4 mb-5">
         <div>
@@ -172,12 +172,13 @@ export default function PipelinesPage() {
             <table className="data-table">
               <thead>
                 <tr>
-                  <th>Pipeline</th>
+                  <th>Connector</th>
                   <th>Source → Destination</th>
                   <th>Status</th>
                   <th>Throughput (24h)</th>
                   <th>Lag (24h)</th>
                   <th>Last sync</th>
+                  <th></th>
                 </tr>
               </thead>
               <tbody>
@@ -185,7 +186,7 @@ export default function PipelinesPage() {
                   <Fragment key={group.demo}>
                     {/* Demo section divider */}
                     <tr style={{ background: 'rgba(255,255,255,0.025)' }}>
-                      <td colSpan={6} style={{ padding: '8px 12px', borderBottom: '1px solid var(--hairline-2)' }}>
+                      <td colSpan={7} style={{ padding: '8px 12px', borderBottom: '1px solid var(--hairline-2)' }}>
                         <div className="flex items-center gap-2">
                           <span className="eyebrow" style={{ color: 'var(--ink-muted)' }}>
                             {group.name}
@@ -199,9 +200,16 @@ export default function PipelinesPage() {
                     {group.rows.map((p) => (
                       <tr key={p.id}>
                         <td>
-                          <span className="font-mono text-[12px]" style={{ color: 'var(--ink)' }}>
-                            {p.demo}.{p.source}
-                          </span>
+                          <div className="flex flex-col gap-0.5">
+                            <span className="font-mono text-[12px]" style={{ color: 'var(--ink)' }}>
+                              {p.source}
+                            </span>
+                            {p.fivetran_id && (
+                              <span className="font-mono text-[10px]" style={{ color: 'var(--ink-dim)' }}>
+                                {p.fivetran_id}
+                              </span>
+                            )}
+                          </div>
                         </td>
                         <td>
                           <span className="font-mono text-[11.5px]" style={{ color: 'var(--ink-2)' }}>
@@ -253,6 +261,19 @@ export default function PipelinesPage() {
                           <span className="font-mono text-[11.5px]" style={{ color: 'var(--ink-muted)' }}>
                             {relTime(p.last_sync_at)}
                           </span>
+                        </td>
+                        <td>
+                          {p.fivetran_id && (
+                            <a
+                              className="btn-fivetran"
+                              href={`https://fivetran.com/dashboard/connectors/${p.fivetran_id}`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              title={`Open connector ${p.fivetran_id} in Fivetran`}
+                            >
+                              Open in Fivetran
+                            </a>
+                          )}
                         </td>
                       </tr>
                     ))}

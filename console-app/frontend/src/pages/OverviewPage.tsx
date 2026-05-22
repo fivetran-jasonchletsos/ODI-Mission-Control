@@ -89,13 +89,13 @@ export default function OverviewPage() {
   }
 
   return (
-    <div className="mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-8 py-6">
+    <div className="mc-page mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-8 py-6">
       {/* Hero strip — mission control banner */}
       <div className="flex items-end justify-between mb-5 flex-wrap gap-3">
         <div>
           <div className="eyebrow mb-1">Mission Control · {relTime(summary.generated_at)}</div>
-          <h1 className="text-2xl font-bold tracking-tight" style={{ color: 'var(--ink)' }}>
-            Portfolio observability
+          <h1 className="text-[26px] font-bold tracking-wide" style={{ color: 'var(--ink)', letterSpacing: '0.04em' }}>
+            Portfolio Observability
           </h1>
           <p className="mt-1 text-sm" style={{ color: 'var(--ink-muted)' }}>
             Governance, data quality, and pipeline health across {summary.demos_total} live ODI demos.

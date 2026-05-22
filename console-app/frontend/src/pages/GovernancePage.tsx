@@ -133,7 +133,7 @@ export default function GovernancePage() {
 
   if (err) {
     return (
-      <div className="mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-8 py-6">
+      <div className="mc-page mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-8 py-6">
         <div className="panel p-6 font-mono text-sm" style={{ color: 'var(--bad)' }}>
           Failed to load governance data: {err}
         </div>
@@ -144,7 +144,7 @@ export default function GovernancePage() {
   const loading = !controls || !roles || !audit;
 
   return (
-    <div className="mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-8 py-6">
+    <div className="mc-page mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-8 py-6">
       {/* Header */}
       <div className="mb-5">
         <div className="eyebrow">Governance</div>
