@@ -29,6 +29,13 @@ NOW_ISO = NOW.replace(microsecond=0).isoformat()
 # ---------------------------------------------------------------------------
 DEMOS = [
     {
+        "key": "dbt-wizard", "name": "dbt Wizard", "industry": "ai-native dbt · plain-language questions to working models",
+        "url": "https://fivetran-jasonchletsos.github.io/00-Intro-ODI-Demo/dbt-wizard/",
+        "repo": "fivetran-jasonchletsos/00-Intro-ODI-Demo",
+        "warehouse": "Snowflake", "owner": "@platform-ops",
+        "connectors": ["any_dbt_project"], "pii_tier": "public",
+    },
+    {
         "key": "great-expectations", "name": "Great Expectations", "industry": "OSS data-quality framework — now stewarded by Fivetran",
         "url": "https://fivetran-jasonchletsos.github.io/00-Intro-ODI-Demo/great-expectations/",
         "repo": "great-expectations/great_expectations",

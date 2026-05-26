@@ -1,6 +1,24 @@
 {
   "demos": [
     {
+      "key": "dbt-wizard",
+      "name": "dbt Wizard",
+      "industry": "ai-native dbt \u00b7 plain-language questions to working models",
+      "url": "https://fivetran-jasonchletsos.github.io/00-Intro-ODI-Demo/dbt-wizard/",
+      "repo": "fivetran-jasonchletsos/00-Intro-ODI-Demo",
+      "warehouse": "Snowflake",
+      "owner": "@platform-ops",
+      "connectors": [
+        "any_dbt_project"
+      ],
+      "pii_tier": "public",
+      "rows_24h": 1407888,
+      "monthly_active": 624,
+      "uptime_pct": 99.96,
+      "cost_30d_usd": 348.1,
+      "status": "healthy"
+    },
+    {
       "key": "great-expectations",
       "name": "Great Expectations",
       "industry": "OSS data-quality framework \u2014 now stewarded by Fivetran",

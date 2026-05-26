@@ -1,6 +1,261 @@
 {
   "usage": [
     {
+      "key": "dbt-wizard",
+      "trailing_30d": [
+        {
+          "date": "2026-04-27",
+          "sessions": 20,
+          "page_views": 68,
+          "uniques": 17,
+          "avg_session_s": 210
+        },
+        {
+          "date": "2026-04-28",
+          "sessions": 16,
+          "page_views": 83,
+          "uniques": 13,
+          "avg_session_s": 222
+        },
+        {
+          "date": "2026-04-29",
+          "sessions": 14,
+          "page_views": 78,
+          "uniques": 10,
+          "avg_session_s": 160
+        },
+        {
+          "date": "2026-04-30",
+          "sessions": 13,
+          "page_views": 50,
+          "uniques": 9,
+          "avg_session_s": 206
+        },
+        {
+          "date": "2026-05-01",
+          "sessions": 16,
+          "page_views": 73,
+          "uniques": 13,
+          "avg_session_s": 171
+        },
+        {
+          "date": "2026-05-02",
+          "sessions": 11,
+          "page_views": 50,
+          "uniques": 8,
+          "avg_session_s": 172
+        },
+        {
+          "date": "2026-05-03",
+          "sessions": 10,
+          "page_views": 50,
+          "uniques": 7,
+          "avg_session_s": 150
+        },
+        {
+          "date": "2026-05-04",
+          "sessions": 18,
+          "page_views": 83,
+          "uniques": 13,
+          "avg_session_s": 116
+        },
+        {
+          "date": "2026-05-05",
+          "sessions": 21,
+          "page_views": 81,
+          "uniques": 17,
+          "avg_session_s": 163
+        },
+        {
+          "date": "2026-05-06",
+          "sessions": 15,
+          "page_views": 85,
+          "uniques": 11,
+          "avg_session_s": 178
+        },
+        {
+          "date": "2026-05-07",
+          "sessions": 25,
+          "page_views": 140,
+          "uniques": 20,
+          "avg_session_s": 138
+        },
+        {
+          "date": "2026-05-08",
+          "sessions": 16,
+          "page_views": 56,
+          "uniques": 12,
+          "avg_session_s": 165
+        },
+        {
+          "date": "2026-05-09",
+          "sessions": 9,
+          "page_views": 45,
+          "uniques": 6,
+          "avg_session_s": 232
+        },
+        {
+          "date": "2026-05-10",
+          "sessions": 11,
+          "page_views": 64,
+          "uniques": 8,
+          "avg_session_s": 192
+        },
+        {
+          "date": "2026-05-11",
+          "sessions": 17,
+          "page_views": 95,
+          "uniques": 14,
+          "avg_session_s": 203
+        },
+        {
+          "date": "2026-05-12",
+          "sessions": 25,
+          "page_views": 134,
+          "uniques": 20,
+          "avg_session_s": 145
+        },
+        {
+          "date": "2026-05-13",
+          "sessions": 18,
+          "page_views": 79,
+          "uniques": 14,
+          "avg_session_s": 221
+        },
+        {
+          "date": "2026-05-14",
+          "sessions": 17,
+          "page_views": 111,
+          "uniques": 12,
+          "avg_session_s": 137
+        },
+        {
+          "date": "2026-05-15",
+          "sessions": 19,
+          "page_views": 74,
+          "uniques": 15,
+          "avg_session_s": 202
+        },
+        {
+          "date": "2026-05-16",
+          "sessions": 11,
+          "page_views": 57,
+          "uniques": 9,
+          "avg_session_s": 199
+        },
+        {
+          "date": "2026-05-17",
+          "sessions": 9,
+          "page_views": 53,
+          "uniques": 7,
+          "avg_session_s": 194
+        },
+        {
+          "date": "2026-05-18",
+          "sessions": 22,
+          "page_views": 115,
+          "uniques": 18,
+          "avg_session_s": 199
+        },
+        {
+          "date": "2026-05-19",
+          "sessions": 17,
+          "page_views": 104,
+          "uniques": 14,
+          "avg_session_s": 179
+        },
+        {
+          "date": "2026-05-20",
+          "sessions": 19,
+          "page_views": 86,
+          "uniques": 14,
+          "avg_session_s": 210
+        },
+        {
+          "date": "2026-05-21",
+          "sessions": 17,
+          "page_views": 67,
+          "uniques": 12,
+          "avg_session_s": 183
+        },
+        {
+          "date": "2026-05-22",
+          "sessions": 22,
+          "page_views": 136,
+          "uniques": 19,
+          "avg_session_s": 163
+        },
+        {
+          "date": "2026-05-23",
+          "sessions": 11,
+          "page_views": 65,
+          "uniques": 9,
+          "avg_session_s": 171
+        },
+        {
+          "date": "2026-05-24",
+          "sessions": 10,
+          "page_views": 57,
+          "uniques": 7,
+          "avg_session_s": 130
+        },
+        {
+          "date": "2026-05-25",
+          "sessions": 21,
+          "page_views": 86,
+          "uniques": 18,
+          "avg_session_s": 160
+        },
+        {
+          "date": "2026-05-26",
+          "sessions": 21,
+          "page_views": 85,
+          "uniques": 15,
+          "avg_session_s": 217
+        }
+      ],
+      "top_pages": [
+        {
+          "path": "/dashboard",
+          "views": 22
+        },
+        {
+          "path": "/pipeline",
+          "views": 16
+        },
+        {
+          "path": "/",
+          "views": 12
+        }
+      ],
+      "geo": [
+        {
+          "country": "United Kingdom",
+          "sessions": 41
+        },
+        {
+          "country": "Japan",
+          "sessions": 117
+        },
+        {
+          "country": "Germany",
+          "sessions": 88
+        },
+        {
+          "country": "Australia",
+          "sessions": 25
+        },
+        {
+          "country": "Canada",
+          "sessions": 19
+        },
+        {
+          "country": "Brazil",
+          "sessions": 42
+        }
+      ]
+    },
+    {
       "key": "great-expectations",
       "trailing_30d": [
         {

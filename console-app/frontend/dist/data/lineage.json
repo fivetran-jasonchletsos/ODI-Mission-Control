@@ -1,6 +1,48 @@
 {
   "nodes": [
     {
+      "id": "dbt-wizard.source.any_dbt_project",
+      "layer": "source",
+      "demo": "dbt-wizard",
+      "rows": 883515,
+      "pii_tier": "public"
+    },
+    {
+      "id": "dbt-wizard.bronze.any_dbt_project",
+      "layer": "bronze",
+      "demo": "dbt-wizard",
+      "rows": 3553149,
+      "pii_tier": "public"
+    },
+    {
+      "id": "dbt-wizard.silver.any_dbt_project_clean",
+      "layer": "silver",
+      "demo": "dbt-wizard",
+      "rows": 5785763,
+      "pii_tier": "public"
+    },
+    {
+      "id": "dbt-wizard.gold.fct_any_dbt_project",
+      "layer": "gold",
+      "demo": "dbt-wizard",
+      "rows": 6905543,
+      "pii_tier": "public"
+    },
+    {
+      "id": "dbt-wizard.mart.unknown",
+      "layer": "mart",
+      "demo": "dbt-wizard",
+      "rows": 7549738,
+      "pii_tier": "public"
+    },
+    {
+      "id": "dbt-wizard.app.dashboard",
+      "layer": "app",
+      "demo": "dbt-wizard",
+      "rows": 0,
+      "pii_tier": "public"
+    },
+    {
       "id": "great-expectations.source.any_dbt_project",
       "layer": "source",
       "demo": "great-expectations",
@@ -4853,6 +4895,31 @@
     }
   ],
   "edges": [
+    {
+      "from": "dbt-wizard.source.any_dbt_project",
+      "to": "dbt-wizard.bronze.any_dbt_project",
+      "transform": "Fivetran SDK \u00b7 1:1 mirror"
+    },
+    {
+      "from": "dbt-wizard.bronze.any_dbt_project",
+      "to": "dbt-wizard.silver.any_dbt_project_clean",
+      "transform": "dbt model \u00b7 type cast + dedupe"
+    },
+    {
+      "from": "dbt-wizard.silver.any_dbt_project_clean",
+      "to": "dbt-wizard.gold.fct_any_dbt_project",
+      "transform": "dbt model \u00b7 business logic"
+    },
+    {
+      "from": "dbt-wizard.gold.fct_any_dbt_project",
+      "to": "dbt-wizard.mart.unknown",
+      "transform": "dbt model \u00b7 final mart"
+    },
+    {
+      "from": "dbt-wizard.mart.unknown",
+      "to": "dbt-wizard.app.dashboard",
+      "transform": "API \u00b7 cache layer"
+    },
     {
       "from": "great-expectations.source.any_dbt_project",
       "to": "great-expectations.bronze.any_dbt_project",
