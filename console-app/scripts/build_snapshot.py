@@ -36,8 +36,8 @@ DEMOS = [
         "connectors": ["any_dbt_project", "any_iceberg_delta_source"], "pii_tier": "public",
     },
     {
-        "key": "run-cache", "name": "Run Cache", "industry": "dbt Core plugin · skip the work that didn't change",
-        "url": "https://fivetran-jasonchletsos.github.io/00-Intro-ODI-Demo/run-cache/",
+        "key": "dbt-state", "name": "dbt State", "industry": "dbt Core plugin · skip the work that didn't change",
+        "url": "https://fivetran-jasonchletsos.github.io/00-Intro-ODI-Demo/dbt-state/",
         "repo": "fivetran-jasonchletsos/00-Intro-ODI-Demo",
         "warehouse": "Snowflake", "owner": "@platform-ops",
         "connectors": ["any_dbt_core_project"], "pii_tier": "public",

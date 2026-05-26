@@ -61,7 +61,7 @@
         120,
         64
       ],
-      "last_sync_at": "2026-05-26T11:06:16+00:00"
+      "last_sync_at": "2026-05-26T13:30:30+00:00"
     },
     {
       "id": "great-expectations_any_iceberg_delta_source",
@@ -124,70 +124,70 @@
         83,
         60
       ],
-      "last_sync_at": "2026-05-26T10:33:16+00:00"
+      "last_sync_at": "2026-05-26T12:57:30+00:00"
     },
     {
-      "id": "run-cache_any_dbt_core_project",
-      "demo": "run-cache",
+      "id": "dbt-state_any_dbt_core_project",
+      "demo": "dbt-state",
       "source": "any_dbt_core_project",
       "destination": "snowflake",
       "status": "healthy",
-      "rows_24h": 1455894,
-      "lag_s": 42,
-      "throughput_rps": 1109,
+      "rows_24h": 9318510,
+      "lag_s": 22,
+      "throughput_rps": 11545,
       "throughput_24h": [
-        1232,
-        946,
-        1116,
-        1198,
-        1321,
-        1009,
-        990,
-        502,
-        589,
-        939,
-        1460,
-        1044,
-        1123,
-        1079,
-        1346,
-        1091,
-        1291,
-        1322,
-        1282,
-        1315,
-        1523,
-        984,
-        1150,
-        1109
+        7024,
+        5136,
+        10251,
+        7085,
+        8653,
+        7915,
+        7774,
+        8910,
+        11497,
+        9286,
+        8036,
+        11671,
+        4979,
+        8437,
+        7385,
+        9679,
+        7621,
+        10821,
+        9639,
+        7730,
+        5675,
+        7650,
+        12679,
+        11545
       ],
       "lag_24h": [
-        71,
-        39,
-        97,
-        54,
-        71,
-        31,
-        39,
-        37,
-        73,
-        127,
-        68,
-        66,
-        63,
-        49,
-        78,
-        51,
-        44,
-        64,
-        60,
-        62,
-        66,
-        42,
+        18,
+        30,
         47,
-        42
+        48,
+        20,
+        60,
+        57,
+        49,
+        54,
+        46,
+        43,
+        16,
+        13,
+        40,
+        13,
+        30,
+        31,
+        43,
+        21,
+        26,
+        42,
+        84,
+        17,
+        22
       ],
-      "last_sync_at": "2026-05-26T10:45:16+00:00"
+      "last_sync_at": "2026-05-26T13:08:30+00:00"
     },
     {
       "id": "build-with-claude-code_all_catalog_repos",
@@ -250,7 +250,7 @@
         3,
         4
       ],
-      "last_sync_at": "2026-05-26T09:42:16+00:00"
+      "last_sync_at": "2026-05-26T12:06:30+00:00"
     },
     {
       "id": "scout-room_lahman_baseball_db",
@@ -313,7 +313,7 @@
         17,
         21
       ],
-      "last_sync_at": "2026-05-26T13:11:16+00:00"
+      "last_sync_at": "2026-05-26T15:35:30+00:00"
     },
     {
       "id": "scout-room_mlb_statcast",
@@ -376,7 +376,7 @@
         65,
         57
       ],
-      "last_sync_at": "2026-05-26T14:05:16+00:00"
+      "last_sync_at": "2026-05-26T16:29:30+00:00"
     },
     {
       "id": "scout-room_mlb_stats_api",
@@ -439,7 +439,7 @@
         9,
         10
       ],
-      "last_sync_at": "2026-05-26T08:21:16+00:00"
+      "last_sync_at": "2026-05-26T10:45:30+00:00"
     },
     {
       "id": "crisis-room_sap_s4hana",
@@ -502,7 +502,7 @@
         36,
         37
       ],
-      "last_sync_at": "2026-05-26T10:42:16+00:00"
+      "last_sync_at": "2026-05-26T13:06:30+00:00"
     },
     {
       "id": "crisis-room_manhattan_wms",
@@ -565,7 +565,7 @@
         57,
         63
       ],
-      "last_sync_at": "2026-05-26T09:27:16+00:00"
+      "last_sync_at": "2026-05-26T11:51:30+00:00"
     },
     {
       "id": "crisis-room_oracle_tms",
@@ -628,7 +628,7 @@
         53,
         54
       ],
-      "last_sync_at": "2026-05-26T12:20:16+00:00"
+      "last_sync_at": "2026-05-26T14:44:30+00:00"
     },
     {
       "id": "crisis-room_walmart_retail_link",
@@ -691,7 +691,7 @@
         102,
         50
       ],
-      "last_sync_at": "2026-05-26T10:23:16+00:00"
+      "last_sync_at": "2026-05-26T12:47:30+00:00"
     },
     {
       "id": "brief-room_salesforce",
@@ -754,7 +754,7 @@
         21,
         21
       ],
-      "last_sync_at": "2026-05-26T13:00:16+00:00"
+      "last_sync_at": "2026-05-26T15:24:30+00:00"
     },
     {
       "id": "brief-room_gainsight",
@@ -817,7 +817,7 @@
         62,
         480
       ],
-      "last_sync_at": "2026-05-26T11:30:16+00:00"
+      "last_sync_at": "2026-05-26T13:54:30+00:00"
     },
     {
       "id": "brief-room_stripe",
@@ -880,7 +880,7 @@
         29,
         24
       ],
-      "last_sync_at": "2026-05-26T12:12:16+00:00"
+      "last_sync_at": "2026-05-26T14:36:30+00:00"
     },
     {
       "id": "brief-room_product_telemetry",
@@ -943,7 +943,7 @@
         3,
         7
       ],
-      "last_sync_at": "2026-05-26T11:07:16+00:00"
+      "last_sync_at": "2026-05-26T13:31:30+00:00"
     },
     {
       "id": "build-room_retailer_pos_hourly",
@@ -1006,7 +1006,7 @@
         32,
         46
       ],
-      "last_sync_at": "2026-05-26T12:53:16+00:00"
+      "last_sync_at": "2026-05-26T15:17:30+00:00"
     },
     {
       "id": "build-room_shelf_compliance_daily",
@@ -1069,7 +1069,7 @@
         72,
         42
       ],
-      "last_sync_at": "2026-05-26T12:27:16+00:00"
+      "last_sync_at": "2026-05-26T14:51:30+00:00"
     },
     {
       "id": "build-room_promotion_calendar",
@@ -1132,7 +1132,7 @@
         58,
         75
       ],
-      "last_sync_at": "2026-05-26T11:04:16+00:00"
+      "last_sync_at": "2026-05-26T13:28:30+00:00"
     },
     {
       "id": "build-room_store_cluster",
@@ -1195,7 +1195,7 @@
         17,
         11
       ],
-      "last_sync_at": "2026-05-26T13:29:16+00:00"
+      "last_sync_at": "2026-05-26T15:53:30+00:00"
     },
     {
       "id": "what-is-odi_salesforce",
@@ -1258,7 +1258,7 @@
         17,
         7
       ],
-      "last_sync_at": "2026-05-26T10:05:16+00:00"
+      "last_sync_at": "2026-05-26T12:29:30+00:00"
     },
     {
       "id": "what-is-odi_netsuite",
@@ -1321,7 +1321,7 @@
         57,
         69
       ],
-      "last_sync_at": "2026-05-26T10:28:16+00:00"
+      "last_sync_at": "2026-05-26T12:52:30+00:00"
     },
     {
       "id": "what-is-odi_shopify",
@@ -1384,7 +1384,7 @@
         10,
         11
       ],
-      "last_sync_at": "2026-05-26T12:20:16+00:00"
+      "last_sync_at": "2026-05-26T14:44:30+00:00"
     },
     {
       "id": "what-is-odi_stripe",
@@ -1447,7 +1447,7 @@
         560,
         1400
       ],
-      "last_sync_at": "2026-05-26T13:55:16+00:00"
+      "last_sync_at": "2026-05-26T16:19:30+00:00"
     },
     {
       "id": "tax-assessment_county_records",
@@ -1510,7 +1510,7 @@
         16,
         120
       ],
-      "last_sync_at": "2026-05-26T13:46:16+00:00"
+      "last_sync_at": "2026-05-26T16:10:30+00:00"
     },
     {
       "id": "tax-assessment_usps",
@@ -1573,7 +1573,7 @@
         2,
         3
       ],
-      "last_sync_at": "2026-05-26T08:42:16+00:00"
+      "last_sync_at": "2026-05-26T11:06:30+00:00"
     },
     {
       "id": "tax-assessment_census",
@@ -1636,7 +1636,7 @@
         34,
         58
       ],
-      "last_sync_at": "2026-05-26T09:31:16+00:00"
+      "last_sync_at": "2026-05-26T11:55:30+00:00"
     },
     {
       "id": "finserv_trade_ledger",
@@ -1699,7 +1699,7 @@
         2,
         26
       ],
-      "last_sync_at": "2026-05-26T11:37:16+00:00"
+      "last_sync_at": "2026-05-26T14:01:30+00:00"
     },
     {
       "id": "finserv_portfolio_mgmt",
@@ -1762,7 +1762,7 @@
         5,
         4
       ],
-      "last_sync_at": "2026-05-26T08:20:16+00:00"
+      "last_sync_at": "2026-05-26T10:44:30+00:00"
     },
     {
       "id": "finserv_market_data",
@@ -1825,7 +1825,7 @@
         39,
         384
       ],
-      "last_sync_at": "2026-05-26T08:50:16+00:00"
+      "last_sync_at": "2026-05-26T11:14:30+00:00"
     },
     {
       "id": "finserv_sec_edgar",
@@ -1888,7 +1888,7 @@
         1840,
         4600
       ],
-      "last_sync_at": "2026-05-26T12:54:16+00:00"
+      "last_sync_at": "2026-05-26T15:18:30+00:00"
     },
     {
       "id": "insurance_policy_admin",
@@ -1951,7 +1951,7 @@
         27,
         55
       ],
-      "last_sync_at": "2026-05-26T09:34:16+00:00"
+      "last_sync_at": "2026-05-26T11:58:30+00:00"
     },
     {
       "id": "insurance_claims_mart",
@@ -2014,7 +2014,7 @@
         51,
         336
       ],
-      "last_sync_at": "2026-05-26T10:53:16+00:00"
+      "last_sync_at": "2026-05-26T13:17:30+00:00"
     },
     {
       "id": "insurance_telematics",
@@ -2077,7 +2077,7 @@
         8,
         5
       ],
-      "last_sync_at": "2026-05-26T10:05:16+00:00"
+      "last_sync_at": "2026-05-26T12:29:30+00:00"
     },
     {
       "id": "insurance_naic_filings",
@@ -2140,7 +2140,7 @@
         55,
         328
       ],
-      "last_sync_at": "2026-05-26T08:57:16+00:00"
+      "last_sync_at": "2026-05-26T11:21:30+00:00"
     },
     {
       "id": "media_youtube",
@@ -2203,7 +2203,7 @@
         81,
         72
       ],
-      "last_sync_at": "2026-05-26T14:01:16+00:00"
+      "last_sync_at": "2026-05-26T16:25:30+00:00"
     },
     {
       "id": "media_reddit",
@@ -2266,7 +2266,7 @@
         12,
         7
       ],
-      "last_sync_at": "2026-05-26T11:17:16+00:00"
+      "last_sync_at": "2026-05-26T13:41:30+00:00"
     },
     {
       "id": "media_wikipedia",
@@ -2329,7 +2329,7 @@
         84,
         39
       ],
-      "last_sync_at": "2026-05-26T10:07:16+00:00"
+      "last_sync_at": "2026-05-26T12:31:30+00:00"
     },
     {
       "id": "lifesci_veeva_ctms",
@@ -2392,7 +2392,7 @@
         2,
         2
       ],
-      "last_sync_at": "2026-05-26T14:06:16+00:00"
+      "last_sync_at": "2026-05-26T16:30:30+00:00"
     },
     {
       "id": "lifesci_redcap",
@@ -2455,7 +2455,7 @@
         45,
         15
       ],
-      "last_sync_at": "2026-05-26T08:57:16+00:00"
+      "last_sync_at": "2026-05-26T11:21:30+00:00"
     },
     {
       "id": "lifesci_clinicaltrials_gov",
@@ -2518,7 +2518,7 @@
         19,
         14
       ],
-      "last_sync_at": "2026-05-26T10:01:16+00:00"
+      "last_sync_at": "2026-05-26T12:25:30+00:00"
     },
     {
       "id": "lifesci_fda",
@@ -2581,7 +2581,7 @@
         25,
         10
       ],
-      "last_sync_at": "2026-05-26T10:40:16+00:00"
+      "last_sync_at": "2026-05-26T13:04:30+00:00"
     },
     {
       "id": "retail_shopify",
@@ -2644,7 +2644,7 @@
         3760,
         9400
       ],
-      "last_sync_at": "2026-05-26T11:30:16+00:00"
+      "last_sync_at": "2026-05-26T13:54:30+00:00"
     },
     {
       "id": "retail_stripe",
@@ -2707,7 +2707,7 @@
         11,
         1
       ],
-      "last_sync_at": "2026-05-26T10:59:16+00:00"
+      "last_sync_at": "2026-05-26T13:23:30+00:00"
     },
     {
       "id": "retail_klaviyo",
@@ -2770,7 +2770,7 @@
         25,
         8
       ],
-      "last_sync_at": "2026-05-26T13:16:16+00:00"
+      "last_sync_at": "2026-05-26T15:40:30+00:00"
     },
     {
       "id": "supplychain_carrier_apis",
@@ -2833,7 +2833,7 @@
         41,
         32
       ],
-      "last_sync_at": "2026-05-26T10:08:16+00:00"
+      "last_sync_at": "2026-05-26T12:32:30+00:00"
     },
     {
       "id": "supplychain_customs",
@@ -2896,7 +2896,7 @@
         6,
         5
       ],
-      "last_sync_at": "2026-05-26T08:28:16+00:00"
+      "last_sync_at": "2026-05-26T10:52:30+00:00"
     },
     {
       "id": "supplychain_port_data",
@@ -2959,7 +2959,7 @@
         47,
         91
       ],
-      "last_sync_at": "2026-05-26T14:03:16+00:00"
+      "last_sync_at": "2026-05-26T16:27:30+00:00"
     },
     {
       "id": "manufacturing_sap_s4hana",
@@ -3022,7 +3022,7 @@
         78,
         304
       ],
-      "last_sync_at": "2026-05-26T10:46:16+00:00"
+      "last_sync_at": "2026-05-26T13:10:30+00:00"
     },
     {
       "id": "manufacturing_rockwell_factorytalk",
@@ -3085,7 +3085,7 @@
         31,
         29
       ],
-      "last_sync_at": "2026-05-26T11:36:16+00:00"
+      "last_sync_at": "2026-05-26T14:00:30+00:00"
     },
     {
       "id": "manufacturing_osisoft_pi",
@@ -3148,7 +3148,7 @@
         0,
         40
       ],
-      "last_sync_at": "2026-05-26T09:23:16+00:00"
+      "last_sync_at": "2026-05-26T11:47:30+00:00"
     },
     {
       "id": "manufacturing_ignition_scada",
@@ -3211,7 +3211,7 @@
         4720,
         11800
       ],
-      "last_sync_at": "2026-05-26T10:05:16+00:00"
+      "last_sync_at": "2026-05-26T12:29:30+00:00"
     },
     {
       "id": "energy-utilities_sap_isu",
@@ -3274,7 +3274,7 @@
         66,
         67
       ],
-      "last_sync_at": "2026-05-26T12:34:16+00:00"
+      "last_sync_at": "2026-05-26T14:58:30+00:00"
     },
     {
       "id": "energy-utilities_osisoft_pi_scada",
@@ -3337,7 +3337,7 @@
         37,
         78
       ],
-      "last_sync_at": "2026-05-26T10:59:16+00:00"
+      "last_sync_at": "2026-05-26T13:23:30+00:00"
     },
     {
       "id": "energy-utilities_gis",
@@ -3400,7 +3400,7 @@
         15,
         49
       ],
-      "last_sync_at": "2026-05-26T12:11:16+00:00"
+      "last_sync_at": "2026-05-26T14:35:30+00:00"
     },
     {
       "id": "energy-utilities_itron_ami",
@@ -3463,7 +3463,7 @@
         62,
         101
       ],
-      "last_sync_at": "2026-05-26T12:11:16+00:00"
+      "last_sync_at": "2026-05-26T14:35:30+00:00"
     },
     {
       "id": "telecom_amdocs_cis",
@@ -3526,7 +3526,7 @@
         16,
         28
       ],
-      "last_sync_at": "2026-05-26T09:26:16+00:00"
+      "last_sync_at": "2026-05-26T11:50:30+00:00"
     },
     {
       "id": "telecom_salesforce",
@@ -3589,7 +3589,7 @@
         55,
         55
       ],
-      "last_sync_at": "2026-05-26T13:50:16+00:00"
+      "last_sync_at": "2026-05-26T16:14:30+00:00"
     },
     {
       "id": "telecom_ericsson_nokia_oss",
@@ -3652,7 +3652,7 @@
         29,
         31
       ],
-      "last_sync_at": "2026-05-26T11:31:16+00:00"
+      "last_sync_at": "2026-05-26T13:55:30+00:00"
     },
     {
       "id": "telecom_cdr_mediation",
@@ -3715,7 +3715,7 @@
         25,
         26
       ],
-      "last_sync_at": "2026-05-26T08:54:16+00:00"
+      "last_sync_at": "2026-05-26T11:18:30+00:00"
     },
     {
       "id": "hospitality-travel_oracle_opera_pms",
@@ -3778,7 +3778,7 @@
         14,
         5
       ],
-      "last_sync_at": "2026-05-26T13:20:16+00:00"
+      "last_sync_at": "2026-05-26T15:44:30+00:00"
     },
     {
       "id": "hospitality-travel_sabre_amadeus",
@@ -3841,7 +3841,7 @@
         30,
         11
       ],
-      "last_sync_at": "2026-05-26T11:53:16+00:00"
+      "last_sync_at": "2026-05-26T14:17:30+00:00"
     },
     {
       "id": "hospitality-travel_booking_com",
@@ -3904,7 +3904,7 @@
         14,
         8
       ],
-      "last_sync_at": "2026-05-26T12:20:16+00:00"
+      "last_sync_at": "2026-05-26T14:44:30+00:00"
     },
     {
       "id": "hospitality-travel_cendyn",
@@ -3967,7 +3967,7 @@
         5,
         16
       ],
-      "last_sync_at": "2026-05-26T12:02:16+00:00"
+      "last_sync_at": "2026-05-26T14:26:30+00:00"
     },
     {
       "id": "automotive_sap_s4hana",
@@ -4030,7 +4030,7 @@
         20,
         16
       ],
-      "last_sync_at": "2026-05-26T09:28:16+00:00"
+      "last_sync_at": "2026-05-26T11:52:30+00:00"
     },
     {
       "id": "automotive_dealertrack_dms",
@@ -4093,7 +4093,7 @@
         2,
         3
       ],
-      "last_sync_at": "2026-05-26T13:45:16+00:00"
+      "last_sync_at": "2026-05-26T16:09:30+00:00"
     },
     {
       "id": "automotive_cox_manheim",
@@ -4156,7 +4156,7 @@
         3,
         48
       ],
-      "last_sync_at": "2026-05-26T08:39:16+00:00"
+      "last_sync_at": "2026-05-26T11:03:30+00:00"
     },
     {
       "id": "automotive_connected_car_telemetry",
@@ -4219,7 +4219,7 @@
         52,
         57
       ],
-      "last_sync_at": "2026-05-26T13:58:16+00:00"
+      "last_sync_at": "2026-05-26T16:22:30+00:00"
     },
     {
       "id": "higher-ed_banner_sis",
@@ -4282,7 +4282,7 @@
         1,
         1
       ],
-      "last_sync_at": "2026-05-26T08:26:16+00:00"
+      "last_sync_at": "2026-05-26T10:50:30+00:00"
     },
     {
       "id": "higher-ed_workday_hcm",
@@ -4345,7 +4345,7 @@
         23,
         26
       ],
-      "last_sync_at": "2026-05-26T09:35:16+00:00"
+      "last_sync_at": "2026-05-26T11:59:30+00:00"
     },
     {
       "id": "higher-ed_canvas_lms",
@@ -4408,7 +4408,7 @@
         6,
         12
       ],
-      "last_sync_at": "2026-05-26T14:05:16+00:00"
+      "last_sync_at": "2026-05-26T16:29:30+00:00"
     },
     {
       "id": "higher-ed_slate",
@@ -4471,7 +4471,7 @@
         1,
         112
       ],
-      "last_sync_at": "2026-05-26T11:54:16+00:00"
+      "last_sync_at": "2026-05-26T14:18:30+00:00"
     },
     {
       "id": "banking_fis_horizon",
@@ -4534,7 +4534,7 @@
         9,
         8
       ],
-      "last_sync_at": "2026-05-26T08:47:16+00:00"
+      "last_sync_at": "2026-05-26T11:11:30+00:00"
     },
     {
       "id": "banking_salesforce_fsc",
@@ -4597,7 +4597,7 @@
         23,
         22
       ],
-      "last_sync_at": "2026-05-26T14:05:16+00:00"
+      "last_sync_at": "2026-05-26T16:29:30+00:00"
     },
     {
       "id": "banking_ncino",
@@ -4660,7 +4660,7 @@
         11,
         14
       ],
-      "last_sync_at": "2026-05-26T10:52:16+00:00"
+      "last_sync_at": "2026-05-26T13:16:30+00:00"
     },
     {
       "id": "banking_plaid",
@@ -4723,7 +4723,7 @@
         46,
         64
       ],
-      "last_sync_at": "2026-05-26T10:21:16+00:00"
+      "last_sync_at": "2026-05-26T12:45:30+00:00"
     },
     {
       "id": "federal-gov_benefits_mainframe",
@@ -4786,7 +4786,7 @@
         43,
         36
       ],
-      "last_sync_at": "2026-05-26T12:17:16+00:00"
+      "last_sync_at": "2026-05-26T14:41:30+00:00"
     },
     {
       "id": "federal-gov_servicenow",
@@ -4849,7 +4849,7 @@
         880,
         2200
       ],
-      "last_sync_at": "2026-05-26T08:47:16+00:00"
+      "last_sync_at": "2026-05-26T11:11:30+00:00"
     },
     {
       "id": "federal-gov_salesforce_public_sector",
@@ -4912,7 +4912,7 @@
         53,
         59
       ],
-      "last_sync_at": "2026-05-26T09:59:16+00:00"
+      "last_sync_at": "2026-05-26T12:23:30+00:00"
     },
     {
       "id": "federal-gov_treasury_ipp",
@@ -4975,7 +4975,7 @@
         1,
         12
       ],
-      "last_sync_at": "2026-05-26T12:54:16+00:00"
+      "last_sync_at": "2026-05-26T15:18:30+00:00"
     },
     {
       "id": "qsr_toast_ncr_pos",
@@ -5038,7 +5038,7 @@
         34,
         17
       ],
-      "last_sync_at": "2026-05-26T12:28:16+00:00"
+      "last_sync_at": "2026-05-26T14:52:30+00:00"
     },
     {
       "id": "qsr_olo",
@@ -5101,7 +5101,7 @@
         9,
         17
       ],
-      "last_sync_at": "2026-05-26T12:59:16+00:00"
+      "last_sync_at": "2026-05-26T15:23:30+00:00"
     },
     {
       "id": "qsr_doordash_uber_grubhub",
@@ -5164,7 +5164,7 @@
         88,
         66
       ],
-      "last_sync_at": "2026-05-26T12:25:16+00:00"
+      "last_sync_at": "2026-05-26T14:49:30+00:00"
     },
     {
       "id": "qsr_salesforce_mktg",
@@ -5227,7 +5227,7 @@
         9,
         20
       ],
-      "last_sync_at": "2026-05-26T13:46:16+00:00"
+      "last_sync_at": "2026-05-26T16:10:30+00:00"
     },
     {
       "id": "aerospace_sap_s4hana",
@@ -5290,7 +5290,7 @@
         18,
         480
       ],
-      "last_sync_at": "2026-05-26T13:05:16+00:00"
+      "last_sync_at": "2026-05-26T15:29:30+00:00"
     },
     {
       "id": "aerospace_siemens_teamcenter",
@@ -5353,7 +5353,7 @@
         31,
         42
       ],
-      "last_sync_at": "2026-05-26T13:15:16+00:00"
+      "last_sync_at": "2026-05-26T15:39:30+00:00"
     },
     {
       "id": "aerospace_apriso_mes",
@@ -5416,7 +5416,7 @@
         4,
         7
       ],
-      "last_sync_at": "2026-05-26T12:25:16+00:00"
+      "last_sync_at": "2026-05-26T14:49:30+00:00"
     },
     {
       "id": "aerospace_ibm_maximo",
@@ -5479,7 +5479,7 @@
         19,
         12
       ],
-      "last_sync_at": "2026-05-26T09:37:16+00:00"
+      "last_sync_at": "2026-05-26T12:01:30+00:00"
     },
     {
       "id": "real-estate_yardi_voyager",
@@ -5542,7 +5542,7 @@
         42,
         55
       ],
-      "last_sync_at": "2026-05-26T14:05:16+00:00"
+      "last_sync_at": "2026-05-26T16:29:30+00:00"
     },
     {
       "id": "real-estate_mri_software",
@@ -5605,7 +5605,7 @@
         34,
         33
       ],
-      "last_sync_at": "2026-05-26T13:21:16+00:00"
+      "last_sync_at": "2026-05-26T15:45:30+00:00"
     },
     {
       "id": "real-estate_vts",
@@ -5668,7 +5668,7 @@
         19,
         11
       ],
-      "last_sync_at": "2026-05-26T11:40:16+00:00"
+      "last_sync_at": "2026-05-26T14:04:30+00:00"
     },
     {
       "id": "real-estate_procore",
@@ -5731,7 +5731,7 @@
         13,
         10
       ],
-      "last_sync_at": "2026-05-26T11:20:16+00:00"
+      "last_sync_at": "2026-05-26T13:44:30+00:00"
     },
     {
       "id": "prof-services_sap_s4hana",
@@ -5794,7 +5794,7 @@
         30,
         23
       ],
-      "last_sync_at": "2026-05-26T11:55:16+00:00"
+      "last_sync_at": "2026-05-26T14:19:30+00:00"
     },
     {
       "id": "prof-services_workday_hcm",
@@ -5857,7 +5857,7 @@
         44,
         50
       ],
-      "last_sync_at": "2026-05-26T09:13:16+00:00"
+      "last_sync_at": "2026-05-26T11:37:30+00:00"
     },
     {
       "id": "prof-services_salesforce",
@@ -5920,7 +5920,7 @@
         2720,
         6800
       ],
-      "last_sync_at": "2026-05-26T10:16:16+00:00"
+      "last_sync_at": "2026-05-26T12:40:30+00:00"
     },
     {
       "id": "prof-services_ms_dynamics",
@@ -5983,7 +5983,7 @@
         4,
         168
       ],
-      "last_sync_at": "2026-05-26T14:09:16+00:00"
+      "last_sync_at": "2026-05-26T16:33:30+00:00"
     },
     {
       "id": "cpg-supplychain_sap_s4hana",
@@ -6046,7 +6046,7 @@
         74,
         53
       ],
-      "last_sync_at": "2026-05-26T09:00:16+00:00"
+      "last_sync_at": "2026-05-26T11:24:30+00:00"
     },
     {
       "id": "cpg-supplychain_manhattan_wms",
@@ -6109,7 +6109,7 @@
         6,
         48
       ],
-      "last_sync_at": "2026-05-26T11:36:16+00:00"
+      "last_sync_at": "2026-05-26T14:00:30+00:00"
     },
     {
       "id": "cpg-supplychain_walmart_retail_link",
@@ -6172,7 +6172,7 @@
         6,
         13
       ],
-      "last_sync_at": "2026-05-26T10:37:16+00:00"
+      "last_sync_at": "2026-05-26T13:01:30+00:00"
     },
     {
       "id": "cpg-supplychain_amazon_vendor_central",
@@ -6235,7 +6235,7 @@
         3200,
         8000
       ],
-      "last_sync_at": "2026-05-26T13:31:16+00:00"
+      "last_sync_at": "2026-05-26T15:55:30+00:00"
     },
     {
       "id": "pharma-rd_benchling",
@@ -6298,7 +6298,7 @@
         57,
         44
       ],
-      "last_sync_at": "2026-05-26T08:25:16+00:00"
+      "last_sync_at": "2026-05-26T10:49:30+00:00"
     },
     {
       "id": "pharma-rd_veeva_vault_rim",
@@ -6361,7 +6361,7 @@
         320,
         800
       ],
-      "last_sync_at": "2026-05-26T13:01:16+00:00"
+      "last_sync_at": "2026-05-26T15:25:30+00:00"
     },
     {
       "id": "pharma-rd_openfda",
@@ -6424,7 +6424,7 @@
         720,
         1800
       ],
-      "last_sync_at": "2026-05-26T09:35:16+00:00"
+      "last_sync_at": "2026-05-26T11:59:30+00:00"
     },
     {
       "id": "pharma-rd_pubmed",
@@ -6487,7 +6487,7 @@
         45,
         28
       ],
-      "last_sync_at": "2026-05-26T09:15:16+00:00"
+      "last_sync_at": "2026-05-26T11:39:30+00:00"
     },
     {
       "id": "gaming_in_house_telemetry",
@@ -6550,7 +6550,7 @@
         56,
         42
       ],
-      "last_sync_at": "2026-05-26T12:10:16+00:00"
+      "last_sync_at": "2026-05-26T14:34:30+00:00"
     },
     {
       "id": "gaming_steam_web_api",
@@ -6613,7 +6613,7 @@
         11,
         20
       ],
-      "last_sync_at": "2026-05-26T10:19:16+00:00"
+      "last_sync_at": "2026-05-26T12:43:30+00:00"
     },
     {
       "id": "gaming_twitch_helix",
@@ -6676,7 +6676,7 @@
         720,
         1800
       ],
-      "last_sync_at": "2026-05-26T12:34:16+00:00"
+      "last_sync_at": "2026-05-26T14:58:30+00:00"
     },
     {
       "id": "gaming_discord",
@@ -6739,7 +6739,7 @@
         7,
         5
       ],
-      "last_sync_at": "2026-05-26T10:21:16+00:00"
+      "last_sync_at": "2026-05-26T12:45:30+00:00"
     },
     {
       "id": "sports_ticketmaster_stubhub",
@@ -6802,7 +6802,7 @@
         57,
         320
       ],
-      "last_sync_at": "2026-05-26T10:55:16+00:00"
+      "last_sync_at": "2026-05-26T13:19:30+00:00"
     },
     {
       "id": "sports_apextv_streaming",
@@ -6865,7 +6865,7 @@
         41,
         384
       ],
-      "last_sync_at": "2026-05-26T09:43:16+00:00"
+      "last_sync_at": "2026-05-26T12:07:30+00:00"
     },
     {
       "id": "sports_apextrack_optical",
@@ -6928,7 +6928,7 @@
         53,
         46
       ],
-      "last_sync_at": "2026-05-26T09:58:16+00:00"
+      "last_sync_at": "2026-05-26T12:22:30+00:00"
     },
     {
       "id": "sports_sportsbook_feeds",
@@ -6991,7 +6991,7 @@
         19,
         20
       ],
-      "last_sync_at": "2026-05-26T14:07:16+00:00"
+      "last_sync_at": "2026-05-26T16:31:30+00:00"
     },
     {
       "id": "techsaas_salesforce",
@@ -7054,7 +7054,7 @@
         1200,
         3000
       ],
-      "last_sync_at": "2026-05-26T09:05:16+00:00"
+      "last_sync_at": "2026-05-26T11:29:30+00:00"
     },
     {
       "id": "techsaas_stripe",
@@ -7117,7 +7117,7 @@
         8,
         72
       ],
-      "last_sync_at": "2026-05-26T10:53:16+00:00"
+      "last_sync_at": "2026-05-26T13:17:30+00:00"
     },
     {
       "id": "techsaas_pagerduty",
@@ -7180,7 +7180,7 @@
         2,
         9
       ],
-      "last_sync_at": "2026-05-26T09:12:16+00:00"
+      "last_sync_at": "2026-05-26T11:36:30+00:00"
     },
     {
       "id": "techsaas_github",
@@ -7243,7 +7243,7 @@
         35,
         28
       ],
-      "last_sync_at": "2026-05-26T12:21:16+00:00"
+      "last_sync_at": "2026-05-26T14:45:30+00:00"
     },
     {
       "id": "healthcare-epic_epic_clarity",
@@ -7306,7 +7306,7 @@
         13,
         11
       ],
-      "last_sync_at": "2026-05-26T10:03:16+00:00"
+      "last_sync_at": "2026-05-26T12:27:30+00:00"
     },
     {
       "id": "healthcare-epic_payor_claims_mart",
@@ -7369,7 +7369,7 @@
         4,
         26
       ],
-      "last_sync_at": "2026-05-26T13:57:16+00:00"
+      "last_sync_at": "2026-05-26T16:21:30+00:00"
     },
     {
       "id": "healthcare-epic_hl7_adt",
@@ -7432,7 +7432,7 @@
         18,
         14
       ],
-      "last_sync_at": "2026-05-26T09:34:16+00:00"
+      "last_sync_at": "2026-05-26T11:58:30+00:00"
     },
     {
       "id": "healthcare-epic_cms_nppes",
@@ -7495,7 +7495,7 @@
         36,
         70
       ],
-      "last_sync_at": "2026-05-26T09:38:16+00:00"
+      "last_sync_at": "2026-05-26T12:02:30+00:00"
     },
     {
       "id": "sap_sap_ecc_s4hana",
@@ -7558,7 +7558,7 @@
         60,
         48
       ],
-      "last_sync_at": "2026-05-26T11:52:16+00:00"
+      "last_sync_at": "2026-05-26T14:16:30+00:00"
     },
     {
       "id": "liner-notes_spotify_web_api",
@@ -7621,7 +7621,7 @@
         52,
         53
       ],
-      "last_sync_at": "2026-05-26T13:11:16+00:00"
+      "last_sync_at": "2026-05-26T15:35:30+00:00"
     },
     {
       "id": "liner-notes_musicbrainz",
@@ -7684,7 +7684,7 @@
         57,
         62
       ],
-      "last_sync_at": "2026-05-26T12:42:16+00:00"
+      "last_sync_at": "2026-05-26T15:06:30+00:00"
     },
     {
       "id": "liner-notes_pitchfork",
@@ -7747,7 +7747,7 @@
         50,
         53
       ],
-      "last_sync_at": "2026-05-26T08:19:16+00:00"
+      "last_sync_at": "2026-05-26T10:43:30+00:00"
     },
     {
       "id": "castle-rock_open_library",
@@ -7810,7 +7810,7 @@
         1,
         2
       ],
-      "last_sync_at": "2026-05-26T13:04:16+00:00"
+      "last_sync_at": "2026-05-26T15:28:30+00:00"
     },
     {
       "id": "castle-rock_tmdb",
@@ -7873,7 +7873,7 @@
         46,
         42
       ],
-      "last_sync_at": "2026-05-26T13:25:16+00:00"
+      "last_sync_at": "2026-05-26T15:49:30+00:00"
     },
     {
       "id": "castle-rock_wikidata",
@@ -7936,7 +7936,7 @@
         31,
         48
       ],
-      "last_sync_at": "2026-05-26T10:48:16+00:00"
+      "last_sync_at": "2026-05-26T13:12:30+00:00"
     },
     {
       "id": "ebay-pokemon_ebay_api",
@@ -7999,7 +7999,7 @@
         11,
         7
       ],
-      "last_sync_at": "2026-05-26T09:24:16+00:00"
+      "last_sync_at": "2026-05-26T11:48:30+00:00"
     },
     {
       "id": "ebay-pokemon_pokemon_tcg_api",
@@ -8062,7 +8062,7 @@
         9,
         36
       ],
-      "last_sync_at": "2026-05-26T13:14:16+00:00"
+      "last_sync_at": "2026-05-26T15:38:30+00:00"
     },
     {
       "id": "ebay-pokemon_tcgplayer",
@@ -8125,7 +8125,7 @@
         63,
         36
       ],
-      "last_sync_at": "2026-05-26T11:08:16+00:00"
+      "last_sync_at": "2026-05-26T13:32:30+00:00"
     },
     {
       "id": "petes-movies_tmdb",
@@ -8188,7 +8188,7 @@
         25,
         38
       ],
-      "last_sync_at": "2026-05-26T09:45:16+00:00"
+      "last_sync_at": "2026-05-26T12:09:30+00:00"
     },
     {
       "id": "petes-movies_omdb",
@@ -8251,7 +8251,7 @@
         39,
         56
       ],
-      "last_sync_at": "2026-05-26T11:59:16+00:00"
+      "last_sync_at": "2026-05-26T14:23:30+00:00"
     }
   ]
 }

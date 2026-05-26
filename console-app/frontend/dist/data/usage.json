@@ -256,257 +256,257 @@
       ]
     },
     {
-      "key": "run-cache",
+      "key": "dbt-state",
       "trailing_30d": [
         {
           "date": "2026-04-27",
-          "sessions": 79,
-          "page_views": 351,
-          "uniques": 61,
-          "avg_session_s": 170
+          "sessions": 133,
+          "page_views": 570,
+          "uniques": 113,
+          "avg_session_s": 204
         },
         {
           "date": "2026-04-28",
-          "sessions": 90,
-          "page_views": 485,
-          "uniques": 77,
-          "avg_session_s": 187
+          "sessions": 143,
+          "page_views": 709,
+          "uniques": 104,
+          "avg_session_s": 138
         },
         {
           "date": "2026-04-29",
-          "sessions": 80,
-          "page_views": 384,
-          "uniques": 64,
-          "avg_session_s": 193
-        },
-        {
-          "date": "2026-04-30",
-          "sessions": 82,
-          "page_views": 500,
-          "uniques": 59,
+          "sessions": 163,
+          "page_views": 1074,
+          "uniques": 122,
           "avg_session_s": 160
         },
         {
+          "date": "2026-04-30",
+          "sessions": 141,
+          "page_views": 543,
+          "uniques": 115,
+          "avg_session_s": 187
+        },
+        {
           "date": "2026-05-01",
-          "sessions": 77,
-          "page_views": 338,
-          "uniques": 58,
-          "avg_session_s": 178
+          "sessions": 103,
+          "page_views": 437,
+          "uniques": 90,
+          "avg_session_s": 261
         },
         {
           "date": "2026-05-02",
-          "sessions": 30,
-          "page_views": 102,
-          "uniques": 23,
-          "avg_session_s": 225
+          "sessions": 104,
+          "page_views": 676,
+          "uniques": 82,
+          "avg_session_s": 210
         },
         {
           "date": "2026-05-03",
-          "sessions": 24,
-          "page_views": 159,
-          "uniques": 20,
-          "avg_session_s": 144
+          "sessions": 67,
+          "page_views": 359,
+          "uniques": 48,
+          "avg_session_s": 178
         },
         {
           "date": "2026-05-04",
-          "sessions": 80,
-          "page_views": 264,
-          "uniques": 68,
-          "avg_session_s": 171
+          "sessions": 82,
+          "page_views": 322,
+          "uniques": 60,
+          "avg_session_s": 148
         },
         {
           "date": "2026-05-05",
-          "sessions": 68,
-          "page_views": 258,
-          "uniques": 56,
-          "avg_session_s": 190
+          "sessions": 123,
+          "page_views": 750,
+          "uniques": 89,
+          "avg_session_s": 177
         },
         {
           "date": "2026-05-06",
-          "sessions": 89,
-          "page_views": 324,
-          "uniques": 73,
-          "avg_session_s": 117
+          "sessions": 112,
+          "page_views": 612,
+          "uniques": 97,
+          "avg_session_s": 206
         },
         {
           "date": "2026-05-07",
-          "sessions": 103,
-          "page_views": 613,
-          "uniques": 88,
-          "avg_session_s": 123
+          "sessions": 76,
+          "page_views": 261,
+          "uniques": 54,
+          "avg_session_s": 147
         },
         {
           "date": "2026-05-08",
-          "sessions": 98,
-          "page_views": 433,
-          "uniques": 74,
-          "avg_session_s": 174
+          "sessions": 199,
+          "page_views": 1151,
+          "uniques": 166,
+          "avg_session_s": 189
         },
         {
           "date": "2026-05-09",
-          "sessions": 36,
-          "page_views": 144,
-          "uniques": 29,
-          "avg_session_s": 169
+          "sessions": 76,
+          "page_views": 264,
+          "uniques": 60,
+          "avg_session_s": 167
         },
         {
           "date": "2026-05-10",
-          "sessions": 46,
-          "page_views": 163,
-          "uniques": 35,
-          "avg_session_s": 172
+          "sessions": 67,
+          "page_views": 294,
+          "uniques": 51,
+          "avg_session_s": 220
         },
         {
           "date": "2026-05-11",
-          "sessions": 89,
-          "page_views": 302,
-          "uniques": 69,
-          "avg_session_s": 144
+          "sessions": 124,
+          "page_views": 738,
+          "uniques": 103,
+          "avg_session_s": 159
         },
         {
           "date": "2026-05-12",
-          "sessions": 78,
-          "page_views": 270,
-          "uniques": 57,
-          "avg_session_s": 181
+          "sessions": 171,
+          "page_views": 981,
+          "uniques": 142,
+          "avg_session_s": 185
         },
         {
           "date": "2026-05-13",
-          "sessions": 93,
-          "page_views": 309,
-          "uniques": 75,
-          "avg_session_s": 215
+          "sessions": 184,
+          "page_views": 1091,
+          "uniques": 145,
+          "avg_session_s": 170
         },
         {
           "date": "2026-05-14",
-          "sessions": 98,
-          "page_views": 480,
-          "uniques": 72,
-          "avg_session_s": 269
+          "sessions": 128,
+          "page_views": 432,
+          "uniques": 93,
+          "avg_session_s": 189
         },
         {
           "date": "2026-05-15",
-          "sessions": 99,
-          "page_views": 454,
-          "uniques": 84,
-          "avg_session_s": 153
+          "sessions": 102,
+          "page_views": 534,
+          "uniques": 85,
+          "avg_session_s": 176
         },
         {
           "date": "2026-05-16",
-          "sessions": 29,
-          "page_views": 169,
-          "uniques": 21,
-          "avg_session_s": 207
+          "sessions": 45,
+          "page_views": 237,
+          "uniques": 35,
+          "avg_session_s": 169
         },
         {
           "date": "2026-05-17",
-          "sessions": 39,
-          "page_views": 188,
-          "uniques": 33,
-          "avg_session_s": 175
+          "sessions": 69,
+          "page_views": 365,
+          "uniques": 53,
+          "avg_session_s": 192
         },
         {
           "date": "2026-05-18",
-          "sessions": 70,
-          "page_views": 321,
-          "uniques": 55,
-          "avg_session_s": 197
+          "sessions": 88,
+          "page_views": 326,
+          "uniques": 72,
+          "avg_session_s": 171
         },
         {
           "date": "2026-05-19",
-          "sessions": 68,
-          "page_views": 446,
-          "uniques": 53,
-          "avg_session_s": 150
+          "sessions": 121,
+          "page_views": 605,
+          "uniques": 97,
+          "avg_session_s": 206
         },
         {
           "date": "2026-05-20",
-          "sessions": 90,
-          "page_views": 288,
-          "uniques": 77,
-          "avg_session_s": 194
+          "sessions": 173,
+          "page_views": 951,
+          "uniques": 144,
+          "avg_session_s": 196
         },
         {
           "date": "2026-05-21",
-          "sessions": 93,
-          "page_views": 417,
-          "uniques": 69,
-          "avg_session_s": 214
+          "sessions": 118,
+          "page_views": 445,
+          "uniques": 91,
+          "avg_session_s": 182
         },
         {
           "date": "2026-05-22",
-          "sessions": 83,
-          "page_views": 432,
-          "uniques": 62,
-          "avg_session_s": 191
+          "sessions": 132,
+          "page_views": 620,
+          "uniques": 114,
+          "avg_session_s": 188
         },
         {
           "date": "2026-05-23",
-          "sessions": 36,
-          "page_views": 213,
-          "uniques": 29,
-          "avg_session_s": 158
+          "sessions": 71,
+          "page_views": 431,
+          "uniques": 55,
+          "avg_session_s": 171
         },
         {
           "date": "2026-05-24",
-          "sessions": 38,
-          "page_views": 160,
-          "uniques": 29,
-          "avg_session_s": 194
+          "sessions": 92,
+          "page_views": 312,
+          "uniques": 79,
+          "avg_session_s": 195
         },
         {
           "date": "2026-05-25",
-          "sessions": 66,
-          "page_views": 280,
-          "uniques": 53,
-          "avg_session_s": 141
+          "sessions": 173,
+          "page_views": 1068,
+          "uniques": 144,
+          "avg_session_s": 209
         },
         {
           "date": "2026-05-26",
-          "sessions": 78,
-          "page_views": 377,
-          "uniques": 67,
-          "avg_session_s": 155
+          "sessions": 171,
+          "page_views": 739,
+          "uniques": 144,
+          "avg_session_s": 154
         }
       ],
       "top_pages": [
         {
+          "path": "/pipeline",
+          "views": 308
+        },
+        {
           "path": "/dashboard",
-          "views": 150
+          "views": 141
         },
         {
           "path": "/",
-          "views": 69
-        },
-        {
-          "path": "/pipeline",
-          "views": 68
+          "views": 118
         }
       ],
       "geo": [
         {
-          "country": "Canada",
-          "sessions": 371
-        },
-        {
-          "country": "Germany",
-          "sessions": 439
+          "country": "Australia",
+          "sessions": 1339
         },
         {
           "country": "United States",
-          "sessions": 85
+          "sessions": 539
+        },
+        {
+          "country": "India",
+          "sessions": 610
+        },
+        {
+          "country": "Canada",
+          "sessions": 165
+        },
+        {
+          "country": "United Kingdom",
+          "sessions": 225
         },
         {
           "country": "Brazil",
-          "sessions": 114
-        },
-        {
-          "country": "Australia",
-          "sessions": 218
-        },
-        {
-          "country": "Japan",
-          "sessions": 165
+          "sessions": 322
         }
       ]
     },

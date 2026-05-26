@@ -20,10 +20,10 @@
       "status": "degraded"
     },
     {
-      "key": "run-cache",
-      "name": "Run Cache",
+      "key": "dbt-state",
+      "name": "dbt State",
       "industry": "dbt Core plugin \u00b7 skip the work that didn't change",
-      "url": "https://fivetran-jasonchletsos.github.io/00-Intro-ODI-Demo/run-cache/",
+      "url": "https://fivetran-jasonchletsos.github.io/00-Intro-ODI-Demo/dbt-state/",
       "repo": "fivetran-jasonchletsos/00-Intro-ODI-Demo",
       "warehouse": "Snowflake",
       "owner": "@platform-ops",
@@ -31,10 +31,10 @@
         "any_dbt_core_project"
       ],
       "pii_tier": "public",
-      "rows_24h": 9259266,
-      "monthly_active": 1089,
-      "uptime_pct": 100.0,
-      "cost_30d_usd": 1002.86,
+      "rows_24h": 10334858,
+      "monthly_active": 948,
+      "uptime_pct": 99.55,
+      "cost_30d_usd": 1611.13,
       "status": "healthy"
     },
     {
