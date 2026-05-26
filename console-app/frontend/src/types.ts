@@ -3,15 +3,9 @@
 // observability layer that sits across all 8 Fivetran ODI demos.
 // ============================================================
 
-export type DemoKey =
-  | 'tax-assessment'
-  | 'healthcare'
-  | 'finserv'
-  | 'media'
-  | 'retail'
-  | 'techsaas'
-  | 'supplychain'
-  | 'lifesci';
+// Was a closed union of 8 keys. Now an opaque string so the portfolio
+// can grow (38 demos as of May 26, 2026) without churning this type.
+export type DemoKey = string;
 
 export type Status = 'healthy' | 'degraded' | 'failing' | 'unknown';
 export type Severity = 'sev1' | 'sev2' | 'sev3' | 'info';
