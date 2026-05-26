@@ -1,16 +1,176 @@
 {
   "demos": [
     {
+      "key": "great-expectations",
+      "name": "Great Expectations",
+      "industry": "OSS data-quality framework \u2014 now stewarded by Fivetran",
+      "url": "https://fivetran-jasonchletsos.github.io/00-Intro-ODI-Demo/great-expectations/",
+      "repo": "great-expectations/great_expectations",
+      "warehouse": "Snowflake",
+      "owner": "@platform-ops",
+      "connectors": [
+        "any_dbt_project",
+        "any_iceberg_delta_source"
+      ],
+      "pii_tier": "public",
+      "rows_24h": 6785607,
+      "monthly_active": 381,
+      "uptime_pct": 98.86,
+      "cost_30d_usd": 2189.39,
+      "status": "degraded"
+    },
+    {
+      "key": "run-cache",
+      "name": "Run Cache",
+      "industry": "dbt Core plugin \u00b7 skip the work that didn't change",
+      "url": "https://fivetran-jasonchletsos.github.io/00-Intro-ODI-Demo/run-cache/",
+      "repo": "fivetran-jasonchletsos/00-Intro-ODI-Demo",
+      "warehouse": "Snowflake",
+      "owner": "@platform-ops",
+      "connectors": [
+        "any_dbt_core_project"
+      ],
+      "pii_tier": "public",
+      "rows_24h": 9259266,
+      "monthly_active": 1089,
+      "uptime_pct": 100.0,
+      "cost_30d_usd": 1002.86,
+      "status": "healthy"
+    },
+    {
+      "key": "build-with-claude-code",
+      "name": "Build with Claude Code",
+      "industry": "How SEs build these demos \u2014 two paths, one prompt",
+      "url": "https://fivetran-jasonchletsos.github.io/build-with-claude-code/",
+      "repo": "fivetran-jasonchletsos/build-with-claude-code",
+      "warehouse": "Snowflake",
+      "owner": "@se",
+      "connectors": [
+        "all_catalog_repos"
+      ],
+      "pii_tier": "public",
+      "rows_24h": 2697284,
+      "monthly_active": 311,
+      "uptime_pct": 99.64,
+      "cost_30d_usd": 728.92,
+      "status": "healthy"
+    },
+    {
+      "key": "scout-room",
+      "name": "The Scout Room",
+      "industry": "Sports & Entertainment \u00b7 Personalized baseball analytics on 150 years of MLB data",
+      "url": "https://fivetran-jasonchletsos.github.io/the-scout-room/",
+      "repo": "fivetran-jasonchletsos/the-scout-room",
+      "warehouse": "Snowflake",
+      "owner": "@se-leadership",
+      "connectors": [
+        "lahman_baseball_db",
+        "mlb_statcast",
+        "mlb_stats_api"
+      ],
+      "pii_tier": "public",
+      "rows_24h": 19472640,
+      "monthly_active": 631,
+      "uptime_pct": 99.7,
+      "cost_30d_usd": 2300.73,
+      "status": "healthy"
+    },
+    {
+      "key": "crisis-room",
+      "name": "The ODI Crisis Room",
+      "industry": "Four Cortex agents resolve a CPG supply-chain crisis in 90 seconds",
+      "url": "https://fivetran-jasonchletsos.github.io/Crisis-Room-ODI-Demo/",
+      "repo": "fivetran-jasonchletsos/Crisis-Room-ODI-Demo",
+      "warehouse": "Snowflake",
+      "owner": "@se-leadership",
+      "connectors": [
+        "sap_s4hana",
+        "manhattan_wms",
+        "oracle_tms",
+        "walmart_retail_link"
+      ],
+      "pii_tier": "public",
+      "rows_24h": 19357591,
+      "monthly_active": 321,
+      "uptime_pct": 99.7,
+      "cost_30d_usd": 471.22,
+      "status": "healthy"
+    },
+    {
+      "key": "brief-room",
+      "name": "The ODI Brief Room",
+      "industry": "Cortex Analyst + Cortex Search draft an executive customer brief in 60 seconds",
+      "url": "https://fivetran-jasonchletsos.github.io/Brief-Room-ODI-Demo/",
+      "repo": "fivetran-jasonchletsos/Brief-Room-ODI-Demo",
+      "warehouse": "Snowflake",
+      "owner": "@se-leadership",
+      "connectors": [
+        "salesforce",
+        "gainsight",
+        "stripe",
+        "product_telemetry"
+      ],
+      "pii_tier": "public",
+      "rows_24h": 1824330,
+      "monthly_active": 273,
+      "uptime_pct": 98.63,
+      "cost_30d_usd": 1611.24,
+      "status": "degraded"
+    },
+    {
+      "key": "build-room",
+      "name": "The ODI Build Room",
+      "industry": "Four dbt-wizard sub-agents build a new dbt model live on the open lake",
+      "url": "https://fivetran-jasonchletsos.github.io/Build-Room-ODI-Demo/",
+      "repo": "fivetran-jasonchletsos/Build-Room-ODI-Demo",
+      "warehouse": "Snowflake",
+      "owner": "@se-leadership",
+      "connectors": [
+        "retailer_pos_hourly",
+        "shelf_compliance_daily",
+        "promotion_calendar",
+        "store_cluster"
+      ],
+      "pii_tier": "public",
+      "rows_24h": 3111591,
+      "monthly_active": 1048,
+      "uptime_pct": 99.75,
+      "cost_30d_usd": 2194.91,
+      "status": "healthy"
+    },
+    {
+      "key": "what-is-odi",
+      "name": "Helio Commerce \u2014 What is ODI?",
+      "industry": "The foundational ODI thesis, in working form",
+      "url": "https://fivetran-jasonchletsos.github.io/What_Is_ODI_Demo/",
+      "repo": "fivetran-jasonchletsos/What_Is_ODI_Demo",
+      "warehouse": "Athena/Iceberg",
+      "owner": "@se",
+      "connectors": [
+        "salesforce",
+        "netsuite",
+        "shopify",
+        "stripe"
+      ],
+      "pii_tier": "public",
+      "rows_24h": 8210580,
+      "monthly_active": 423,
+      "uptime_pct": 98.37,
+      "cost_30d_usd": 1796.61,
+      "status": "degraded"
+    },
+    {
       "key": "tax-assessment",
-      "name": "Allegheny County Tax",
-      "industry": "Public sector \u00b7 Property assessment",
+      "name": "Lakeview County Tax",
+      "industry": "Public Sector \u00b7 Property assessment on Iceberg + Databricks",
       "url": "https://fivetran-jasonchletsos.github.io/tax-assessment-databricks-demo/",
       "repo": "fivetran-jasonchletsos/tax-assessment-databricks-demo",
       "warehouse": "Databricks",
-      "owner": "@chletsos",
+      "owner": "@assessment",
       "connectors": [
-        "wprdc",
-        "allegheny_re"
+        "county_records",
+        "usps",
+        "census"
       ],
       "pii_tier": "public",
       "rows_24h": 6049880,
@@ -20,36 +180,18 @@
       "status": "healthy"
     },
     {
-      "key": "healthcare",
-      "name": "Epic Clarity",
-      "industry": "Healthcare \u00b7 Clinical analytics",
-      "url": "https://fivetran-jasonchletsos.github.io/Healthcare-EPIC-Snowflake-Demo/",
-      "repo": "fivetran-jasonchletsos/Healthcare-EPIC-Snowflake-Demo",
-      "warehouse": "Snowflake",
-      "owner": "@clinical-data",
-      "connectors": [
-        "epic_clarity",
-        "hl7_fhir"
-      ],
-      "pii_tier": "PHI",
-      "rows_24h": 8484350,
-      "monthly_active": 545,
-      "uptime_pct": 100.0,
-      "cost_30d_usd": 287.88,
-      "status": "healthy"
-    },
-    {
       "key": "finserv",
-      "name": "Meridian Capital",
-      "industry": "Financial Services \u00b7 Wealth & banking",
+      "name": "Altavest Capital",
+      "industry": "Financial Services \u00b7 Portfolio research, risk, and regulatory analytics",
       "url": "https://fivetran-jasonchletsos.github.io/FinServ-ODI-Demo/",
       "repo": "fivetran-jasonchletsos/FinServ-ODI-Demo",
-      "warehouse": "Athena/Iceberg",
+      "warehouse": "Snowflake",
       "owner": "@research",
       "connectors": [
-        "sec_edgar",
-        "fred",
-        "cfpb"
+        "trade_ledger",
+        "portfolio_mgmt",
+        "market_data",
+        "sec_edgar"
       ],
       "pii_tier": "PII",
       "rows_24h": 20120724,
@@ -60,17 +202,17 @@
     },
     {
       "key": "insurance",
-      "name": "Atlas Risk",
-      "industry": "Insurance \u00b7 Policies, claims, reinsurance",
+      "name": "Verity Insurance",
+      "industry": "Insurance \u00b7 Underwriting, claims, and regulatory reporting",
       "url": "https://fivetran-jasonchletsos.github.io/Insurance-ODI-Demo/",
       "repo": "fivetran-jasonchletsos/Insurance-ODI-Demo",
-      "warehouse": "Athena/Iceberg",
+      "warehouse": "Snowflake",
       "owner": "@underwriting",
       "connectors": [
-        "oracle_pas",
-        "sqlserver_claims",
-        "naic_filings",
-        "noaa_storm_events"
+        "policy_admin",
+        "claims_mart",
+        "telematics",
+        "naic_filings"
       ],
       "pii_tier": "PII",
       "rows_24h": 1294700,
@@ -81,8 +223,8 @@
     },
     {
       "key": "media",
-      "name": "Lighthouse Media",
-      "industry": "Media \u00b7 Audience intelligence",
+      "name": "Signal Reach Media",
+      "industry": "Media + Advertising \u00b7 Cross-channel audience intelligence",
       "url": "https://fivetran-jasonchletsos.github.io/Media-ODI-Demo/",
       "repo": "fivetran-jasonchletsos/Media-ODI-Demo",
       "warehouse": "Athena/Iceberg",
@@ -100,9 +242,30 @@
       "status": "healthy"
     },
     {
+      "key": "lifesci",
+      "name": "Cohort",
+      "industry": "LifeSci + Pharma \u00b7 Clinical trial operations",
+      "url": "https://fivetran-jasonchletsos.github.io/LifeSci-ODI-Demo/",
+      "repo": "fivetran-jasonchletsos/LifeSci-ODI-Demo",
+      "warehouse": "Athena/Iceberg",
+      "owner": "@biostats",
+      "connectors": [
+        "veeva_ctms",
+        "redcap",
+        "clinicaltrials_gov",
+        "fda"
+      ],
+      "pii_tier": "PHI",
+      "rows_24h": 1579039,
+      "monthly_active": 192,
+      "uptime_pct": 100.0,
+      "cost_30d_usd": 1396.33,
+      "status": "healthy"
+    },
+    {
       "key": "retail",
-      "name": "Storefront Analytics",
-      "industry": "Retail & e-commerce",
+      "name": "Storefront",
+      "industry": "Retail + eCommerce \u00b7 Operations + customer analytics",
       "url": "https://fivetran-jasonchletsos.github.io/RetailEcom-ODI-Demo/",
       "repo": "fivetran-jasonchletsos/RetailEcom-ODI-Demo",
       "warehouse": "Athena/Iceberg",
@@ -120,9 +283,365 @@
       "status": "degraded"
     },
     {
+      "key": "supplychain",
+      "name": "Stratum",
+      "industry": "Supply Chain \u00b7 Shipment + logistics analytics",
+      "url": "https://fivetran-jasonchletsos.github.io/SupplyChain-ODI-Demo/",
+      "repo": "fivetran-jasonchletsos/SupplyChain-ODI-Demo",
+      "warehouse": "Athena/Iceberg",
+      "owner": "@logistics",
+      "connectors": [
+        "carrier_apis",
+        "customs",
+        "port_data"
+      ],
+      "pii_tier": "internal",
+      "rows_24h": 19884735,
+      "monthly_active": 1128,
+      "uptime_pct": 99.55,
+      "cost_30d_usd": 296.0,
+      "status": "healthy"
+    },
+    {
+      "key": "manufacturing",
+      "name": "Vantex Manufacturing",
+      "industry": "Manufacturing \u00b7 Tier-1 auto parts: OEE, predictive maintenance, ESG",
+      "url": "https://fivetran-jasonchletsos.github.io/Manufacturing-ODI-Demo/",
+      "repo": "fivetran-jasonchletsos/Manufacturing-ODI-Demo",
+      "warehouse": "Snowflake",
+      "owner": "@mfg-ops",
+      "connectors": [
+        "sap_s4hana",
+        "rockwell_factorytalk",
+        "osisoft_pi",
+        "ignition_scada"
+      ],
+      "pii_tier": "internal",
+      "rows_24h": 11861539,
+      "monthly_active": 943,
+      "uptime_pct": 98.11,
+      "cost_30d_usd": 1259.81,
+      "status": "degraded"
+    },
+    {
+      "key": "energy-utilities",
+      "name": "Helios Grid",
+      "industry": "Energy & Utilities \u00b7 Regulated utility: SCADA + AMI + outage + ESG",
+      "url": "https://fivetran-jasonchletsos.github.io/Energy-Utilities-ODI-Demo/",
+      "repo": "fivetran-jasonchletsos/Energy-Utilities-ODI-Demo",
+      "warehouse": "Snowflake",
+      "owner": "@grid-ops",
+      "connectors": [
+        "sap_isu",
+        "osisoft_pi_scada",
+        "gis",
+        "itron_ami"
+      ],
+      "pii_tier": "OT-restricted",
+      "rows_24h": 4772528,
+      "monthly_active": 1110,
+      "uptime_pct": 100.0,
+      "cost_30d_usd": 1498.71,
+      "status": "healthy"
+    },
+    {
+      "key": "telecom",
+      "name": "Aperture Wireless",
+      "industry": "Telecom \u00b7 Network + churn + AI care agent",
+      "url": "https://fivetran-jasonchletsos.github.io/Telecom-ODI-Demo/",
+      "repo": "fivetran-jasonchletsos/Telecom-ODI-Demo",
+      "warehouse": "Snowflake",
+      "owner": "@network-ops",
+      "connectors": [
+        "amdocs_cis",
+        "salesforce",
+        "ericsson_nokia_oss",
+        "cdr_mediation"
+      ],
+      "pii_tier": "PII",
+      "rows_24h": 6375902,
+      "monthly_active": 670,
+      "uptime_pct": 100.0,
+      "cost_30d_usd": 234.57,
+      "status": "healthy"
+    },
+    {
+      "key": "hospitality-travel",
+      "name": "Ardmore Hotels",
+      "industry": "Hospitality & Travel \u00b7 Revenue management + guest experience",
+      "url": "https://fivetran-jasonchletsos.github.io/Hospitality-Travel-ODI-Demo/",
+      "repo": "fivetran-jasonchletsos/Hospitality-Travel-ODI-Demo",
+      "warehouse": "Snowflake",
+      "owner": "@rev-mgmt",
+      "connectors": [
+        "oracle_opera_pms",
+        "sabre_amadeus",
+        "booking_com",
+        "cendyn"
+      ],
+      "pii_tier": "PII",
+      "rows_24h": 21246694,
+      "monthly_active": 513,
+      "uptime_pct": 99.47,
+      "cost_30d_usd": 505.2,
+      "status": "healthy"
+    },
+    {
+      "key": "automotive",
+      "name": "Pinnacle Motors",
+      "industry": "Automotive \u00b7 OEM + dealer network + 1.2M connected vehicles",
+      "url": "https://fivetran-jasonchletsos.github.io/Automotive-ODI-Demo/",
+      "repo": "fivetran-jasonchletsos/Automotive-ODI-Demo",
+      "warehouse": "Snowflake",
+      "owner": "@auto-data",
+      "connectors": [
+        "sap_s4hana",
+        "dealertrack_dms",
+        "cox_manheim",
+        "connected_car_telemetry"
+      ],
+      "pii_tier": "PII",
+      "rows_24h": 15681525,
+      "monthly_active": 675,
+      "uptime_pct": 100.0,
+      "cost_30d_usd": 1457.81,
+      "status": "healthy"
+    },
+    {
+      "key": "higher-ed",
+      "name": "Cascade University",
+      "industry": "Higher Education \u00b7 Enrollment + student success + research",
+      "url": "https://fivetran-jasonchletsos.github.io/HigherEd-ODI-Demo/",
+      "repo": "fivetran-jasonchletsos/HigherEd-ODI-Demo",
+      "warehouse": "Snowflake",
+      "owner": "@institutional-research",
+      "connectors": [
+        "banner_sis",
+        "workday_hcm",
+        "canvas_lms",
+        "slate"
+      ],
+      "pii_tier": "FERPA",
+      "rows_24h": 18773866,
+      "monthly_active": 597,
+      "uptime_pct": 99.53,
+      "cost_30d_usd": 283.25,
+      "status": "healthy"
+    },
+    {
+      "key": "banking",
+      "name": "Pediment Bank",
+      "industry": "Banking & Capital Markets \u00b7 Deposits, lending, fraud, AML, commercial",
+      "url": "https://fivetran-jasonchletsos.github.io/Banking-ODI-Demo/",
+      "repo": "fivetran-jasonchletsos/Banking-ODI-Demo",
+      "warehouse": "Snowflake",
+      "owner": "@bank-data",
+      "connectors": [
+        "fis_horizon",
+        "salesforce_fsc",
+        "ncino",
+        "plaid"
+      ],
+      "pii_tier": "PII",
+      "rows_24h": 13988919,
+      "monthly_active": 695,
+      "uptime_pct": 98.31,
+      "cost_30d_usd": 2347.26,
+      "status": "degraded"
+    },
+    {
+      "key": "federal-gov",
+      "name": "Bureau of Federal Outcomes",
+      "industry": "Federal Government \u00b7 Benefits, improper payments, FISMA",
+      "url": "https://fivetran-jasonchletsos.github.io/FederalGov-ODI-Demo/",
+      "repo": "fivetran-jasonchletsos/FederalGov-ODI-Demo",
+      "warehouse": "Snowflake GovCloud",
+      "owner": "@fedciv",
+      "connectors": [
+        "benefits_mainframe",
+        "servicenow",
+        "salesforce_public_sector",
+        "treasury_ipp"
+      ],
+      "pii_tier": "FedRAMP-PII",
+      "rows_24h": 9151430,
+      "monthly_active": 461,
+      "uptime_pct": 98.26,
+      "cost_30d_usd": 527.87,
+      "status": "degraded"
+    },
+    {
+      "key": "qsr",
+      "name": "Hearth Coffee Co.",
+      "industry": "QSR & Food Service \u00b7 4,800 locations, mobile app, loyalty, supply chain",
+      "url": "https://fivetran-jasonchletsos.github.io/QSR-ODI-Demo/",
+      "repo": "fivetran-jasonchletsos/QSR-ODI-Demo",
+      "warehouse": "Snowflake",
+      "owner": "@ops",
+      "connectors": [
+        "toast_ncr_pos",
+        "olo",
+        "doordash_uber_grubhub",
+        "salesforce_mktg"
+      ],
+      "pii_tier": "PII",
+      "rows_24h": 14873695,
+      "monthly_active": 1112,
+      "uptime_pct": 99.69,
+      "cost_30d_usd": 1694.42,
+      "status": "healthy"
+    },
+    {
+      "key": "aerospace",
+      "name": "Argent Aerospace",
+      "industry": "Aerospace & Defense \u00b7 Commercial OEM + defense programs + MRO",
+      "url": "https://fivetran-jasonchletsos.github.io/Aerospace-ODI-Demo/",
+      "repo": "fivetran-jasonchletsos/Aerospace-ODI-Demo",
+      "warehouse": "Snowflake",
+      "owner": "@aero-ops",
+      "connectors": [
+        "sap_s4hana",
+        "siemens_teamcenter",
+        "apriso_mes",
+        "ibm_maximo"
+      ],
+      "pii_tier": "ITAR/DFARS",
+      "rows_24h": 23486885,
+      "monthly_active": 77,
+      "uptime_pct": 99.89,
+      "cost_30d_usd": 153.03,
+      "status": "healthy"
+    },
+    {
+      "key": "real-estate",
+      "name": "Anchor Properties",
+      "industry": "Real Estate / CRE \u00b7 $42B portfolio across office, industrial, multifamily",
+      "url": "https://fivetran-jasonchletsos.github.io/RealEstate-ODI-Demo/",
+      "repo": "fivetran-jasonchletsos/RealEstate-ODI-Demo",
+      "warehouse": "Snowflake",
+      "owner": "@reit-analytics",
+      "connectors": [
+        "yardi_voyager",
+        "mri_software",
+        "vts",
+        "procore"
+      ],
+      "pii_tier": "PII",
+      "rows_24h": 13475953,
+      "monthly_active": 1156,
+      "uptime_pct": 98.36,
+      "cost_30d_usd": 2119.93,
+      "status": "degraded"
+    },
+    {
+      "key": "prof-services",
+      "name": "Whitestone Advisory",
+      "industry": "Professional Services \u00b7 Audit, tax, consulting, cyber",
+      "url": "https://fivetran-jasonchletsos.github.io/ProfServices-ODI-Demo/",
+      "repo": "fivetran-jasonchletsos/ProfServices-ODI-Demo",
+      "warehouse": "Snowflake",
+      "owner": "@advisory",
+      "connectors": [
+        "sap_s4hana",
+        "workday_hcm",
+        "salesforce",
+        "ms_dynamics"
+      ],
+      "pii_tier": "PII",
+      "rows_24h": 3706247,
+      "monthly_active": 466,
+      "uptime_pct": 99.4,
+      "cost_30d_usd": 493.01,
+      "status": "healthy"
+    },
+    {
+      "key": "cpg-supplychain",
+      "name": "Cardinal Provisions",
+      "industry": "Consumer Packaged Goods \u00b7 CPG downstream \u2014 manufacturer to retailer",
+      "url": "https://fivetran-jasonchletsos.github.io/CPG-SupplyChain-ODI-Demo/",
+      "repo": "fivetran-jasonchletsos/CPG-SupplyChain-ODI-Demo",
+      "warehouse": "Snowflake",
+      "owner": "@cpg-supply",
+      "connectors": [
+        "sap_s4hana",
+        "manhattan_wms",
+        "walmart_retail_link",
+        "amazon_vendor_central"
+      ],
+      "pii_tier": "internal",
+      "rows_24h": 1282318,
+      "monthly_active": 1114,
+      "uptime_pct": 99.87,
+      "cost_30d_usd": 1087.38,
+      "status": "healthy"
+    },
+    {
+      "key": "pharma-rd",
+      "name": "Acacia Therapeutics",
+      "industry": "Pharma R&D \u00b7 Discovery, pipeline, RWE, regulatory",
+      "url": "https://fivetran-jasonchletsos.github.io/PharmaRD-ODI-Demo/",
+      "repo": "fivetran-jasonchletsos/PharmaRD-ODI-Demo",
+      "warehouse": "Snowflake",
+      "owner": "@pharma-rd",
+      "connectors": [
+        "benchling",
+        "veeva_vault_rim",
+        "openfda",
+        "pubmed"
+      ],
+      "pii_tier": "PHI",
+      "rows_24h": 1292188,
+      "monthly_active": 459,
+      "uptime_pct": 98.47,
+      "cost_30d_usd": 1365.76,
+      "status": "degraded"
+    },
+    {
+      "key": "gaming",
+      "name": "Vault Interactive",
+      "industry": "Gaming \u00b7 Live-ops, players, monetization, anti-cheat",
+      "url": "https://fivetran-jasonchletsos.github.io/Gaming-ODI-Demo/",
+      "repo": "fivetran-jasonchletsos/Gaming-ODI-Demo",
+      "warehouse": "Snowflake",
+      "owner": "@live-ops",
+      "connectors": [
+        "in_house_telemetry",
+        "steam_web_api",
+        "twitch_helix",
+        "discord"
+      ],
+      "pii_tier": "PII",
+      "rows_24h": 11310553,
+      "monthly_active": 633,
+      "uptime_pct": 98.56,
+      "cost_30d_usd": 264.64,
+      "status": "degraded"
+    },
+    {
+      "key": "sports",
+      "name": "Apex Sports League",
+      "industry": "Sports & Entertainment \u00b7 24-team pro league: ticketing, ApexTV streaming, sportsbook",
+      "url": "https://fivetran-jasonchletsos.github.io/Sports-ODI-Demo/",
+      "repo": "fivetran-jasonchletsos/Sports-ODI-Demo",
+      "warehouse": "Snowflake",
+      "owner": "@league-analytics",
+      "connectors": [
+        "ticketmaster_stubhub",
+        "apextv_streaming",
+        "apextrack_optical",
+        "sportsbook_feeds"
+      ],
+      "pii_tier": "PII",
+      "rows_24h": 15085893,
+      "monthly_active": 873,
+      "uptime_pct": 100.0,
+      "cost_30d_usd": 2319.74,
+      "status": "healthy"
+    },
+    {
       "key": "techsaas",
-      "name": "SaaS Pulse",
-      "industry": "Tech \u00b7 SaaS analytics",
+      "name": "Pulse Analytics",
+      "industry": "Tech SaaS \u00b7 SaaS metrics + telemetry",
       "url": "https://fivetran-jasonchletsos.github.io/TechSaaS-ODI-Demo/",
       "repo": "fivetran-jasonchletsos/TechSaaS-ODI-Demo",
       "warehouse": "Athena/Iceberg",
@@ -141,43 +660,121 @@
       "status": "healthy"
     },
     {
-      "key": "supplychain",
-      "name": "Manifest",
-      "industry": "Supply chain \u00b7 Logistics",
-      "url": "https://fivetran-jasonchletsos.github.io/SupplyChain-ODI-Demo/",
-      "repo": "fivetran-jasonchletsos/SupplyChain-ODI-Demo",
-      "warehouse": "Athena/Iceberg",
-      "owner": "@logistics",
+      "key": "healthcare-epic",
+      "name": "Clarity Health",
+      "industry": "Healthcare \u00b7 Clinical analytics + dbt Wizard build-time AI",
+      "url": "https://fivetran-jasonchletsos.github.io/Healthcare-EPIC-Snowflake-Demo/",
+      "repo": "fivetran-jasonchletsos/Healthcare-EPIC-Snowflake-Demo",
+      "warehouse": "Snowflake",
+      "owner": "@clinical-data",
       "connectors": [
-        "sap",
-        "edi",
-        "gps_telemetry"
+        "epic_clarity",
+        "payor_claims_mart",
+        "hl7_adt",
+        "cms_nppes"
       ],
-      "pii_tier": "internal",
-      "rows_24h": 19884735,
-      "monthly_active": 1128,
-      "uptime_pct": 99.55,
-      "cost_30d_usd": 296.0,
+      "pii_tier": "PHI",
+      "rows_24h": 7819659,
+      "monthly_active": 643,
+      "uptime_pct": 99.8,
+      "cost_30d_usd": 645.17,
       "status": "healthy"
     },
     {
-      "key": "lifesci",
-      "name": "Cohort",
-      "industry": "Life sciences \u00b7 Clinical research",
-      "url": "https://fivetran-jasonchletsos.github.io/LifeSci-ODI-Demo/",
-      "repo": "fivetran-jasonchletsos/LifeSci-ODI-Demo",
+      "key": "sap",
+      "name": "Pendulum Industries",
+      "industry": "Enterprise / SAP \u00b7 SAP into ODI",
+      "url": "https://fivetran-jasonchletsos.github.io/SAP-ODI-Demo/",
+      "repo": "fivetran-jasonchletsos/SAP-ODI-Demo",
       "warehouse": "Athena/Iceberg",
-      "owner": "@biostats",
+      "owner": "@sap-cdc",
       "connectors": [
-        "veeva_ctms",
-        "redcap",
-        "clinicaltrials_gov"
+        "sap_ecc_s4hana"
       ],
-      "pii_tier": "PHI",
-      "rows_24h": 1579039,
-      "monthly_active": 192,
+      "pii_tier": "PII",
+      "rows_24h": 13899817,
+      "monthly_active": 281,
       "uptime_pct": 100.0,
-      "cost_30d_usd": 1396.33,
+      "cost_30d_usd": 1707.41,
+      "status": "healthy"
+    },
+    {
+      "key": "liner-notes",
+      "name": "Liner Notes",
+      "industry": "Music \u00b7 Music canon + Cortex Analyst",
+      "url": "https://fivetran-jasonchletsos.github.io/LinerNotes-ODI-Demo/",
+      "repo": "fivetran-jasonchletsos/LinerNotes-ODI-Demo",
+      "warehouse": "Snowflake",
+      "owner": "@se",
+      "connectors": [
+        "spotify_web_api",
+        "musicbrainz",
+        "pitchfork"
+      ],
+      "pii_tier": "public",
+      "rows_24h": 11526003,
+      "monthly_active": 850,
+      "uptime_pct": 99.89,
+      "cost_30d_usd": 348.14,
+      "status": "healthy"
+    },
+    {
+      "key": "castle-rock",
+      "name": "Castle Rock Archive",
+      "industry": "Books & Film \u00b7 The Stephen King universe \u2014 books, films, cameos, characters",
+      "url": "https://fivetran-jasonchletsos.github.io/StephenKing-ODI-Demo/",
+      "repo": "fivetran-jasonchletsos/StephenKing-ODI-Demo",
+      "warehouse": "Snowflake",
+      "owner": "@se",
+      "connectors": [
+        "open_library",
+        "tmdb",
+        "wikidata"
+      ],
+      "pii_tier": "public",
+      "rows_24h": 18930765,
+      "monthly_active": 262,
+      "uptime_pct": 99.78,
+      "cost_30d_usd": 1386.7,
+      "status": "healthy"
+    },
+    {
+      "key": "ebay-pokemon",
+      "name": "Harpua2001 / eBay Pokemon",
+      "industry": "Pokemon TCG \u00b7 eBay reseller dashboard + Pokemon TCG analytics",
+      "url": "https://fivetran-jasonchletsos.github.io/jason_chletsos_ebay_lots/",
+      "repo": "fivetran-jasonchletsos/jason_chletsos_ebay_lots",
+      "warehouse": "Databricks",
+      "owner": "@se",
+      "connectors": [
+        "ebay_api",
+        "pokemon_tcg_api",
+        "tcgplayer"
+      ],
+      "pii_tier": "public",
+      "rows_24h": 22157224,
+      "monthly_active": 1151,
+      "uptime_pct": 100.0,
+      "cost_30d_usd": 819.13,
+      "status": "healthy"
+    },
+    {
+      "key": "petes-movies",
+      "name": "Peter's Must See Movies",
+      "industry": "Movies \u00b7 Curated movie list + Cortex rejection",
+      "url": "https://fivetran-jasonchletsos.github.io/Peters-Must-See-Movies/",
+      "repo": "fivetran-jasonchletsos/Peters-Must-See-Movies",
+      "warehouse": "Snowflake",
+      "owner": "@se",
+      "connectors": [
+        "tmdb",
+        "omdb"
+      ],
+      "pii_tier": "public",
+      "rows_24h": 22228984,
+      "monthly_active": 928,
+      "uptime_pct": 99.55,
+      "cost_30d_usd": 1224.01,
       "status": "healthy"
     }
   ]
