@@ -9,7 +9,9 @@ export type DemoKey = string;
 
 export type Status = 'healthy' | 'degraded' | 'failing' | 'unknown';
 export type Severity = 'sev1' | 'sev2' | 'sev3' | 'info';
-export type PIITier = 'PII' | 'PHI' | 'PCI' | 'internal' | 'public';
+export type PIITier =
+  | 'PII' | 'PHI' | 'PCI' | 'internal' | 'public'
+  | 'FedRAMP-PII' | 'FERPA' | 'ITAR/DFARS' | 'OT-restricted';
 
 export interface Demo {
   key: DemoKey;

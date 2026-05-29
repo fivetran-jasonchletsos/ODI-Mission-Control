@@ -39,10 +39,15 @@ const PII_STYLE: Record<PIITier, { bg: string; fg: string; border: string }> = {
   PII:      { bg: 'rgba(245,158,11,0.14)', fg: '#fcd34d', border: 'rgba(245,158,11,0.32)' },
   internal: { bg: 'rgba(100,116,139,0.18)', fg: '#cbd5e1', border: 'rgba(148,163,184,0.30)' },
   public:   { bg: 'rgba(16,185,129,0.14)',  fg: '#6ee7b7', border: 'rgba(16,185,129,0.32)' },
+  'FedRAMP-PII':   { bg: 'rgba(139,92,246,0.14)', fg: '#c4b5fd', border: 'rgba(139,92,246,0.32)' },
+  'FERPA':         { bg: 'rgba(34,211,238,0.14)', fg: '#67e8f9', border: 'rgba(34,211,238,0.32)' },
+  'ITAR/DFARS':    { bg: 'rgba(239,68,68,0.14)',  fg: '#fca5a5', border: 'rgba(239,68,68,0.32)' },
+  'OT-restricted': { bg: 'rgba(249,115,22,0.14)', fg: '#fdba74', border: 'rgba(249,115,22,0.32)' },
 };
+const PII_STYLE_FALLBACK = { bg: 'rgba(100,116,139,0.18)', fg: '#cbd5e1', border: 'rgba(148,163,184,0.30)' };
 
 function piiBadge(t: PIITier) {
-  const s = PII_STYLE[t];
+  const s = PII_STYLE[t] ?? PII_STYLE_FALLBACK;
   return (
     <span
       className="pill font-mono"

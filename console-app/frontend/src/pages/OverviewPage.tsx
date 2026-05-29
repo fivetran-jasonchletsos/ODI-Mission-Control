@@ -33,7 +33,12 @@ const PII_TIER_STYLE: Record<string, { bg: string; fg: string; label: string }> 
   PII:      { bg: 'rgba(245,158,11,0.15)', fg: '#fbbf24', label: 'PII' },
   internal: { bg: 'rgba(148,163,184,0.15)',fg: '#94a3b8', label: 'INT' },
   public:   { bg: 'rgba(34,197,94,0.15)',  fg: '#4ade80', label: 'PUB' },
+  'FedRAMP-PII':   { bg: 'rgba(139,92,246,0.15)', fg: '#c4b5fd', label: 'FED' },
+  'FERPA':         { bg: 'rgba(34,211,238,0.15)', fg: '#67e8f9', label: 'FERPA' },
+  'ITAR/DFARS':    { bg: 'rgba(239,68,68,0.15)',  fg: '#fca5a5', label: 'ITAR' },
+  'OT-restricted': { bg: 'rgba(249,115,22,0.15)', fg: '#fdba74', label: 'OT' },
 };
+const PII_TIER_FALLBACK = { bg: 'rgba(148,163,184,0.15)', fg: '#94a3b8', label: 'N/A' };
 
 const STATUS_ORDER: Record<string, number> = { failing: 0, degraded: 1, healthy: 2, unknown: 3 };
 
@@ -157,7 +162,7 @@ export default function OverviewPage() {
                style={{ borderColor: 'var(--hairline)' }}>
             {sortedDemos.map((d, i) => {
               const r = rollupByKey.get(d.key);
-              const pii = PII_TIER_STYLE[d.pii_tier];
+              const pii = PII_TIER_STYLE[d.pii_tier] ?? PII_TIER_FALLBACK;
               const rowDivider = i >= 2 ? { borderTop: '1px solid var(--hairline)' } : {};
               return (
                 <a

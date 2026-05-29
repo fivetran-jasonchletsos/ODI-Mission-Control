@@ -39,7 +39,12 @@ const PII_COLOR: Record<PIITier, string> = {
   PCI:      '#f59e0b',
   internal: '#94a3b8',
   public:   '#22c55e',
+  'FedRAMP-PII':   '#8b5cf6',
+  'FERPA':         '#22d3ee',
+  'ITAR/DFARS':    '#ef4444',
+  'OT-restricted': '#f97316',
 };
+const piiColor = (t: PIITier): string => PII_COLOR[t] ?? '#94a3b8';
 
 // ---- node display ----
 const NODE_W = 140;
@@ -321,15 +326,15 @@ export default function LineagePage() {
                           x={0} y={0}
                           width={tierBadgeWidth(n.pii_tier)} height={14}
                           rx={3} ry={3}
-                          fill={`${PII_COLOR[n.pii_tier]}26`}
-                          stroke={`${PII_COLOR[n.pii_tier]}66`}
+                          fill={`${piiColor(n.pii_tier)}26`}
+                          stroke={`${piiColor(n.pii_tier)}66`}
                           strokeWidth={1}
                         />
                         <text
                           x={6} y={10}
                           fontSize={9}
                           fontFamily="ui-monospace, SF Mono, Menlo, monospace"
-                          fill={PII_COLOR[n.pii_tier]}
+                          fill={piiColor(n.pii_tier)}
                           letterSpacing={0.5}
                         >
                           {n.pii_tier.toUpperCase()}
@@ -381,7 +386,7 @@ export default function LineagePage() {
                   <Stat label="Rows" value={formatNumber(selectedNode.rows)} />
                   <Stat label="PII"
                         value={selectedNode.pii_tier}
-                        color={PII_COLOR[selectedNode.pii_tier]} />
+                        color={piiColor(selectedNode.pii_tier)} />
                 </div>
                 <EdgeList title={`Incoming · ${incoming.length}`} edges={incoming} side="from" />
                 <EdgeList title={`Outgoing · ${outgoing.length}`} edges={outgoing} side="to" />
@@ -433,9 +438,9 @@ export default function LineagePage() {
                 key={tier}
                 className="px-2 py-1 rounded text-[10px] font-mono uppercase tracking-wider"
                 style={{
-                  color: PII_COLOR[tier],
-                  background: `${PII_COLOR[tier]}1f`,
-                  border: `1px solid ${PII_COLOR[tier]}55`,
+                  color: piiColor(tier),
+                  background: `${piiColor(tier)}1f`,
+                  border: `1px solid ${piiColor(tier)}55`,
                 }}
               >
                 {tier} · {n}
