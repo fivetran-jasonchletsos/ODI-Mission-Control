@@ -794,6 +794,26 @@
       "uptime_pct": 99.55,
       "cost_30d_usd": 1224.01,
       "status": "healthy"
+    },
+    {
+      "key": "revops",
+      "name": "Signal",
+      "industry": "RevOps / GTM \u00b7 Customer-360 for AI agents (CRM + support + call intelligence)",
+      "url": "https://fivetran-jasonchletsos.github.io/RevOps-ODI-Demo/",
+      "repo": "fivetran-jasonchletsos/RevOps-ODI-Demo",
+      "warehouse": "Snowflake",
+      "owner": "@se",
+      "connectors": [
+        "salesforce",
+        "zendesk",
+        "gong"
+      ],
+      "pii_tier": "internal",
+      "rows_24h": 20925346,
+      "monthly_active": 411,
+      "uptime_pct": 99.31,
+      "cost_30d_usd": 234.08,
+      "status": "healthy"
     }
   ]
 }

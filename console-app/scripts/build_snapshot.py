@@ -301,6 +301,13 @@ DEMOS = [
         "warehouse": "Snowflake", "owner": "@se",
         "connectors": ["tmdb", "omdb"], "pii_tier": "public",
     },
+    {
+        "key": "revops", "name": "Signal", "industry": "RevOps / GTM · Customer-360 for AI agents (CRM + support + call intelligence)",
+        "url": "https://fivetran-jasonchletsos.github.io/RevOps-ODI-Demo/",
+        "repo": "fivetran-jasonchletsos/RevOps-ODI-Demo",
+        "warehouse": "Snowflake", "owner": "@se",
+        "connectors": ["salesforce", "zendesk", "gong"], "pii_tier": "internal",
+    },
 ]
 
 

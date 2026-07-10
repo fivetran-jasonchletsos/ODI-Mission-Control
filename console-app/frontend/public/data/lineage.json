@@ -4892,6 +4892,118 @@
       "demo": "petes-movies",
       "rows": 0,
       "pii_tier": "public"
+    },
+    {
+      "id": "revops.source.salesforce",
+      "layer": "source",
+      "demo": "revops",
+      "rows": 1991797,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "revops.bronze.salesforce",
+      "layer": "bronze",
+      "demo": "revops",
+      "rows": 1312097,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "revops.silver.salesforce_clean",
+      "layer": "silver",
+      "demo": "revops",
+      "rows": 5952732,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "revops.gold.fct_salesforce",
+      "layer": "gold",
+      "demo": "revops",
+      "rows": 5829969,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "revops.mart.unknown",
+      "layer": "mart",
+      "demo": "revops",
+      "rows": 6402931,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "revops.source.zendesk",
+      "layer": "source",
+      "demo": "revops",
+      "rows": 3290195,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "revops.bronze.zendesk",
+      "layer": "bronze",
+      "demo": "revops",
+      "rows": 6858947,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "revops.silver.zendesk_clean",
+      "layer": "silver",
+      "demo": "revops",
+      "rows": 3680706,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "revops.gold.fct_zendesk",
+      "layer": "gold",
+      "demo": "revops",
+      "rows": 7953872,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "revops.mart.unknown",
+      "layer": "mart",
+      "demo": "revops",
+      "rows": 5812361,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "revops.source.gong",
+      "layer": "source",
+      "demo": "revops",
+      "rows": 3900992,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "revops.bronze.gong",
+      "layer": "bronze",
+      "demo": "revops",
+      "rows": 200001,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "revops.silver.gong_clean",
+      "layer": "silver",
+      "demo": "revops",
+      "rows": 7447394,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "revops.gold.fct_gong",
+      "layer": "gold",
+      "demo": "revops",
+      "rows": 7323449,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "revops.mart.unknown",
+      "layer": "mart",
+      "demo": "revops",
+      "rows": 199039,
+      "pii_tier": "internal"
+    },
+    {
+      "id": "revops.app.dashboard",
+      "layer": "app",
+      "demo": "revops",
+      "rows": 0,
+      "pii_tier": "internal"
     }
   ],
   "edges": [
@@ -7728,6 +7840,71 @@
     {
       "from": "petes-movies.mart.unknown",
       "to": "petes-movies.app.dashboard",
+      "transform": "API \u00b7 cache layer"
+    },
+    {
+      "from": "revops.source.salesforce",
+      "to": "revops.bronze.salesforce",
+      "transform": "Fivetran SDK \u00b7 1:1 mirror"
+    },
+    {
+      "from": "revops.bronze.salesforce",
+      "to": "revops.silver.salesforce_clean",
+      "transform": "dbt model \u00b7 type cast + dedupe"
+    },
+    {
+      "from": "revops.silver.salesforce_clean",
+      "to": "revops.gold.fct_salesforce",
+      "transform": "dbt model \u00b7 business logic"
+    },
+    {
+      "from": "revops.gold.fct_salesforce",
+      "to": "revops.mart.unknown",
+      "transform": "dbt model \u00b7 final mart"
+    },
+    {
+      "from": "revops.source.zendesk",
+      "to": "revops.bronze.zendesk",
+      "transform": "Fivetran SDK \u00b7 1:1 mirror"
+    },
+    {
+      "from": "revops.bronze.zendesk",
+      "to": "revops.silver.zendesk_clean",
+      "transform": "dbt model \u00b7 type cast + dedupe"
+    },
+    {
+      "from": "revops.silver.zendesk_clean",
+      "to": "revops.gold.fct_zendesk",
+      "transform": "dbt model \u00b7 business logic"
+    },
+    {
+      "from": "revops.gold.fct_zendesk",
+      "to": "revops.mart.unknown",
+      "transform": "dbt model \u00b7 final mart"
+    },
+    {
+      "from": "revops.source.gong",
+      "to": "revops.bronze.gong",
+      "transform": "Fivetran SDK \u00b7 1:1 mirror"
+    },
+    {
+      "from": "revops.bronze.gong",
+      "to": "revops.silver.gong_clean",
+      "transform": "dbt model \u00b7 type cast + dedupe"
+    },
+    {
+      "from": "revops.silver.gong_clean",
+      "to": "revops.gold.fct_gong",
+      "transform": "dbt model \u00b7 business logic"
+    },
+    {
+      "from": "revops.gold.fct_gong",
+      "to": "revops.mart.unknown",
+      "transform": "dbt model \u00b7 final mart"
+    },
+    {
+      "from": "revops.mart.unknown",
+      "to": "revops.app.dashboard",
       "transform": "API \u00b7 cache layer"
     }
   ]
