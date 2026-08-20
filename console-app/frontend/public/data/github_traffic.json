@@ -1,210 +1,210 @@
 {
-  "fetched_at": "2026-08-19T07:21:04Z",
+  "fetched_at": "2026-08-20T07:23:41Z",
   "owner": "fivetran-jasonchletsos",
   "demos": [
     {
       "repo": "00-Intro-ODI-Demo",
-      "views_14d": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"403"}{"count":0,"uniques":0,"views":[]},
-      "popular_paths": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"403"}[],
-      "top_referrers": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"403"}[]
+      "views_14d": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"404"}{"count":0,"uniques":0,"views":[]},
+      "popular_paths": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"404"}[],
+      "top_referrers": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"404"}[]
     },
     {
       "repo": "build-with-claude-code",
-      "views_14d": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"403"}{"count":0,"uniques":0,"views":[]},
-      "popular_paths": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"403"}[],
-      "top_referrers": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"403"}[]
+      "views_14d": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"404"}{"count":0,"uniques":0,"views":[]},
+      "popular_paths": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"404"}[],
+      "top_referrers": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"404"}[]
     },
     {
       "repo": "the-scout-room",
-      "views_14d": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"403"}{"count":0,"uniques":0,"views":[]},
-      "popular_paths": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"403"}[],
-      "top_referrers": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"403"}[]
+      "views_14d": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"404"}{"count":0,"uniques":0,"views":[]},
+      "popular_paths": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"404"}[],
+      "top_referrers": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"404"}[]
     },
     {
       "repo": "Crisis-Room-ODI-Demo",
-      "views_14d": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"403"}{"count":0,"uniques":0,"views":[]},
-      "popular_paths": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"403"}[],
-      "top_referrers": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"403"}[]
+      "views_14d": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"404"}{"count":0,"uniques":0,"views":[]},
+      "popular_paths": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"404"}[],
+      "top_referrers": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"404"}[]
     },
     {
       "repo": "Brief-Room-ODI-Demo",
-      "views_14d": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"403"}{"count":0,"uniques":0,"views":[]},
-      "popular_paths": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"403"}[],
-      "top_referrers": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"403"}[]
+      "views_14d": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"404"}{"count":0,"uniques":0,"views":[]},
+      "popular_paths": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"404"}[],
+      "top_referrers": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"404"}[]
     },
     {
       "repo": "Build-Room-ODI-Demo",
-      "views_14d": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"403"}{"count":0,"uniques":0,"views":[]},
-      "popular_paths": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"403"}[],
-      "top_referrers": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"403"}[]
+      "views_14d": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"404"}{"count":0,"uniques":0,"views":[]},
+      "popular_paths": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"404"}[],
+      "top_referrers": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"404"}[]
     },
     {
       "repo": "What_Is_ODI_Demo",
-      "views_14d": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"403"}{"count":0,"uniques":0,"views":[]},
-      "popular_paths": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"403"}[],
-      "top_referrers": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"403"}[]
+      "views_14d": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"404"}{"count":0,"uniques":0,"views":[]},
+      "popular_paths": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"404"}[],
+      "top_referrers": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"404"}[]
     },
     {
       "repo": "tax-assessment-databricks-demo",
-      "views_14d": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"403"}{"count":0,"uniques":0,"views":[]},
-      "popular_paths": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"403"}[],
-      "top_referrers": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"403"}[]
+      "views_14d": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"404"}{"count":0,"uniques":0,"views":[]},
+      "popular_paths": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"404"}[],
+      "top_referrers": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"404"}[]
     },
     {
       "repo": "FinServ-ODI-Demo",
-      "views_14d": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"403"}{"count":0,"uniques":0,"views":[]},
-      "popular_paths": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"403"}[],
-      "top_referrers": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"403"}[]
+      "views_14d": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"404"}{"count":0,"uniques":0,"views":[]},
+      "popular_paths": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"404"}[],
+      "top_referrers": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"404"}[]
     },
     {
       "repo": "Insurance-ODI-Demo",
-      "views_14d": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"403"}{"count":0,"uniques":0,"views":[]},
-      "popular_paths": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"403"}[],
-      "top_referrers": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"403"}[]
+      "views_14d": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"404"}{"count":0,"uniques":0,"views":[]},
+      "popular_paths": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"404"}[],
+      "top_referrers": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"404"}[]
     },
     {
       "repo": "Media-ODI-Demo",
-      "views_14d": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"403"}{"count":0,"uniques":0,"views":[]},
-      "popular_paths": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"403"}[],
-      "top_referrers": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"403"}[]
+      "views_14d": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"404"}{"count":0,"uniques":0,"views":[]},
+      "popular_paths": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"404"}[],
+      "top_referrers": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"404"}[]
     },
     {
       "repo": "LifeSci-ODI-Demo",
-      "views_14d": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"403"}{"count":0,"uniques":0,"views":[]},
-      "popular_paths": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"403"}[],
-      "top_referrers": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"403"}[]
+      "views_14d": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"404"}{"count":0,"uniques":0,"views":[]},
+      "popular_paths": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"404"}[],
+      "top_referrers": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"404"}[]
     },
     {
       "repo": "RetailEcom-ODI-Demo",
-      "views_14d": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"403"}{"count":0,"uniques":0,"views":[]},
-      "popular_paths": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"403"}[],
-      "top_referrers": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"403"}[]
+      "views_14d": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"404"}{"count":0,"uniques":0,"views":[]},
+      "popular_paths": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"404"}[],
+      "top_referrers": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"404"}[]
     },
     {
       "repo": "SupplyChain-ODI-Demo",
-      "views_14d": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"403"}{"count":0,"uniques":0,"views":[]},
-      "popular_paths": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"403"}[],
-      "top_referrers": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"403"}[]
+      "views_14d": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"404"}{"count":0,"uniques":0,"views":[]},
+      "popular_paths": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"404"}[],
+      "top_referrers": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"404"}[]
     },
     {
       "repo": "Manufacturing-ODI-Demo",
-      "views_14d": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"403"}{"count":0,"uniques":0,"views":[]},
-      "popular_paths": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"403"}[],
-      "top_referrers": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"403"}[]
+      "views_14d": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"404"}{"count":0,"uniques":0,"views":[]},
+      "popular_paths": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"404"}[],
+      "top_referrers": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"404"}[]
     },
     {
       "repo": "Energy-Utilities-ODI-Demo",
-      "views_14d": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"403"}{"count":0,"uniques":0,"views":[]},
-      "popular_paths": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"403"}[],
-      "top_referrers": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"403"}[]
+      "views_14d": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"404"}{"count":0,"uniques":0,"views":[]},
+      "popular_paths": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"404"}[],
+      "top_referrers": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"404"}[]
     },
     {
       "repo": "Telecom-ODI-Demo",
-      "views_14d": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"403"}{"count":0,"uniques":0,"views":[]},
-      "popular_paths": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"403"}[],
-      "top_referrers": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"403"}[]
+      "views_14d": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"404"}{"count":0,"uniques":0,"views":[]},
+      "popular_paths": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"404"}[],
+      "top_referrers": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"404"}[]
     },
     {
       "repo": "Hospitality-Travel-ODI-Demo",
-      "views_14d": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"403"}{"count":0,"uniques":0,"views":[]},
-      "popular_paths": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"403"}[],
-      "top_referrers": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"403"}[]
+      "views_14d": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"404"}{"count":0,"uniques":0,"views":[]},
+      "popular_paths": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"404"}[],
+      "top_referrers": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"404"}[]
     },
     {
       "repo": "Automotive-ODI-Demo",
-      "views_14d": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"403"}{"count":0,"uniques":0,"views":[]},
-      "popular_paths": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"403"}[],
-      "top_referrers": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"403"}[]
+      "views_14d": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"404"}{"count":0,"uniques":0,"views":[]},
+      "popular_paths": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"404"}[],
+      "top_referrers": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"404"}[]
     },
     {
       "repo": "HigherEd-ODI-Demo",
-      "views_14d": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"403"}{"count":0,"uniques":0,"views":[]},
-      "popular_paths": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"403"}[],
-      "top_referrers": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"403"}[]
+      "views_14d": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"404"}{"count":0,"uniques":0,"views":[]},
+      "popular_paths": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"404"}[],
+      "top_referrers": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"404"}[]
     },
     {
       "repo": "Banking-ODI-Demo",
-      "views_14d": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"403"}{"count":0,"uniques":0,"views":[]},
-      "popular_paths": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"403"}[],
-      "top_referrers": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"403"}[]
+      "views_14d": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"404"}{"count":0,"uniques":0,"views":[]},
+      "popular_paths": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"404"}[],
+      "top_referrers": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"404"}[]
     },
     {
       "repo": "FederalGov-ODI-Demo",
-      "views_14d": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"403"}{"count":0,"uniques":0,"views":[]},
-      "popular_paths": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"403"}[],
-      "top_referrers": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"403"}[]
+      "views_14d": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"404"}{"count":0,"uniques":0,"views":[]},
+      "popular_paths": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"404"}[],
+      "top_referrers": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"404"}[]
     },
     {
       "repo": "QSR-ODI-Demo",
-      "views_14d": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"403"}{"count":0,"uniques":0,"views":[]},
-      "popular_paths": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"403"}[],
-      "top_referrers": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"403"}[]
+      "views_14d": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"404"}{"count":0,"uniques":0,"views":[]},
+      "popular_paths": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"404"}[],
+      "top_referrers": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"404"}[]
     },
     {
       "repo": "Aerospace-ODI-Demo",
-      "views_14d": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"403"}{"count":0,"uniques":0,"views":[]},
-      "popular_paths": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"403"}[],
-      "top_referrers": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"403"}[]
+      "views_14d": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"404"}{"count":0,"uniques":0,"views":[]},
+      "popular_paths": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"404"}[],
+      "top_referrers": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"404"}[]
     },
     {
       "repo": "RealEstate-ODI-Demo",
-      "views_14d": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"403"}{"count":0,"uniques":0,"views":[]},
-      "popular_paths": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"403"}[],
-      "top_referrers": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"403"}[]
+      "views_14d": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"404"}{"count":0,"uniques":0,"views":[]},
+      "popular_paths": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"404"}[],
+      "top_referrers": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"404"}[]
     },
     {
       "repo": "ProfServices-ODI-Demo",
-      "views_14d": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"403"}{"count":0,"uniques":0,"views":[]},
-      "popular_paths": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"403"}[],
-      "top_referrers": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"403"}[]
+      "views_14d": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"404"}{"count":0,"uniques":0,"views":[]},
+      "popular_paths": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"404"}[],
+      "top_referrers": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"404"}[]
     },
     {
       "repo": "CPG-SupplyChain-ODI-Demo",
-      "views_14d": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"403"}{"count":0,"uniques":0,"views":[]},
-      "popular_paths": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"403"}[],
-      "top_referrers": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"403"}[]
+      "views_14d": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"404"}{"count":0,"uniques":0,"views":[]},
+      "popular_paths": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"404"}[],
+      "top_referrers": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"404"}[]
     },
     {
       "repo": "PharmaRD-ODI-Demo",
-      "views_14d": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"403"}{"count":0,"uniques":0,"views":[]},
-      "popular_paths": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"403"}[],
-      "top_referrers": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"403"}[]
+      "views_14d": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"404"}{"count":0,"uniques":0,"views":[]},
+      "popular_paths": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"404"}[],
+      "top_referrers": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"404"}[]
     },
     {
       "repo": "Gaming-ODI-Demo",
-      "views_14d": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"403"}{"count":0,"uniques":0,"views":[]},
-      "popular_paths": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"403"}[],
-      "top_referrers": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"403"}[]
+      "views_14d": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"404"}{"count":0,"uniques":0,"views":[]},
+      "popular_paths": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"404"}[],
+      "top_referrers": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"404"}[]
     },
     {
       "repo": "Sports-ODI-Demo",
-      "views_14d": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"403"}{"count":0,"uniques":0,"views":[]},
-      "popular_paths": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"403"}[],
-      "top_referrers": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"403"}[]
+      "views_14d": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"404"}{"count":0,"uniques":0,"views":[]},
+      "popular_paths": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"404"}[],
+      "top_referrers": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"404"}[]
     },
     {
       "repo": "TechSaaS-ODI-Demo",
-      "views_14d": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"403"}{"count":0,"uniques":0,"views":[]},
-      "popular_paths": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"403"}[],
-      "top_referrers": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"403"}[]
+      "views_14d": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"404"}{"count":0,"uniques":0,"views":[]},
+      "popular_paths": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"404"}[],
+      "top_referrers": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"404"}[]
     },
     {
       "repo": "Healthcare-EPIC-Snowflake-Demo",
-      "views_14d": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"403"}{"count":0,"uniques":0,"views":[]},
-      "popular_paths": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"403"}[],
-      "top_referrers": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"403"}[]
+      "views_14d": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"404"}{"count":0,"uniques":0,"views":[]},
+      "popular_paths": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"404"}[],
+      "top_referrers": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"404"}[]
     },
     {
       "repo": "SAP-ODI-Demo",
-      "views_14d": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"403"}{"count":0,"uniques":0,"views":[]},
-      "popular_paths": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"403"}[],
-      "top_referrers": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"403"}[]
+      "views_14d": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"404"}{"count":0,"uniques":0,"views":[]},
+      "popular_paths": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"404"}[],
+      "top_referrers": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"404"}[]
     },
     {
       "repo": "LinerNotes-ODI-Demo",
-      "views_14d": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"403"}{"count":0,"uniques":0,"views":[]},
-      "popular_paths": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"403"}[],
-      "top_referrers": {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"403"}[]
+      "views_14d": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-page-views","status":"404"}{"count":0,"uniques":0,"views":[]},
+      "popular_paths": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-paths","status":"404"}[],
+      "top_referrers": {"message":"Not Found","documentation_url":"https://docs.github.com/rest/metrics/traffic#get-top-referral-sources","status":"404"}[]
     },
     {
       "repo": "StephenKing-ODI-Demo",
